@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/ohqueststock/!svn/ver/336/ohQuest/src/main/webapp/WEB-INF/views/stock
+END
+myStockSave.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/ohqueststock/!svn/ver/195/ohQuest/src/main/webapp/WEB-INF/views/stock/myStockSave.jsp
+END
+myStock.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/ohqueststock/!svn/ver/80/ohQuest/src/main/webapp/WEB-INF/views/stock/myStock.jsp
+END
+processDayStockCall.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ohqueststock/!svn/ver/159/ohQuest/src/main/webapp/WEB-INF/views/stock/processDayStockCall.jsp
+END
+processStockOk.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/ohqueststock/!svn/ver/133/ohQuest/src/main/webapp/WEB-INF/views/stock/processStockOk.jsp
+END
+myStockMessage.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/ohqueststock/!svn/ver/336/ohQuest/src/main/webapp/WEB-INF/views/stock/myStockMessage.jsp
+END
+myStockSale.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/ohqueststock/!svn/ver/303/ohQuest/src/main/webapp/WEB-INF/views/stock/myStockSale.jsp
+END
+processStockCall.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/ohqueststock/!svn/ver/159/ohQuest/src/main/webapp/WEB-INF/views/stock/processStockCall.jsp
+END
+stockList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/ohqueststock/!svn/ver/227/ohQuest/src/main/webapp/WEB-INF/views/stock/stockList.jsp
+END

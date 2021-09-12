@@ -1,0 +1,653 @@
+/************* GENERAL CSS ************/
+
+
+/*custom font*/
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans);
+
+/* header styles */
+#header {
+    border:1px solid;
+    border-color:rgba(0,0,0,0.1);
+    border-bottom-color:rgba(0,0,0,0.2);
+    border-top:none;
+    background:#f7f7f7;
+    background:-webkit-linear-gradient(top, #f7f7f7, #f4f4f4);
+    background:-moz-linear-gradient(top, #f7f7f7, #f4f4f4);
+    background:-o-linear-gradient(top, #f7f7f7, #f4f4f4);
+    background:linear-gradient(to bottom, #f7f7f7, #f4f4f4);
+    background-clip:padding-box;
+    border-radius:0 0 5px 5px;
+    margin: auto;
+    position: relative;
+    width: 1000px;
+}
+#header a {
+    color: #4C9FEB;
+}
+#header a:hover {
+    color: #FF7D4C;
+}
+#logo {
+    float: left;
+    margin: 15px 10px;
+}
+#logo img {
+    border: 0;
+}
+
+body {
+	/*To hide the horizontal scroller appearing during the animation*/
+	overflow: hidden;
+}
+
+#clouds{
+	padding: 100px 0;
+	background: #c9dbe9;
+	background: -webkit-linear-gradient(top, #4D94FF 0%, #fff 100%);
+	background: -linear-gradient(top, #c9dbe9 0%, #fff 100%);
+	background: -moz-linear-gradient(top, #4D94FF 0%, #fff 100%);
+}
+
+/*Time to finalise the cloud shape*/
+.cloud {
+	width: 200px; height: 60px;
+	background: #fff;
+	
+	border-radius: 200px;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	
+	position: relative; 
+}
+
+.cloud:before, .cloud:after {
+	content: '';
+	position: absolute; 
+	background: #fff;
+	width: 100px; height: 80px;
+	position: absolute; top: -15px; left: 10px;
+	
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	
+	-webkit-transform: rotate(30deg);
+	transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+}
+
+.cloud:after {
+	width: 120px; height: 120px;
+	top: -55px; left: auto; right: 15px;
+}
+
+/*Time to animate*/
+.x1 {
+	-webkit-animation: moveclouds 15s linear infinite;
+	-moz-animation: moveclouds 15s linear infinite;
+	-o-animation: moveclouds 15s linear infinite;
+}
+
+/*variable speed, opacity, and position of clouds for realistic effect*/
+.x2 {
+	left: 200px;
+	
+	-webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+	transform: scale(0.6);
+	opacity: 0.6; /*opacity proportional to the size*/
+	
+	/*Speed will also be proportional to the size and opacity*/
+	/*More the speed. Less the time in 's' = seconds*/
+	-webkit-animation: moveclouds 25s linear infinite;
+	-moz-animation: moveclouds 25s linear infinite;
+	-o-animation: moveclouds 25s linear infinite;
+}
+
+.x3 {
+	left: -250px; top: -200px;
+	
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	transform: scale(0.8);
+	opacity: 0.8; /*opacity proportional to the size*/
+	
+	-webkit-animation: moveclouds 20s linear infinite;
+	-moz-animation: moveclouds 20s linear infinite;
+	-o-animation: moveclouds 20s linear infinite;
+}
+
+.x4 {
+	left: 470px; top: -250px;
+	
+	-webkit-transform: scale(0.75);
+	-moz-transform: scale(0.75);
+	transform: scale(0.75);
+	opacity: 0.75; /*opacity proportional to the size*/
+	
+	-webkit-animation: moveclouds 18s linear infinite;
+	-moz-animation: moveclouds 18s linear infinite;
+	-o-animation: moveclouds 18s linear infinite;
+}
+
+.x5 {
+	left: -150px; top: -150px;
+	
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	transform: scale(0.8);
+	opacity: 0.8; /*opacity proportional to the size*/
+	
+	-webkit-animation: moveclouds 20s linear infinite;
+	-moz-animation: moveclouds 20s linear infinite;
+	-o-animation: moveclouds 20s linear infinite;
+}
+
+@-webkit-keyframes moveclouds {
+	0% {margin-left: 1000px;}
+	100% {margin-left: -1000px;}
+}
+@-moz-keyframes moveclouds {
+	0% {margin-left: 1000px;}
+	100% {margin-left: -1000px;}
+}
+@-o-keyframes moveclouds {
+	0% {margin-left: 1000px;}
+	100% {margin-left: -1000px;}
+}
+
+.shadow {
+	width: 350px;
+	position: absolute; bottom: -10px; 
+	background: #000;
+	z-index: -1;
+	
+	box-shadow: 0 0 25px 8px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 0 25px 8px rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 0 0 25px 8px rgba(0, 0, 0, 0.4);
+	
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+
+.breadcrumb {
+	/*centering*/
+	display: inline-block;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.35);
+	overflow: hidden;
+	border-radius: 5px;
+	/*Lets add the numbers for each link using CSS counters. flag is the name of the counter. to be defined using counter-reset in the parent element of the links*/
+	counter-reset: flag; 
+}
+
+.breadcrumb a {
+	text-decoration: none;
+	outline: none;
+	display: block;
+	float: left;
+	font-size: 12px;
+	line-height: 36px;
+	color: white;
+	/*need more margin on the left of links to accomodate the numbers*/
+	padding: 0 10px 0 60px;
+	background: #666;
+	background: linear-gradient(#666, #333);
+	position: relative;
+}
+/*since the first link does not have a triangle before it we can reduce the left padding to make it look consistent with other links*/
+.breadcrumb a:first-child {
+	padding-left: 46px;
+	border-radius: 5px 0 0 5px; /*to match with the parent's radius*/
+}
+.breadcrumb a:first-child:before {
+	left: 14px;
+}
+.breadcrumb a:last-child {
+	border-radius: 0 5px 5px 0; /*this was to prevent glitches on hover*/
+	padding-right: 20px;
+}
+
+/*hover/active styles*/
+.breadcrumb a.active, .breadcrumb a:hover{
+	background: #333;
+	background: linear-gradient(#333, #000);
+}
+.breadcrumb a.active:after, .breadcrumb a:hover:after {
+	background: #333;
+	background: linear-gradient(135deg, #333, #000);
+}
+
+/*adding the arrows for the breadcrumbs using rotated pseudo elements*/
+.breadcrumb a:after {
+	content: '';
+	position: absolute;
+	top: 0; 
+	right: -18px; /*half of square's length*/
+	/*same dimension as the line-height of .breadcrumb a */
+	width: 36px; 
+	height: 36px;
+	/*as you see the rotated square takes a larger height. which makes it tough to position it properly. So we are going to scale it down so that the diagonals become equal to the line-height of the link. We scale it to 70.7% because if square's: 
+	length = 1; diagonal = (1^2 + 1^2)^0.5 = 1.414 (pythagoras theorem)
+	if diagonal required = 1; length = 1/1.414 = 0.707*/
+	transform: scale(0.707) rotate(45deg);
+	/*we need to prevent the arrows from getting buried under the next link*/
+	z-index: 1;
+	/*background same as links but the gradient will be rotated to compensate with the transform applied*/
+	background: #666;
+	background: linear-gradient(135deg, #666, #333);
+	/*stylish arrow design using box shadow*/
+	box-shadow: 
+		2px -2px 0 2px rgba(0, 0, 0, 0.4), 
+		3px -3px 0 2px rgba(255, 255, 255, 0.1);
+	/*
+		5px - for rounded arrows and 
+		50px - to prevent hover glitches on the border created using shadows*/
+	border-radius: 0 5px 0 50px;
+}
+/*we dont need an arrow after the last link*/
+.breadcrumb a:last-child:after {
+	content: none;
+}
+/*we will use the :before element to show numbers*/
+.breadcrumb a:before {
+	content: counter(flag);
+	counter-increment: flag;
+	/*some styles now*/
+	border-radius: 100%;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	margin: 8px 0;
+	position: absolute;
+	top: 0;
+	left: 30px;
+	background: #444;
+	background: linear-gradient(#444, #222);
+	font-weight: bold;
+}
+
+
+.flat a, .flat a:after {
+	background: white;
+	color: black;
+	transition: all 0.5s;
+}
+.flat a:before {
+	background: white;
+	box-shadow: 0 0 0 1px #ccc;
+}
+.flat a:hover, .flat a.active, 
+.flat a:hover:after, .flat a.active:after{
+	background: #9EEB62;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #3399FF;
+}
+
+a {
+	font-weight: bold;	
+	text-decoration: none;
+	color: #33CCFF;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #33CCFF;
+}
+
+/************* HEADER STUFF ************/
+
+#header {
+	width: 770px;
+	height: 120px;
+	margin: 0px auto;
+	padding: 10px 0px;
+	background: #FFFBFD url(images/header.jpg);
+}
+
+#header h1 {
+	margin: 0px;
+	padding: 0px 0px 0px 10px;
+	text-align: left;
+	color: #3399FF;
+	font-size: 3em;
+	text-transform: uppercase;
+}
+
+#header h2 {
+	margin: 0px;
+	padding: 0px 0px 0px 20px;
+	text-align: left;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+
+#links {
+    float: right;
+    font-size: 12px;
+    margin: 10px 20px 0;
+    overflow: hidden;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+#links a {
+    border-left: 1px solid #DEDEDE;
+    margin-left: 7px;
+    padding-left: 8px;
+    text-decoration: none;
+}
+#links a:first-child {
+    border-width: 0;
+}
+
+/* navigation menu styles */
+#navmenu {
+    background: -webkit-linear-gradient(#f6f6f6, #e9eaea) repeat scroll 0 0 transparent;
+    background: -moz-linear-gradient(#f6f6f6, #e9eaea) repeat scroll 0 0 transparent;
+    background: linear-gradient(#f6f6f6, #e9eaea) repeat scroll 0 0 transparent;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f6', endColorstr='#e9eaea',GradientType=0 );
+
+    border-radius: 0 0 4px 4px;
+    border-top: 1px solid #D1D1D1;
+    box-shadow: -1px 1px 0 rgba(255, 255, 255, 0.8) inset;
+    clear: both;
+    height: 51px;
+    padding-top: 1px;
+}
+#menu {
+    float: left;
+}
+#menu a {
+    text-decoration: none;
+}
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu > ul > li {
+    float: left;
+    padding-bottom: 12px;
+}
+#menu ul li a {
+    border-color: #D1D1D1;
+    border-image: none;
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    box-shadow: -1px 0 0 rgba(255, 255, 255, 0.8) inset, 1px 0 0 rgba(255, 255, 255, 0.8) inset;
+    color: #333333;
+    display: block;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    padding: 11px 15px 10px;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+#menu ul li a:hover {
+    background: -webkit-linear-gradient(#efefef, #e9eaea) repeat scroll 0 0 transparent;
+    background: -moz-linear-gradient(#efefef, #e9eaea) repeat scroll 0 0 transparent;
+    background: linear-gradient(#efefef, #e9eaea) repeat scroll 0 0 transparent;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefef', endColorstr='#e9eaea',GradientType=0 );
+}
+#menu > ul > li.active > a {
+    background: -webkit-linear-gradient(#55A6F1, #3F96E5) repeat scroll 0 0 transparent;
+    background: -moz-linear-gradient(#55A6F1, #3F96E5) repeat scroll 0 0 transparent;
+    background: linear-gradient(#55A6F1, #3F96E5) repeat scroll 0 0 transparent;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#55A6F1', endColorstr='#3F96E5',GradientType=0 );
+    border-bottom: 1px solid #2D81CC;
+    border-top: 1px solid #4791D6;
+    box-shadow: -1px 0 0 #55A6F1 inset, 1px 0 0 #55A6F1 inset;
+    color: #FFFFFF;
+    margin: -1px 0 -1px -1px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+#menu > ul > li.active > a:hover {
+    background: -webkit-linear-gradient(#499FEE, #3F96E5) repeat scroll 0 0 transparent;
+    background: -moz-linear-gradient(#499FEE, #3F96E5) repeat scroll 0 0 transparent;
+    background: linear-gradient(#499FEE, #3F96E5) repeat scroll 0 0 transparent;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499FEE', endColorstr='#3F96E5',GradientType=0 );
+}
+#menu > ul > li:first-child > a {
+    border-radius: 0 0 0 5px;
+}
+
+/* dropdown menu */
+#menu ul ul {
+    background: -webkit-linear-gradient(#F7F7F7, #F4F4F4) repeat scroll 0 0 padding-box transparent;
+    background: -moz-linear-gradient(#F7F7F7, #F4F4F4) repeat scroll 0 0 padding-box transparent;
+    background: linear-gradient(#F7F7F7, #F4F4F4) repeat scroll 0 0 padding-box transparent;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F7F7F7', endColorstr='#F4F4F4',GradientType=0 );
+
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 1px 0 #FFFFFF inset;
+    height: 0;
+    margin-top: 10px;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    visibility: hidden;
+    width: 250px;
+    z-index: 1;
+
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+#menu ul  li:hover ul  {
+    height: 195px;
+    margin-top: 0\9;
+    opacity: 1;
+    visibility: visible;
+}
+#menu ul ul a {
+    border-right-width: 0;
+    border-top: 1px solid #D1D1D1;
+    box-shadow: 0 1px 0 #FFFFFF inset;
+    color: #444444;
+    height: 24px;
+    line-height: 24px;
+    padding: 7px 12px;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+#menu ul ul li:first-child a {
+    border-top-width: 0;
+}
+#menu ul ul a .icon {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    height: 24px;
+    margin-right: 10px;
+    width: 24px;
+}
+#menu ul ul a .icon.elem0 {
+    background-image: url("../images/elem.png");
+}
+#menu ul ul a .icon.elem1 {
+    background-image: url("../images/fb.png");
+}
+#menu ul ul a .icon.elem2 {
+    background-image: url("../images/go.png");
+}
+#menu ul ul a .icon.elem3 {
+    background-image: url("../images/rs.png");
+}
+#menu ul ul a .icon.elem4 {
+    background-image: url("../images/sk.png");
+}
+#menu ul ul a .icon.elem5 {
+    background-image: url("../images/su.png");
+}
+
+/* search bar */
+#search {
+    margin:13px 10px 0 0;
+    float: right;
+}
+#search form {
+    background: url("../images/search.gif") no-repeat scroll 5% 50% transparent;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05) inset, 0 1px 0 #FFFFFF;
+    height: 26px;
+    padding: 0 25px;
+    position: relative;
+    width: 130px;
+}
+#search form:hover {
+    background-color: #F9F9F9;
+}
+#search form input {
+    color: #999999;
+    font-size: 13px;
+    height: 26px;
+    text-shadow: 0 1px 0 #FFFFFF;
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    float: left;
+    outline: medium none;
+    padding: 0;
+    width: 100%;
+}
+#search form input.placeholder, #search form input:-moz-placeholder {
+    color: #C4C4C4;
+}
+
+#login form {
+    float: right;
+    background: url("../images/search.gif") no-repeat scroll 5% 50% transparent;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05) inset, 0 1px 0 #FFFFFF;
+    height: 26px;
+    padding: 0 25px;
+    position: relative;
+    width: 130px;
+}
+#login form:hover {
+    background-color: #F9F9F9;
+}
+#login form input {
+    color: #999999;
+    font-size: 13px;
+    height: 26px;
+    text-shadow: 0 1px 0 #FFFFFF;
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    float: left;
+    outline: medium none;
+    padding: 0;
+    width: 100%;
+}
+#login form input.placeholder, #search form input:-moz-placeholder {
+    color: #C4C4C4;
+}
+
+/************* FOOTER ************/
+
+#footer {
+	clear: both;
+	width: 771px;
+	margin: 0px auto;
+	border-top: 1px solid #666666;
+	background: url(images/back-footer.png) repeat-y center top;
+	font-size: 9px;
+	text-align: center;
+	padding: 2px;
+	color: #333333;
+}
+
+.css_btn_class {
+	font-size:16px;
+	font-family:Arial;
+	font-weight:normal;
+	-moz-border-radius:17px;
+	-webkit-border-radius:17px;
+	border-radius:17px;
+	border:1px solid #83c41a;
+	padding:9px 18px;
+	text-decoration:none;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #b8e356), color-stop(100%, #a5cc52) );
+	background:-moz-linear-gradient( center top, #b8e356 5%, #a5cc52 100% );
+	background:-ms-linear-gradient( top, #b8e356 5%, #a5cc52 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b8e356', endColorstr='#a5cc52');
+	background-color:#b8e356;
+	color:#ffffff;
+	display:inline-block;
+	text-shadow:1px 1px 0px #86ae47;
+ 	-webkit-box-shadow:inset 1px 1px 0px 0px #d9fbbe;
+ 	-moz-box-shadow:inset 1px 1px 0px 0px #d9fbbe;
+ 	box-shadow:inset 1px 1px 0px 0px #d9fbbe;
+}.css_btn_class:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #a5cc52), color-stop(100%, #b8e356) );
+	background:-moz-linear-gradient( center top, #a5cc52 5%, #b8e356 100% );
+	background:-ms-linear-gradient( top, #a5cc52 5%, #b8e356 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a5cc52', endColorstr='#b8e356');
+	background-color:#a5cc52;
+}.css_btn_class:active {
+	position:relative;
+	top:1px;
+}
+/* This css button was generated by css-button-generator.com */
+			
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }

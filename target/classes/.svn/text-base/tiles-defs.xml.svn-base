@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+<tiles-definitions>
+	<!-- ohQuest Main Layout definition -->
+	<definition name="ohQuest-main-layout" template="/WEB-INF/views/layout/layout.jsp">
+		<put-attribute name="title" value="ohQuest Home" />
+	</definition>
+	
+	<!-- ohQuest Popup Layout definition -->
+	<definition name="ohQuest-popup-layout" template="/WEB-INF/views/layout/popup-layout.jsp">
+		<put-attribute name="title" value="ohQuest Home" />
+	</definition>
+	
+	<!-- ohQuest Dialog Layout definition -->
+	<definition name="ohQuest-dialog-layout" template="/WEB-INF/views/layout/dialog-layout.jsp">
+		<put-attribute name="title" value="ohQuest Home" />
+	</definition>
+
+	<definition name="popup.*.*.*.*" extends="ohQuest-popup-layout">
+		<put-attribute name="mainContent" value="/WEB-INF/views/{1}/{2}/{3}/{4}.jsp" />
+	</definition>	
+	<definition name="popup.*.*.*" extends="ohQuest-popup-layout">
+		<put-attribute name="mainContent" value="/WEB-INF/views/{1}/{2}/{3}.jsp" />
+	</definition>
+	<definition name="popup.*.*" extends="ohQuest-popup-layout">
+		<put-attribute name="mainContent" value="/WEB-INF/views/{1}/{2}.jsp" />
+	</definition>
+	<definition name="popup.*" extends="ohQuest-popup-layout">
+		<put-attribute name="mainContent" value="/WEB-INF/views/{1}.jsp" />
+	</definition>
+	
+	<definition name="dialog.*.*.*.*" extends="ohQuest-dialog-layout">
+		<put-attribute name="mainContent" value="/WEB-INF/views/{1}/{2}/{3}/{4}.jsp" />
+	</definition>	
+	<definition name="dialog.*.*.*" extends="ohQuest-dialog-layout">
+		<put-attribute name="mainContent" value="/WEB-INF/views/{1}/{2}/{3}.jsp" />
+	</definition>
+	<definition name="dialog.*.*" extends="ohQuest-dialog-layout">
+		<put-attribute name="mainContent" value="/WEB-INF/views/{1}/{2}.jsp" />
+	</definition>
+	<definition name="dialog.*" extends="ohQuest-dialog-layout">
+		<put-attribute name="mainContent" value="/WEB-INF/views/{1}.jsp" />
+	</definition>
+		
+	<definition name="*.*.*" extends="ohQuest-main-layout">
+		<put-attribute name="topContent" value="/WEB-INF/views/layout/top.jsp" />
+		<put-attribute name="mainContent" value="/WEB-INF/views/{1}/{2}/{3}.jsp" />
+		<put-attribute name="footerContent" value="/WEB-INF/views/layout/footer.jsp" />
+	</definition>
+	<definition name="*.*" extends="ohQuest-main-layout">
+		<put-attribute name="topContent" value="/WEB-INF/views/layout/top.jsp" />
+		<put-attribute name="mainContent" value="/WEB-INF/views/{1}/{2}.jsp" />
+		<put-attribute name="footerContent" value="/WEB-INF/views/layout/footer.jsp" />
+	</definition>
+	<definition name="*" extends="ohQuest-main-layout">
+		<put-attribute name="topContent" value="/WEB-INF/views/layout/top.jsp" />
+		<put-attribute name="mainContent" value="/WEB-INF/views/{1}.jsp" />
+		<put-attribute name="footerContent" value="/WEB-INF/views/layout/footer.jsp" />
+	</definition>
+
+</tiles-definitions>

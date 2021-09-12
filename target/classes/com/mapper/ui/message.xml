@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
+<mapper namespace="app.madeinho.ohquest.ui.message.MessageRepository">
+
+
+	<select id="getMessageAlltList" parameterType="AsMessage" resultType="AsMessage">
+		SELECT
+					idOH_MEMBER,
+					idOH_MEMBER_TRGT,
+					OH_MUMBER_ID,
+					TYPE_KD,
+					TYPE_CD,
+					NAME_1,
+					NAME_2,
+					NAME_3,
+					EMAIL_ADDR,
+					MOBILE_NO,
+					ETC_PHONE1,
+					ETC_PHONE2,
+					BDAY,
+					ADDRESS_1,
+					ADDRESS_2,
+					COUNTRY_CD,
+					CONT_CREATE_DATE,
+					CONT_UPDATE_DATE,
+					CONT_SYSTEM
+		 FROM UI_ADDRESS_INFO
+	</select>
+	
+   <sql id="getMessageListWhere">
+		<if test="count > 0">
+		    where 
+			<foreach collection="filters" separator=" AND " item="filter" index="index">
+				${filter.name} = '${filter.value}' 
+			</foreach>
+			
+		</if>
+	</sql>	
+
+	<select id="getMessageList" parameterType="AsSearchFilter" resultType="AsMessage">
+		SELECT
+            idOH_MEMBER        AS idohMember    ,
+			SEND_idOH_MEMBER   AS sendIdohMember,
+			STATUS_CODE        AS statusCode    ,
+			TYPE               AS type          ,
+			MESSAGE            AS message       ,
+			READ_YN            AS readYn        ,
+			REG_DATE           AS regDate       ,
+			idSC_MY_STOCK      AS idscMyStock   ,
+			DATE_FORMAT(CONT_CREATE_DATE, "%Y %c/%e %H:%i ")   AS contCreateDate,
+			CONT_UPDATE_DATE   AS contUpdateDate,
+			CONT_SYSTEM        AS contSystem    
+		 FROM UI_MESSAGE
+		 <include refid="getMessageListWhere" />
+		 order by idUI_MESSAGE desc Limit 0, 100
+		 
+		 
+	</select>
+	
+		<select id="getMessageListMax" parameterType="AsSearchFilter" resultType="AsMessage">
+		SELECT
+            idOH_MEMBER        AS idohMember    ,
+			SEND_idOH_MEMBER   AS sendIdohMember,
+			STATUS_CODE        AS statusCode    ,
+			TYPE               AS type          ,
+			MESSAGE            AS message       ,
+			READ_YN            AS readYn        ,
+			REG_DATE           AS regDate       ,
+			idSC_MY_STOCK      AS idscMyStock   ,
+			DATE_FORMAT(CONT_CREATE_DATE, "%Y %c/%e %H:%i ")   AS contCreateDate,
+			CONT_UPDATE_DATE   AS contUpdateDate,
+			CONT_SYSTEM        AS contSystem    
+		 FROM UI_MESSAGE
+	    WHERE idUI_MESSAGE = (SELECT max(idUI_MESSAGE) 
+							    FROM UI_MESSAGE 
+							  <include refid="getMessageListWhere" />)
+		 order by idUI_MESSAGE desc Limit 0, 100
+		 
+		 
+	</select>
+	
+	<insert id="insertMessage" parameterType="AsMessage">
+        INSERT INTO UI_MESSAGE (
+			idOH_MEMBER,
+			SEND_idOH_MEMBER,
+			STATUS_CODE,
+			TYPE,
+			MESSAGE,
+			READ_YN,
+			REG_DATE,
+			idSC_MY_STOCK,
+			CONT_CREATE_DATE,
+			CONT_UPDATE_DATE,
+			CONT_SYSTEM
+        ) VALUES(
+			#{idohMember     ,jdbcType=VARCHAR},
+			#{sendIdohMember ,jdbcType=VARCHAR},
+			#{statusCode     ,jdbcType=VARCHAR},
+			#{type           ,jdbcType=VARCHAR},
+			#{message        ,jdbcType=VARCHAR},
+			#{readYn         ,jdbcType=VARCHAR},
+			now(),
+			#{idscMyStock    ,jdbcType=VARCHAR},
+			now(),
+			#{contUpdateDate ,jdbcType=VARCHAR},
+			#{contSystem     ,jdbcType=VARCHAR}
+        )      
+	</insert>
+
+</mapper>

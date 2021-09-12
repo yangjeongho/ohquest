@@ -1,0 +1,3 @@
+AddNum,City,District,SubDistrict,Building,Entrance,Apt,OperatorId,ApplicationId,DlServiceCode,DlUpdateStamp,Location
+111111,seoul,guro,guro3dong,acetechno,1,,,,,,seoul
+111112,seoul,guro,guro3dong,acetechno,3,,,,,,seoul

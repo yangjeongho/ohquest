@@ -1,0 +1,176 @@
+# \ub77c\ubca8 \uc815\uc758 \ubd80\ubd84
+## \uc608\uc81c, bs.label.list=\ubaa9\ub85d
+
+#dialog title
+#\uc774\ub984
+or.selectBox.option1=\u041d\u044d\u0432\u0442\u0440\u044d\u0445 \u0434\u0443\u0433\u0430\u0430\u0440
+or.selectBox.option2=\u041d\u044d\u0432\u0442\u0440\u044d\u0445 \u043d\u044d\u0440
+or.selectBox.option3=\u0411\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u044b\u043d \u043d\u044d\u0440
+
+
+or.user000.main.title.000=\u0411\u04af\u0440\u0442\u0433\u044d\u043b\u0438\u0439\u043d \u0434\u0443\u0433\u0430\u0430\u0440
+or.user000.main.title.001=\u0425\u044d\u0440\u044d\u0433\u043b\u044d\u0433\u0447 \u0445\u0430\u0439\u0445
+or.user000.main.title.002=\u0425\u044d\u0440\u044d\u0433\u043b\u044d\u0433\u0447 \u0441\u043e\u043d\u0433\u043e\u0445
+
+or.user000.label.000=\u041d\u044d\u0432\u0442\u0440\u044d\u0445 \u0434\u0443\u0433\u0430\u0430\u0440
+or.user000.label.001=\u041d\u0443\u0443\u0446 \u04af\u0433
+or.user000.label.002=\u041d\u044d\u0432\u0442\u0440\u044d\u0445 \u043d\u044d\u0440
+or.user000.label.003=\u0411\u0430\u0439\u0433\u0443\u0443\u043b\u043b\u0430\u0433\u0430
+or.user000.label.004=\u044d\u0445\u043b\u044d\u0445 \u0445\u0443\u0433\u0430\u0446\u0430\u0430
+or.user000.label.005=\u0434\u0443\u0443\u0441\u0430\u0445 \u0445\u0443\u0433\u0430\u0446\u0430\u0430
+or.user000.label.006=\u041c\u0430\u0439\u043b \u0445\u0430\u044f\u0433
+or.user000.label.007=\u0422\u04e9\u0440\u0441\u04e9\u043d \u043e\u043d \u0441\u0430\u0440 \u04e9\u0434\u04e9\u0440
+or.user000.label.008=\u041d\u0430\u0441
+or.user000.label.009=\u0425\u04af\u0439\u0441
+or.user000.label.010=\u0413\u044d\u0440\u043b\u044d\u0441\u044d\u043d \u044d\u0441\u044d\u0445
+or.user000.label.011=\u0413\u044d\u0440\u0438\u0439\u043d \u0443\u0442\u0430\u0441
+or.user000.label.012=\u0410\u0436\u043b\u044b\u043d \u0443\u0442\u0430\u0441
+or.user000.label.013=\u0423\u0442\u0430\u0441\u043d\u044b \u0434\u0443\u0433\u0430\u0430\u0440
+or.user000.label.014=\u0425\u0430\u044f\u0433
+or.user000.label.015=\u0417\u0430\u0441\u0432\u0430\u0440\u043b\u0430\u0445 \u0434\u04af\u043d\u0433\u0438\u0439\u043d \u0434\u044d\u044d\u0434 \u0445\u044d\u043c\u0436\u044d\u044d
+or.user000.label.016=\u0425\u044d\u0440\u044d\u0433\u043b\u044d\u0433\u0447\u0438\u0439\u043d \u0442\u04af\u0432\u0448\u0438\u043d
+or.user000.label.017=IP \u0445\u0430\u044f\u0433
+or.user000.label.018=IP \u0448\u0430\u043b\u0433\u0430\u0445 \u044d\u0441\u044d\u0445
+
+or.user000.label.019=\u042d\u0440\u044d\u0433\u0442\u044d\u0439
+or.user000.label.020=\u042d\u043c\u044d\u0433\u0442\u044d\u0439
+
+or.user000.label.021=\u0422\u043e\u0432\u0447 \u043d\u0430\u043c\u0442\u0430\u0440
+or.user000.label.022=\u0411\u04af\u0440\u0442\u0433\u044d\u043b\u0438\u0439\u043d \u043c\u044d\u0434\u044d\u044d\u043b\u044d\u043b
+or.user000.label.023=\u0411\u04af\u0440\u0442\u0433\u044d\u043b\u0438\u0439\u043d \u043c\u044d\u0434\u044d\u044d\u043b\u043b\u0438\u0439\u043d \u0434\u0443\u0433\u0430\u0430\u0440\u043b\u0430\u043b\u0442
+or.user000.label.024=\u0414\u0443\u0433\u0430\u0430\u0440\u043b\u0430\u043b\u0442
+or.user000.label.025=\u0411\u04af\u0440\u0442\u0433\u044d\u043b\u0438\u0439\u043d \u0434\u0443\u0433\u0430\u0430\u0440
+or.user000.label.026=\u0411\u04af\u0440\u0442\u0433\u044d\u043b\u0438\u0439\u043d \u043d\u044d\u0440
+or.user000.label.027=\u0411\u04af\u0440\u0442\u0433\u044d\u043b\u0438\u0439\u043d \u043d\u044d\u0440
+or.user000.label.028=\u0425\u044d\u0440\u044d\u0433\u043b\u044d\u0433\u0447\u0438\u0439\u043d \u0445\u044d\u0441\u0433\u0438\u0439\u043d \u043d\u044d\u0440
+or.user000.label.029=\u0425\u044d\u0440\u044d\u0433\u043b\u044d\u0433\u0447\u0438\u0439\u043d \u0445\u044d\u0441\u0433\u0438\u0439\u043d \u043d\u044d\u0432\u0442\u0440\u044d\u0445 \u0434\u0443\u0433\u0430\u0430\u0440
+or.user000.label.030=\u0425\u044d\u0440\u044d\u0433\u043b\u044d\u0433\u0447\u0438\u0439\u043d \u0445\u044d\u0441\u0433\u0438\u0439\u043d \u0442\u04e9\u0440\u04e9\u043b
+or.user000.label.031=Status
+or.user000.label.032=Department
+or.user000.label.033=User Attribute's list
+or.user000.label.034=Group
+or.user000.label.035=Tree Test
+or.user000.label.036=STATUS
+or.user000.label.037=Profile code
+or.user000.label.038=Record Type
+or.user000.label.039=seqNo
+or.user000.label.040=Description
+or.user000.MenuTreeInfo=Menu Tree Info
+or.user000.MyMenuList=My Menu List
+or.user000.updatepassword=update password
+or.user000.CurrentPassword=Current Password
+or.user000.NewPassword=New Password
+or.user000.ConfirmNewPassword=Confirm New Password
+or.user000.userLevelCd=userLevelCd
+or.user000.OrgCode=Org Code
+or.user000.SearchGroupName=Search Group Name
+or.user000.arrowADD=\u25bc ADD
+or.user000.arrowDelete=\u25b2 Delete
+or.user000.Program=Program
+or.user000.ProfileLink=Profile Link
+or.user000.ChannelKdName=Channel Kd Name
+or.user000.Channeldescription=Channel description
+or.user000.pvParamId=pvParamId
+
+or.user000.saleChannelKdNm=sale Channel Kd Nm
+or.user000.AUTHCODE=AUTH CODE
+or.user000.AUTHDESCRIPTION=AUTH DESCRIPTION
+or.user000.Application=Application
+or.user000.Channel=Channel
+or.user000.ChannelType=Channel Type
+or.user000.AuthName=Auth Name
+or.user000.AuthType=Auth Type
+or.user000.Auth=Auth
+or.user000.Object=Object
+
+or.user000.ObjectAuthority=Object Authority
+or.user000.SaleChannel=Sale Channel
+or.user000.DiscountChannel=Discount Channel
+or.user000.ButtonAndObject=BUTTON&OBJECT
+or.user000.MENU_TYPE=MENU_TYPE
+or.user000.LINK=LINK
+or.user000.NoLink=NO LINK
+or.user000.menutype=MenuType
+or.user000.DescriptionMsg=DESCRIPTION MSG
+or.user000.UserLink=User Link
+or.user000.MENU=MENU
+or.user000.PROGRAM=PROGRAM
+
+
+
+
+or.user.dlgtAuth.elementTable.label.000=ID
+or.user.dlgtAuth.elementTable.label.002=No
+or.user.dlgtAuth.elementTable.label.003=Type
+or.user.dlgtAuth.elementTable.label.004=Top Menu ID
+or.user.dlgtAuth.elementTable.label.005=Select  Element Info
+or.user.dlgtAuth.elementTable.label.006=Selected  Element Info
+
+
+or.user.dlgtAuth_1.ElementsProfileTable.label.001=Profile Description
+or.user.dlgtAuth_1.ElementsProfileTable.label.002=Security Elements No
+or.user.dlgtAuth_1.ElementsProfileTable.label.003=Agent Code
+or.user.dlgtAuth_1.ElementsProfileTable.label.004=Menu ID
+or.user.dlgtAuth_1.ElementsProfileTable.label.005=Window ID
+or.user.dlgtAuth_1.ElementsProfileTable.label.006=Not command ID
+
+
+or.user.dlgtAuth.ElementsProfileTable.label.001=Profile Name
+or.user.dlgtAuth.ElementsProfileTable.label.002=No
+or.user.dlgtAuth.ElementsProfileTable.label.003=Type
+or.user.dlgtAuth.ElementsProfileTable.label.004=Menu ID
+or.user.dlgtAuth.ElementsProfileTable.label.005=Window ID
+or.user.dlgtAuth.ElementsProfileTable.label.006=Not Allow ID
+
+or.user.ipSearch.IpListTable.label.000=IP
+
+or.user.menuTree.label.000=Tree Test 
+or.user.menuTree.label.001=STATUS
+
+or.user.orUser002.label.000=LOGIN IP
+or.user.orUser002.label.001=LOGIN DATE
+
+or.user.orUser003.orUser003GroupGrid.label.000=groupSeq
+or.user.orUser003.orUser003GroupGrid.label.001=Group Name
+or.user.orUser003.orUser003GroupGrid.label.002=Comments
+
+or.user.orUser003.orUser003ProfileGrid1.label.001=groupSeq
+or.user.orUser003.orUser003ProfileGrid1.label.003=profileTypeCd
+or.user.orUser003.orUser003ProfileGrid1.label.004=enabledFlag
+or.user.orUser003.orUser003ProfileGrid1.label.005=Profile Type
+
+
+or.user.orUser003.initOrUser003UserGrid.label.001=groupSeq
+or.user.orUser003.initOrUser003UserGrid.label.002=UserId
+or.user.orUser003.initOrUser003UserGrid.label.003=UserName
+or.user.orUser003.initOrUser003UserGrid.label.004=Organization
+or.user.orUser003.initOrUser003UserGrid.label.005=Status
+or.user.orUser003.initOrUser003UserGrid.label.006=UserLevel
+
+or.user.orUser003.orUser003UserGrid2.label.001=groupSeq
+or.user.orUser003.orUser003UserGrid2.label.002=UserId
+or.user.orUser003.orUser003UserGrid2.label.003=UserName
+or.user.orUser003.orUser003UserGrid2.label.004=Organization
+or.user.orUser003.orUser003UserGrid2.label.005=Status
+or.user.orUser003.orUser003UserGrid2.label.006=UserLevel
+
+or.user.orUser004.elementTable.label.000=AUTHORITY ID
+or.user.orUser004.elementTable.label.001=DESCRIPTION
+or.user.orUser004.elementTable.label.002=TYPE
+
+or.user.sec003.elementTable.label.000=No
+or.user.sec003.elementTable.label.001=Type
+or.user.sec003.elementTable.label.002=Menu ID
+or.user.sec003.elementTable.label.003=Top Menu Id
+or.user.sec003.elementTable.label.004=Description
+or.user.sec003.elementTable.label.005=Window Id
+or.user.sec003.elementTable.label.006=Not Allow ID
+
+or.user.sec004.ElementTable.label.000=Parent Menu Id
+or.user.sec004.ElementTable.label.001=Menu Order
+or.user.sec004.ElementTable.label.002=Menu Code
+
+or.label.Locked=Locked
+or.label.Valid=Valid
+or.label.Active=Active
+or.label.Close=Close

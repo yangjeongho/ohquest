@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/java/app/madeinho/ohquest/ma/quest
+END
+Quest.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/java/app/madeinho/ohquest/ma/quest/Quest.java
+END
+QuestRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/java/app/madeinho/ohquest/ma/quest/QuestRepository.java
+END
+QuestTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/java/app/madeinho/ohquest/ma/quest/QuestTest.java
+END
+QuestService.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/java/app/madeinho/ohquest/ma/quest/QuestService.java
+END
+QuestServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/java/app/madeinho/ohquest/ma/quest/QuestServiceImpl.java
+END

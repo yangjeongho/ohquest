@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
+<mapper namespace="app.madeinho.ohquest.stock.policy.ScPolicyRepository">
+
+	<sql id="scPolicyColumn">
+		idSC_POLICY            AS idscPolicy    ,
+		CODE_ID                AS codeId        ,
+		CODE_STAT              AS codeStat      ,
+		POCY_TYPE              AS pocyType      ,
+		POCY_TIME              AS pocyTime      ,
+		POCY_UNIT              AS pocyUnit      ,
+		POCY_UP_VALUE          AS pocyUpValue   ,
+		POCY_DOWN_VALUE        AS pocyDownValue ,
+		POCY_UP_CRITICAL       AS pocyUpCritical,
+        POCY_DOWN_CRITICAL     AS pocyDownCritical,
+		DEAL_COUNT             AS dealCount     ,
+		SALE_UP_COUNT          AS saleUpCount   ,
+		SALE_DOWN_COUNT        AS saleDownCount ,
+		DAY_SALE_COUNT         AS daySaleCount  ,
+		POLICY_DESC            AS policyDesc    ,
+		AUTO_ACT_CODE          AS autoActCode   ,
+		CONT_CREATE_DATE       AS contCreateDate,
+		CONT_UPDATE_DATE       AS contUpdateDate,
+		CONT_SYSTEM            AS contSystem    
+	</sql>
+	
+    <sql id="getScPolicyListWhere">
+		<if test="count > 0">
+		    where 
+			<foreach collection="filters" separator=" AND " item="filter" index="index">
+				${filter.name} = '${filter.value}' 
+			</foreach>
+		</if>
+	</sql>
+	
+	<sql id="getScPolicyListWhereIN">
+		<if test="count > 0">
+		    where 
+			<foreach collection="filters" separator=" AND " item="filter" index="index">
+				${filter.name} IN ('${filter.value}') 
+			</foreach>
+		</if>
+	</sql>
+	
+	
+   <select id="getScPolicyCount" parameterType="AsSearchFilter" resultType="int">
+    	SELECT  
+    		count(*) cnt
+    	 FROM SC_POLICY
+    		<include refid="getScPolicyListWhere" />
+    </select>	
+    
+   <select id="getScPolicyList" parameterType="AsSearchFilter" resultType="AsScPolicy">
+    	SELECT  
+    		<include refid="scPolicyColumn"/>       
+    	FROM SC_POLICY    
+    		<include refid="getScPolicyListWhere" />
+    </select>    
+	
+   <select id="getScPolicyAlltList" parameterType="AsScPolicy" resultType="AsScPolicy">
+    	SELECT  
+    		<include refid="scPolicyColumn"/>       
+    	FROM SC_POLICY    
+    	where CODE_ID = #{codeId            ,jdbcType=VARCHAR}
+    </select>    
+	
+
+   <select id="getScPolicyListIN" parameterType="AsSearchFilter" resultType="AsScPolicy">
+    	SELECT  
+    		<include refid="scPolicyColumn"/>       
+    	FROM SC_POLICY    
+    	where CODE_ID = #{codeId            ,jdbcType=VARCHAR}
+    </select>    
+    
+	<insert id="insertScPolicy" parameterType="AsScPolicy">
+        INSERT INTO SC_POLICY (
+			idOH_MEMBER     
+			,STAT_CHG_DATE   
+			,SC_STAT_CD      
+			,SC_CODE     
+			,SC_NAME		    
+			,SALE_V_COUNT    
+			,SALE_V_AMT      
+			,SALE_VALUE      
+			,SALE_TYPE       
+			,SALE_R_DATE     
+			,SALE_R_COUNT    
+			,SALE_R_AMT      
+			,REMARK          
+			,JOB_TYPE        
+			,CONT_SYSTEM     
+			,CONT_CREATE_DATE
+			,BUY_V_COUNT     
+			,BUY_V_AMT       
+			,BUY_VALUE       
+			,BUY_TYPE        
+			,BUY_R_DATE      
+			,BUY_R_COUNT     
+			,BUY_R_AMT       
+        ) VALUES(
+			#{idohMember        ,jdbcType=VARCHAR},
+			SYSDATE(),
+			#{scStatCd          ,jdbcType=VARCHAR},
+			#{scCode            ,jdbcType=VARCHAR},
+			#{scName            ,jdbcType=VARCHAR},
+			#{saleVCount        ,jdbcType=VARCHAR},
+			#{saleVAmt          ,jdbcType=VARCHAR},
+			#{saleValue         ,jdbcType=VARCHAR},
+			#{saleType          ,jdbcType=VARCHAR},
+			#{saleRDate         ,jdbcType=VARCHAR},
+			#{saleRCount        ,jdbcType=VARCHAR},
+			#{saleRAmt          ,jdbcType=VARCHAR},
+			#{remark            ,jdbcType=VARCHAR},
+			#{jobType           ,jdbcType=VARCHAR},
+			#{contSystem        ,jdbcType=VARCHAR},
+			SYSDATE(),
+			#{buyVCount         ,jdbcType=VARCHAR},
+			#{buyVAmt           ,jdbcType=VARCHAR},
+			#{buyValue          ,jdbcType=VARCHAR},
+			#{buyType           ,jdbcType=VARCHAR},
+			#{buyRDate          ,jdbcType=VARCHAR},
+			#{buyRCount         ,jdbcType=VARCHAR},
+			#{buyRAmt           ,jdbcType=VARCHAR}
+		)      
+	</insert>
+
+	<insert id="updateScPolicy" parameterType="AsScPolicy" >
+		UPDATE  SC_POLICY SET
+		    <if test="scStatCd != null and scStatCd != ''">
+				SC_STAT_CD   = #{scStatCd          ,jdbcType=VARCHAR},
+			</if>
+			<if test="jobType != null and jobType != ''">
+				JOB_TYPE     = #{jobType           ,jdbcType=VARCHAR},
+			</if>
+			<if test="buyType != null and buyType != ''">
+				BUY_TYPE     = #{buyType           ,jdbcType=VARCHAR},
+			</if>
+			<if test="buyValue != null and buyValue != ''">
+				BUY_VALUE    = #{buyValue          ,jdbcType=VARCHAR},
+			</if>
+			<if test="buyVCount != null and buyVCount != ''">
+				BUY_V_COUNT  = #{buyVCount         ,jdbcType=VARCHAR},
+			</if>
+			<if test="buyVAmt != null and buyVAmt != ''">
+				BUY_V_AMT    = #{buyVAmt           ,jdbcType=VARCHAR},
+			</if>
+			<if test="buyRCount != null and buyRCount != ''">
+				BUY_R_COUNT  = #{buyRCount         ,jdbcType=VARCHAR},
+			</if>
+			<if test="buyRAmt != null and buyRAmt != ''">
+				BUY_R_AMT    = #{buyRAmt           ,jdbcType=VARCHAR},
+			</if>
+			<if test="buyRDate != null and buyRDate != ''">
+				BUY_R_DATE   = #{buyRDate          ,jdbcType=VARCHAR},
+			</if>
+			<if test="saleType != null and saleType != ''">
+				SALE_TYPE    = #{saleType          ,jdbcType=VARCHAR},
+			</if>
+			<if test="saleValue != null and saleValue != ''">
+				SALE_VALUE   = #{saleValue         ,jdbcType=VARCHAR},
+			</if>
+			<if test="saleVCount != null and saleVCount != ''">
+				SALE_V_COUNT = #{saleVCount        ,jdbcType=VARCHAR},
+			</if>
+			<if test="saleVAmt != null and saleVAmt != ''">
+				SALE_V_AMT   = #{saleVAmt          ,jdbcType=VARCHAR},
+			</if>
+			<if test="saleRCount != null and saleRCount != ''">
+				SALE_R_COUNT = #{saleRCount        ,jdbcType=VARCHAR},
+			</if>
+			<if test="saleRAmt != null and saleRAmt != ''">
+				SALE_R_AMT   = #{saleRAmt          ,jdbcType=VARCHAR},
+			</if>
+			<if test="saleRDate != null and saleRDate != ''">
+				SALE_R_DATE  = #{saleRDate         ,jdbcType=VARCHAR},
+			</if>
+			
+			STAT_CHG_DATE = SYSDATE(),
+			CONT_UPDATE_DATE = SYSDATE()
+		WHERE   idSC_POLICY = #{idscPolicy        ,jdbcType=VARCHAR}
+	</insert>
+
+
+</mapper>

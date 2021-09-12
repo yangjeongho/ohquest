@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/java/app/madeinho/ohquest/ui/address
+END
+Address.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/java/app/madeinho/ohquest/ui/address/Address.java
+END
+AddressRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/java/app/madeinho/ohquest/ui/address/AddressRepository.java
+END
+AddressTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/java/app/madeinho/ohquest/ui/address/AddressTest.java
+END
+AddressService.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/java/app/madeinho/ohquest/ui/address/AddressService.java
+END
+AddressServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/java/app/madeinho/ohquest/ui/address/AddressServiceImpl.java
+END

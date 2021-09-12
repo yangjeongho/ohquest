@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/ohqueststock/!svn/ver/450/ohQuest/src/main/resources/com/mapper/stock
+END
+myStockHist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/ohqueststock/!svn/ver/143/ohQuest/src/main/resources/com/mapper/stock/myStockHist.xml
+END
+stockDay.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/ohqueststock/!svn/ver/224/ohQuest/src/main/resources/com/mapper/stock/stockDay.xml
+END
+scPolicy.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/ohqueststock/!svn/ver/140/ohQuest/src/main/resources/com/mapper/stock/scPolicy.xml
+END
+myStock.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/ohqueststock/!svn/ver/450/ohQuest/src/main/resources/com/mapper/stock/myStock.xml
+END

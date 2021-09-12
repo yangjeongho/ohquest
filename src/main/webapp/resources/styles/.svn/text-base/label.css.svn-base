@@ -1,0 +1,12 @@
+
+.table_test{border-collapse:collapse; width: 100%;}
+.table_test  th {padding:2px; text-align: left;}
+.table_test  td {padding:2px; text-align: left;}
+
+.table_test  .s_btn{text-align: right;}
+
+.table_t_align{border-collapse:collapse; width: 100%;}
+.table_t_align  th {padding:2px; text-align: rigt;}
+.table_t_align  td {padding:2px; text-align: rigt;}
+
+.table_t_align  .s_btn{text-align: right;}

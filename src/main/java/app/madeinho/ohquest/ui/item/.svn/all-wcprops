@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/java/app/madeinho/ohquest/ui/item
+END
+ItemService.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/java/app/madeinho/ohquest/ui/item/ItemService.java
+END
+ItemServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/java/app/madeinho/ohquest/ui/item/ItemServiceImpl.java
+END
+Item.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/java/app/madeinho/ohquest/ui/item/Item.java
+END
+ItemRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/java/app/madeinho/ohquest/ui/item/ItemRepository.java
+END
+ItemTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/java/app/madeinho/ohquest/ui/item/ItemTest.java
+END

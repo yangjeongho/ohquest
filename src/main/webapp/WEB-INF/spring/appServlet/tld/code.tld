@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+	version="2.1">
+
+	<description>ohquest code library</description>
+	<display-name>ohquest code library</display-name>
+	<tlib-version>1.1</tlib-version>
+	<short-name>code</short-name>
+	<uri>http://www.ohQuest.com/jsp/tags/core</uri>
+ 
+ 	<validator>
+		<description>
+			Provides core validation features for JSTL tags.
+		</description>
+		<validator-class>
+			org.apache.taglibs.standard.tlv.JstlCoreTLV
+		</validator-class>
+		<init-param>
+			<param-name>expressionAttributes</param-name>
+			<param-value>out:value out:default out:escapeXml out:codeType</param-value>
+		</init-param>
+	</validator>
+	<tag>
+		<description>
+			Like &lt;%= ... &gt;, but for expressions.
+		</description>
+		<name>out</name>
+		<tag-class>app.madeinho.ohquest.common.tag.CodeOutTag</tag-class>
+		<body-content>JSP</body-content>
+		<attribute>
+            <name>var</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+		<attribute>
+			<name>value</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>codeType</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>		
+		<attribute>
+			<name>inputName</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>option</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>exclude</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>include</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>cssClass</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>style</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>attr</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>lang</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>escapeXml</name>
+			<required>false</required>
+			<rtexprvalue>false</rtexprvalue>
+		</attribute>
+	</tag>
+</taglib>

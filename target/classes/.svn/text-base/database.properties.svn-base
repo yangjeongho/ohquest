@@ -1,0 +1,4 @@
+acube.db.driver=oracle.jdbc.driver.OracleDriver
+acube.db.url=jdbc:oracle:thin:@211.238.176.44:1521:MONGBILL
+acube.db.username=abacus
+acube.db.password=abacus

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/ohqueststock/!svn/ver/140/ohQuest/src/main/java/app/madeinho/ohquest/stock/policy
+END
+ScPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/ohqueststock/!svn/ver/140/ohQuest/src/main/java/app/madeinho/ohquest/stock/policy/ScPolicy.java
+END
+ScPolicyRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/ohqueststock/!svn/ver/130/ohQuest/src/main/java/app/madeinho/ohquest/stock/policy/ScPolicyRepository.java
+END
+ScPolicyService.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/ohqueststock/!svn/ver/130/ohQuest/src/main/java/app/madeinho/ohquest/stock/policy/ScPolicyService.java
+END
+ScPolicyServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/ohqueststock/!svn/ver/130/ohQuest/src/main/java/app/madeinho/ohquest/stock/policy/ScPolicyServiceImpl.java
+END

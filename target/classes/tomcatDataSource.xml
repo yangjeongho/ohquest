@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+		http://www.springframework.org/schema/batch http://www.springframework.org/schema/batch/spring-batch-2.1.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+		http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.0.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd
+		http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.0.xsd"
+	xmlns:batch="http://www.springframework.org/schema/batch"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:jee="http://www.springframework.org/schema/jee">
+ 	
+	<!-- acube database  -->
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean" p:dataSource-ref="dataSource" p:configLocation="classpath:sqlMapConfig.xml" p:mapperLocations="classpath:com/mapper/**/*.xml"/>
+	<bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">
+		<constructor-arg ref="sqlSessionFactory" />
+	</bean>
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer" p:basePackage="app.madeinho.ohquest" p:annotationClass="app.madeinho.ohquest.common.dao.Mapper" p:sqlSessionTemplate-ref="sqlSessionTemplate"/>
+   	
+    <!-- DataSource의 설정 -->
+	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <!-- 로컬에서 수정 -->
+        <!--<property name="url" value="jdbc:mysql://www.ohquest.com:3306/madeinquest"/> -->
+        <!-- Cate24 에서 등록 -->
+        <!--<property name="url" value="jdbc:mysql://localhost/madeinquest"/>  -->
+        <property name="url" value="jdbc:mysql://www.ohquest.com:3306/madeinquest"/>
+        
+        <property name="username" value="madeinquest"/>
+        <property name="password" value="madeinho01"/>
+	</bean>
+	  
+
+ 
+	<!-- for tomcat6 -->
+	<bean id="atomikosTransactionManager" class="com.atomikos.icatch.jta.UserTransactionManager" init-method="init" destroy-method="close"> 
+		<property name="forceShutdown" value="false" />
+	</bean> 	 
+	<bean id="atomikosUserTransaction" class="com.atomikos.icatch.jta.UserTransactionImp"> 	 
+	   <property name="transactionTimeout" value="600" /> 
+	</bean> 	 
+	<bean id="transactionManager" class="org.springframework.transaction.jta.JtaTransactionManager"> 
+	   <property name="transactionManager" ref="atomikosTransactionManager" /> 
+	   <property name="userTransaction" ref="atomikosUserTransaction" /> 
+	   <property name="allowCustomIsolationLevels">
+	    <value>true</value>
+	  </property>
+	</bean>
+	
+	
+	<!--  <bean id="lobHandler" class="org.springframework.jdbc.support.lob.OracleLobHandler"/>
+	
+	<bean id="sequenceIncrementerParent" class="org.springframework.jdbc.support.incrementer.OracleSequenceMaxValueIncrementer" abstract="true">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+	<bean id="columnIncrementerParent" class="org.springframework.jdbc.support.incrementer.OracleSequenceMaxValueIncrementer" abstract="true" parent="sequenceIncrementerParent">
+		<property name="columnName" value="ID" />
+	</bean>
+
+	<bean id="incrementerParent" parent="sequenceIncrementerParent">
+		<property name="incrementerName" value="DUMMY"/>
+	</bean>-->
+	
+</beans>

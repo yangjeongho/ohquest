@@ -1,0 +1,35 @@
+@CHARSET "EUC-KR";
+/* .ui-state-highlight { background: #CBFF75 !important; } */
+.ui-jqgrid-btable .ui-state-highlight { 
+				/* background-color: #78cc52; */
+				background-color: #78cc52;
+				background-image: url('../images/common/commonHighlight.png');
+				background-position: 0 0;
+				background-repeat: repeat-x;
+				-webkit-transition-property: background-color, border-color;
+				-moz-transition-property: background-color, border-color;
+				transition-property: background-color, border-color;
+				-webkit-transition-duration: 0.25s;
+				-moz-transition-duration: 0.25s;
+				transition-duration: 0.25s;
+				-webkit-transition-timing-function: ease-out;
+				-moz-transition-timing-function: ease-out;
+				transition-timing-function: ease-out; 
+}
+
+#billAcntUnitGrid, #hBInqGrid tr{
+    cursor:pointer;
+}
+/* table {
+	border-collapse:collapse;
+	border: 1px solid #000;
+	overflow: visible;
+}
+th, td {
+	border-collapse:collapse;
+	border: 1px solid #000;
+}
+th div {
+	border-collapse:collapse;
+	padding: 0 5px 0 5px;
+} */

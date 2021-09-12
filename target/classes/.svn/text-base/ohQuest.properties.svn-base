@@ -1,0 +1,116 @@
+##### user home path
+data.home.path=/home/user/mcbs
+#data.home.path=/weblogic/ACube
+##### log path
+data.log.path=${data.home.path}/logs
+##### attachment teporary save path
+attach.temp.path=${data.home.path}/data/temp/attach
+##### attachment max size
+attach.max.size=104857600
+
+## modify properly when build
+##web.server.url=http://localhost:8080
+web.server.url=http://www.ohquest.com
+
+##### date format
+config.dateformat.full=yyyy/MM/dd HH:mm
+config.dateformat.simple=yyyy/MM/dd
+config.dateformat.time=HH:mm
+config.dateformat.yyyyMMdd=yyyyMMdd
+
+### user image location
+user.image.uploadpath=/home/user/mcbs/user_img
+#user.image.uploadpath=/home/weblogic/user_img
+code.linkage.url = http://m.naver.com,http://m.daum.net
+
+##@@@@@websphere \uc2e4\uc6b4\uc601\ud658\uacbd\uc2dc
+code.deployTarget.url=http://10.21.8.60:9080/CBSWeb/code/request?cmd=updated
+
+#websphere \ub2f4\ub2f9\uc790 \uac1c\uc778 \ub178\ud2b8\ubd81(\ud14c\uc2a4\ud2b8\uc6a9)
+#code.deployTarget.url=http://192.168.2.88:9080/CBSWeb/code/request?cmd=updated
+
+##@@@@@websphere \uc2e4\uc6b4\uc601\ud658\uacbd\uc2dc
+code.crm.url=http://10.21.8.90:99/crm/CbsIF/PolicyList/
+#websphere crm \ub300\uc0c1\uc870\ud68c(\ud14c\uc2a4\ud2b8\uc6a9)
+#code.crm.url=http://192.168.1.105:99/crm/CbsIF/PolicyList/
+
+##@@@@@websphere \uc2e4\uc6b4\uc601\ud658\uacbd\uc2dc
+code.crm.history.url=http://10.21.8.90:99/crm/CbsIF/PolicyHistoryList/
+#websphere crm \uc774\ub825\uc870\ud68c(\uac00\uc785\ub2e8)(\ud14c\uc2a4\ud2b8\uc6a9)
+#code.crm.history.url=http://192.168.1.105:99/crm/CbsIF/PolicyHistoryList/
+
+##@@@@@websphere \uc2e4\uc6b4\uc601\ud658\uacbd\uc2dc
+code.crm.subscriber.url=http://10.21.8.90:99/crm/CbsIF/PolicySubscriberList/
+#websphere crm \ub300\uc0c1\uc870\ud68c(\ud14c\uc2a4\ud2b8\uc6a9)
+#code.crm.subscriber.url=http://192.168.1.105:99/crm/CbsIF/PolicySubscriberList/
+
+##@@@@@websphere \uc2e4\uc6b4\uc601\ud658\uacbd\uc2dc
+code.crm.subscriber.history.url=http://10.21.8.90:99/crm/CbsIF/PolicyHistorySubscriberList/
+#websphere crm \uc774\ub825\uc870\ud68c(\uac00\uc785\ub2e8)(\ud14c\uc2a4\ud2b8\uc6a9)
+#code.crm.subscriber.history.url=http://192.168.1.105:99/crm/CbsIF/PolicyHistorySubscriberList/
+
+##@@@@@websphere \uc2e4\uc6b4\uc601\ud658\uacbd\uc2dc
+code.gift.url=http://10.21.8.90:99/crm/CbsIF/GiftList/
+#websphere gift \ub300\uc0c1\uc870\ud68c(\ud14c\uc2a4\ud2b8\uc6a9)
+#code.gift.url=http://192.168.1.105:99/crm/CbsIF/GiftList/
+
+##@@@@@websphere \uc2e4\uc6b4\uc601\ud658\uacbd\uc2dc
+code.customer.grade.url=http://10.21.8.90:99/crm/CbsIF/getCustomerGrade/
+#w\uace0\uac1d\ub4f1\uae09 \ub300\uc0c1\uc870\ud68c(\ud14c\uc2a4\ud2b8\uc6a9)
+#code.customer.grade.url=http://192.168.1.105:99/crm/CbsIF/getCustomerGrade/
+
+##@@@@@websphere \uc2e4\uc6b4\uc601\ud658\uacbd\uc2dc
+code.crm.coverage.url=http://crmapp/CRM/main.aspx?etc=10010&extraqs=%3fetc%3d10010%26pagemode%3diframe%26preloadcache%3d1357375241600&pagetype=entityrecord
+#websphere \ucee4\ubc84\ub9ac\uc9c0 \uc5c6\ub294\uacbd\uc6b0 \ub300\uc0c1\uc870\ud68c(\ud14c\uc2a4\ud2b8\uc6a9)
+#code.crm.coverage.url=http://crmapp/CRM/main.aspx?etc=10010&extraqs=%3fetc%3d10010%26pagemode%3diframe%26preloadcache%3d1357375241600&pagetype=entityrecord
+
+##@@@@@websphere \uc2e4\uc6b4\uc601\ud658\uacbd\uc2dc
+code.crm.custreg.url=http://crmapp/CRM/main.aspx?etc=4&extraqs=%3fetc%3d4%26pagemode%3diframe%26preloadcache%3d1366774871052&pagetype=entityrecord
+#websphere \ucee4\ubc84\ub9ac\uc9c0 \uc5c6\ub294\uacbd\uc6b0 \ub300\uc0c1\uc870\ud68c(\ud14c\uc2a4\ud2b8\uc6a9)
+#code.crm.custreg.url=http://crmapp/CRM/main.aspx?etc=4&extraqs=%3fetc%3d4%26pagemode%3diframe%26preloadcache%3d1366774871052&pagetype=entityrecord  
+
+##@@@@@websphere \uc2e4\uc6b4\uc601\ud658\uacbd\uc2dc
+code.crm.recommnad.url=http://10.21.8.90:99/crm/CbsIF/RecommendSubscriberList/
+#websphere crm \ucd94\ucc9c \uace0\uac1d \ud560\uc778 \uc870\ud68c(\ud14c\uc2a4\ud2b8\uc6a9)
+#code.crm.url=http://192.168.1.105:99/crm/CbsIF/RecommendSubscriberList/
+
+#OCS\uac00\uc785\uc815\ubcf42013.04.18
+code.ccs.subscriber.url=http://10.21.8.60:9080/CBSWeb/subscriber/request?cmd=getinfobyid
+
+####\ubc14\uc6b0\ucc98 \ud30c\uc77c create\uad00\ub828######
+voucher.runsh.name=ash2run RVVO006B_sh RYREQ
+abacus.user.userid=abacus
+abacus.user.host=211.238.176.44
+abacus.user.pw=aba0130
+abacus.user.command=/home/abacus/acube/bin/
+
+#voucher.runsh.name=ash2run RVVO006B_sh RYREQ
+#abacus.user.userid=rvroper
+#abacus.user.host=10.21.8.40
+#abacus.user.host_s=10.21.8.41
+##abacus.user.host=cs1a-vip
+##abacus.user.host_s=cs1b-vip
+#abacus.user.pw=rvroper!1
+#abacus.user.command=/home/abacus/acube/bin/
+
+#####crm \uacb0\uacfc url######
+code.crm.return.rul=http://10.21.8.90:99/crm/CbsIF/PolicyResult
+
+counsel.sms.return.url=It is customer satisfaction question.Click url to answer. http://202.70.46.180:8001/openapi/custSatisFaction?counselId=
+
+######GwService Type######
+abacus.gwService.type=L
+
+##### HotBill Request URL #####
+ocs.hotBill.url=http://10.21.8.60:9080/CBSWeb/re/request?cmd=hotbill
+
+acube.devMode = L
+acube.counsel.push.yn = N
+acube.counsel.push.time = 3000
+
+acube.psvErrMode = L
+acube.psvErr.push.yn = N
+acube.psvErr.push.time = 3000
+
+###CSV Template Path
+csv.template.path=/weblogic/deploy/acube/resources/csv/

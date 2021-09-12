@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
+<mapper namespace="app.madeinho.ohquest.ma.project.ProjectRepository">
+
+
+	<select id="getProjectAlltList" parameterType="AsProject" resultType="AsProject">
+		SELECT
+					idOH_MEMBER,
+					idOH_MEMBER_TRGT,
+					OH_MUMBER_ID,
+					TYPE_KD,
+					TYPE_CD,
+					NAME_1,
+					NAME_2,
+					NAME_3,
+					EMAIL_ADDR,
+					MOBILE_NO,
+					ETC_PHONE1,
+					ETC_PHONE2,
+					BDAY,
+					ADDRESS_1,
+					ADDRESS_2,
+					COUNTRY_CD,
+					CONT_CREATE_DATE,
+					CONT_UPDATE_DATE,
+					CONT_SYSTEM
+		 FROM MA_PROJECT
+	</select>
+	
+
+	<select id="getProjectList" parameterType="string" resultType="AsProject">
+		SELECT
+			  AGENT_ID         As agentId,
+			  ORG_CODE         As orgCode,
+			  DLR_ID           As dlrId,
+			  AGENT_NAME       As agentName,
+			  CURRENT_PASSWORD As password,
+			  EFFECTIVE_DATE8  As effectiveDate,
+			  EXPIRATION_DATE8 As expirationData,
+			  EMAIL_ADDRESS    As emailProject,
+			  HOME_TELNO       As homeTelno
+		 FROM MA_PROJECT
+	</select>
+	
+	<insert id="insertProject" parameterType="AsProject">
+        INSERT INTO MA_PROJECT (
+			idMA_PROJECT,
+			idOh_MEMBER,
+			PRO_TYPE,
+			PRO_REG_DATE,
+			PRO_STATUS,
+			PRO_CAN_DATE,
+			PRO_APP_DATE,
+			PRO_SUBJECT,
+			PRO_DESC,
+			MUMBER_CNT,
+			CONT_CREATE_DATE,
+			CONT_UPDATE_DATE,
+			CONT_SYSTEM
+        ) VALUES(
+			#{idmaProject    ,jdbcType=VARCHAR},
+			#{idohMember     ,jdbcType=VARCHAR},
+			#{proType        ,jdbcType=VARCHAR},
+			#{proRegDate     ,jdbcType=VARCHAR},
+			#{proStatus      ,jdbcType=VARCHAR},
+			#{proCanDate     ,jdbcType=VARCHAR},
+			#{proAppDate     ,jdbcType=VARCHAR},
+			#{proSubject     ,jdbcType=VARCHAR},
+			#{proDesc        ,jdbcType=VARCHAR},
+			#{mumberCnt      ,jdbcType=VARCHAR},
+			now(),
+			#{contUpdateDate ,jdbcType=VARCHAR},
+			#{contSystem     ,jdbcType=VARCHAR}
+        )      
+	</insert>
+
+</mapper>

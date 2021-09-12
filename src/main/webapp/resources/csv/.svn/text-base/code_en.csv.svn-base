@@ -1,0 +1,8 @@
+language,codeGroup,code,meaning,description,enabledFlag,startDateActive,endDateActive,sourceLang,securityGroupId,applicationId
+en,LANGUAGE,ko,Korean,Korean,TRUE,,,ko,GRPID,APPID
+en,LANGUAGE,en,English,English,TRUE,,,ko,GRPID,APPID
+en,LANGUAGE,mn,Mongolish,Mongolish,TRUE,,,ko,GRPID,APPID
+en,TCODE,TCODE01,test01,test01,TRUE,,,ko,GRPID,APPID
+en,TCODE,TCODE02,test02,test02,TRUE,,,ko,GRPID,APPID
+en,TCODE,TCODE03,test03,test03,TRUE,,,ko,GRPID,APPID
+en,TCODE,TCODE04,test04,test04,TRUE,,,ko,GRPID,APPID

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/ohqueststock/!svn/ver/225/ohQuest/src/main/resources/com/mapper/ui
+END
+message.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/ohqueststock/!svn/ver/187/ohQuest/src/main/resources/com/mapper/ui/message.xml
+END
+address.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/mapper/ui/address.xml
+END
+config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/mapper/ui/config.xml
+END
+accountCode.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/ohqueststock/!svn/ver/190/ohQuest/src/main/resources/com/mapper/ui/accountCode.xml
+END
+member.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/mapper/ui/member.xml
+END
+connect.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/mapper/ui/connect.xml
+END
+account.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/ohqueststock/!svn/ver/225/ohQuest/src/main/resources/com/mapper/ui/account.xml
+END
+item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/mapper/ui/item.xml
+END
+accountCodeHist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/ohqueststock/!svn/ver/148/ohQuest/src/main/resources/com/mapper/ui/accountCodeHist.xml
+END
+accountDetail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/ohqueststock/!svn/ver/195/ohQuest/src/main/resources/com/mapper/ui/accountDetail.xml
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/webapp/resources/csv
+END
+UNIVISION_142540_142541.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/webapp/resources/csv/UNIVISION_142540_142541.txt
+END
+address_en.csv
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/webapp/resources/csv/address_en.csv
+END
+batch_change_single.csv
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/webapp/resources/csv/batch_change_single.csv
+END
+entrFile.csv
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/webapp/resources/csv/entrFile.csv
+END
+batch_terminate.csv
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/webapp/resources/csv/batch_terminate.csv
+END
+batch_entr_single.csv
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/webapp/resources/csv/batch_entr_single.csv
+END
+code_en.csv
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/webapp/resources/csv/code_en.csv
+END
+coverage_en.csv
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/webapp/resources/csv/coverage_en.csv
+END
+batch_change_bundle.csv
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/webapp/resources/csv/batch_change_bundle.csv
+END
+batch_entr_bundle.csv
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/webapp/resources/csv/batch_entr_bundle.csv
+END

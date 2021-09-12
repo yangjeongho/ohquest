@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">  
+<configuration>
+
+	<typeAliases>
+		<!-- Batch Test 용 -->
+		<!--  typeAlias alias="AsCustomerCredit" type="com.acube.batch.model.CustomerCredit"></typeAlias>
+		-->
+		<!-- Batch -->
+		<!--  <typeAlias alias="AsProdChg" type="com.acube.batch.job.domain.ProdChg"></typeAlias>
+		-->
+		
+		<!-- 사용자관리 -->
+        <typeAlias alias="AsMember"       type="app.madeinho.ohquest.ui.member.Member"></typeAlias><!-- 회원정보-->
+		<typeAlias alias="AsAddress"      type="app.madeinho.ohquest.ui.address.Address"></typeAlias><!-- 회원주소록, 친구-->
+        <typeAlias alias="AsConfig"       type="app.madeinho.ohquest.ui.config.Config"></typeAlias><!-- 회원설정정보-->
+        <typeAlias alias="AsConnectLogin" type="app.madeinho.ohquest.ui.connect.ConnectLogin"></typeAlias><!-- 회원로그인접속정보-->
+	    <typeAlias alias="AsItem"         type="app.madeinho.ohquest.ui.item.Item"></typeAlias><!-- 회원아이템정보-->
+	    <typeAlias alias="AsMessage"      type="app.madeinho.ohquest.ui.message.Message"></typeAlias><!-- 회원아이템정보-->
+        <typeAlias alias="AsPhoto"        type="app.madeinho.ohquest.ui.photo.Photo"></typeAlias><!-- 회원사진정보관리-->
+        <typeAlias alias="AsUiQuest"      type="app.madeinho.ohquest.ui.uiquest.UiQuest"></typeAlias><!-- 회원퀘스트정보관리-->
+ 
+		<!-- 메인업무관리 -->
+        <typeAlias alias="AsProject"     type="app.madeinho.ohquest.ma.project.Project"></typeAlias><!-- 프로젝트관리-->	
+        <typeAlias alias="AsQuest"       type="app.madeinho.ohquest.ma.quest.Quest"></typeAlias><!-- 임무관리-->
+        <typeAlias alias="AsQuestMember" type="app.madeinho.ohquest.ma.questMember.QuestMember"></typeAlias><!-- 임무적용회원관리-->
+        <typeAlias alias="AsTransfer"    type="app.madeinho.ohquest.ma.transfer.Transfer"></typeAlias><!-- 퀘스트 전달 정보관리-->
+        <typeAlias alias="AsOffer"       type="app.madeinho.ohquest.ma.offer.Offer"></typeAlias><!-- 퀘스트 보상 정보관리-->
+        
+        <!-- 공통/코드 관리 -->
+		<typeAlias alias="AsNotice"       type="app.madeinho.ohquest.co.notice.Notice"></typeAlias>
+		<typeAlias alias="AsCode"         type="app.madeinho.ohquest.co.code.Code"></typeAlias>
+        <typeAlias alias="AsSearchFilter" type="app.madeinho.ohquest.common.domain.searchFilter.SearchFilter"></typeAlias>
+        
+        <!-- 주식메타정보 관리 -->
+        <typeAlias alias="AsStock"         type="app.madeinho.ohquest.stock.day.StockDay"></typeAlias>
+        
+	</typeAliases>
+	<!-- 
+	<plugins>  
+		<plugin interceptor="app.madeinho.ohquest.common.dao.interceptor.PaginationInterceptor" />  
+    </plugins>
+    -->
+</configuration>

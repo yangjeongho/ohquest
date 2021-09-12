@@ -1,0 +1,155 @@
+# \ucf54\ub4dc \uba54\uc2dc\uc9c0 \uc815\uc758 \ubd80\ubd84
+cmn.msg.saved=\u0410\u043c\u0436\u0438\u043b\u0442\u0442\u0430\u0439 \u0445\u0430\u0434\u0433\u0430\u043b\u043b\u0430\u0430
+cmn.msg.apply=Applied!
+cmn.msg.waitaminut=\u0425\u0430\u0434\u0433\u0430\u043b\u0436 \u0431\u0430\u0439\u043d\u0430. \u0442\u04af\u0440 \u0445\u04af\u043b\u044d\u044d\u043d\u044d \u04af\u04af
+cmn.msg.loading=Loading... 
+cmn.msg.processing=Processing...
+cmn.msg.searching=Searching...
+cmn.msg.grid.select=\u0421\u04af\u043b\u0436\u044d\u044d\u043d\u044d\u044d\u0441 \u0443\u0442\u0433\u0430 \u0441\u043e\u043d\u0433\u043e\u0445
+cmn.msg.wait.data=\u0422\u04af\u0440 \u0445\u04af\u043b\u044d\u044d\u043d\u044d \u04af\u04af. \u04e8\u0433\u04e9\u0433\u0434\u043b\u0438\u0439\u0433 \u0441\u044d\u0440\u0433\u044d\u044d\u0436 \u0431\u0430\u0439\u043d\u0430
+cmn.session.out1=\u0413\u043e\u0440\u0438\u043c\u0438\u0439\u0433 \u0445\u04af\u0447\u0438\u043d\u0433\u04af\u0439 \u0431\u043e\u043b\u0433\u043e\u0441\u043e\u043d
+cmn.session.out2=\u0414\u0430\u0445\u0438\u043d \u043d\u044d\u0432\u0442\u044d\u0440\u043d\u044d \u04af\u04af
+cmn.index.login=\u041d\u044d\u0432\u0442\u044d\u0440\u0447 \u0431\u0430\u0439\u043d\u0430 .............\u0422\u04af\u0440 \u0445\u04af\u043b\u044d\u044d\u043d\u044d \u04af\u04af
+
+code.msg.choose=choose
+code.msg.000001=\u0421\u043e\u043d\u0433\u043e\u0445
+code.msg.000002=\u0424\u0430\u0439\u043b \u0441\u043e\u043d\u0433\u043e\u0445
+code.msg.000003=\u0417\u04e9\u0432\u0445\u04e9\u043d CSV \u0424\u0430\u0439\u043b
+code.msg.000004=CSV \u0444\u0430\u0439\u043b\u044b\u043d \u0431\u04af\u0440\u0442\u0433\u044d\u043b\u0438\u0439\u043d \u043a\u043e\u0434
+code.msg.000005=\u041a\u043e\u0434 \u0433\u0440\u0443\u043f\u043f\u044b\u0433 \u0437\u0430\u0430\u0432\u0430\u043b \u0431\u0438\u0447\u0438\u0445
+code.msg.000006=\u041a\u043e\u0434 \u0431\u04af\u0440\u0442\u0433\u044d\u043b\u0438\u0439\u0433 \u0437\u0430\u0430\u0432\u0430\u043b \u0431\u0438\u0447\u0438\u0445
+code.msg.000007=\u041a\u043e\u0434 \u043d\u044d\u0440\u0438\u0439\u0433 \u0437\u0430\u0430\u0432\u0430\u043b \u0431\u0438\u0447\u0438\u0445
+code.msg.000009=\u042d\u043d\u0434 \u0434\u0430\u0440\u043d\u0430 \u0443\u0443
+code.msg.000010=\u042f\u043c\u0430\u0440\u0447 \u043c\u044d\u0434\u044d\u044d\u043b\u044d\u043b \u0431\u0430\u0439\u0445\u0433\u04af\u0439
+code.msg.000011=\u0425\u04af\u0441\u044d\u043b\u0442\u0438\u0439\u0433 \u0431\u0438\u0435\u043b\u04af\u04af\u043b\u0441\u044d\u043d
+code.msg.000012=\u0414\u0430\u0445\u0438\u043d \u0448\u0430\u043b\u0433\u0430\u0445 \u043d\u04e9\u0445\u0446\u04e9\u043b \u0434\u044d\u044d\u0440 \u0443\u0442\u0433\u0430 \u043e\u0440\u0443\u0443\u043b\u0430\u0445
+code.msg.000013=\u0425\u044d\u0440\u044d\u0433\u043b\u044d\u0433\u0447\u0438\u0439\u0433 \u0445\u0430\u0439\u0436 \u04af\u0437\u043d\u044d \u04af\u04af
+
+#code\ucd94\uac00\ud55c\uac83
+code.msg.000014=subTree use! can not Check lastLevel!!
+code.msg.000015=Selcet Last Level Counsel Type!
+code.msg.000016=Mobile can not A/S Service!!!
+code.msg.000017=Only Mobile can Device Change Service!!!
+code.msg.000018=Bad Time!! ex)1~99999
+code.msg.000019=Level is Different! or Select Level!
+code.msg.000020=After the refresh button again, please enter the exact contents 
+code.msg.000021=Did not ID redundancy check
+code.msg.000022=ID Please check back
+code.msg.000023=Allow up to a 4-digit ID..
+code.msg.000024=Must start with the first letter of the alphabet
+code.msg.000025=ID that can be registered
+code.msg.000026=It is an identity that can not be registered
+code.msg.000027=was to register a new ID
+code.msg.000028=No Data.
+code.msg.000029=No Data.
+
+#counsel
+counsel.msg.000001=Not selected any groups
+counsel.msg.000002=Did not choose the type of counseling..
+counsel.msg.000003=Not selected any questions
+counsel.msg.000004=Failure or the session has been terminated..
+counsel.msg.000005=No data to be stored
+counsel.msg.000006=Choose Question Item.
+counsel.msg.000007=Redundant data..\n Please check the following data! \n
+counsel.msg.000008=Question
+counsel.msg.000009=Answer
+counsel.msg.000010=Item Linked
+counsel.msg.000011=choose Type!
+counsel.msg.000012=choose Item Name!
+counsel.msg.000013=Update?
+counsel.msg.000014=select QnA List!
+counsel.msg.000015=select Answer List!
+counsel.msg.000016=select Question List!
+counsel.msg.000017=A type can not be saved!
+counsel.msg.000018=Select Question_Link List!
+counsel.msg.000019=Select Answer_Link List!
+
+
+notice.msg.000001=Choose a Notice.
+ 
+mytodo.msg.000001=The screen is redundant.
+
+sec.msg.000001=Input User ID!
+
+
+
+
+#login
+co.login.000001=You logged in first.  You'd better change password.
+co.login.000002=Password Expired!!!
+co.login.000003=Get New Password.
+co.login.000004=days left for expire.
+
+
+#address
+address.msg.000001=Please, Select CITY!!
+address.msg.000002=Please, Select DISTRICT!!
+address.msg.000003=Please, Select SUB_DISTRICT!!
+address.msg.000004=please, Input Sub Address!!!
+address.msg.000005=Please, Empty CITY!!
+address.msg.000006=Please, Empty CITY!!
+address.msg.000007=Please, Empty DISTRICT!!
+address.msg.000008=Sub Address is mandatory.
+address.msg.000009=Input Address.
+address.msg.000010=Searching Address... Please Wait.
+address.msg.000011=Address Duplicated.
+address.msg.000012=Fail to search duplicated search.
+address.msg.000013=Registered.
+address.msg.000014=Fail to register address.
+address.msg.000015=Deleted.
+address.msg.000016=Fail to delete address.
+address.msg.000017=Address modified.
+address.msg.000018=Fail to modify address.
+address.msg.000019=It is mandatory.
+address.msg.000020=Only number for addNum.
+address.msg.000021=Do you want register address?
+address.msg.000022=Do you want delete address?
+address.msg.000023=Do you want modify address?
+address.msg.000024=Choose file first.
+address.msg.000025=Only CSV file available.
+address.msg.000026=Upload CSV for registering address?
+address.msg.000027=Register User ID first.
+address.msg.000028=Register Password first.
+address.msg.000029=Fail to register user.
+address.msg.000030=Do you want to register user?
+address.msg.000031=Input Address
+address.msg.000032=Can not find any address.
+
+
+#bqCode
+bqCode.msg.000001=select Relation Type!
+bqCode.msg.000002=input Relation Name!
+
+#coverage
+coverage.msg.000001=Do you want to register coverage?
+coverage.msg.000002=Do you want to delete coverage?
+coverage.msg.000003=Do you want to modify coverage information?
+coverage.msg.000004=Fail to delete coverage.
+coverage.msg.000005=Fail to modify coverage.
+coverage.msg.000006=Coverage information is modified.
+coverage.msg.000007=Fail to register coverage.
+coverage.msg.000008=Checking for duplicated coverage. Please wait.
+coverage.msg.000009=Searching for coverage. Please wait.
+coverage.msg.000010=Duplicated coverage found.
+coverage.msg.000011=Can not find any coverage.
+
+
+
+#coEvent001
+coEvnt001.msg.000001=Please, Only 2-digit Input
+
+#EventName
+eventName.msg.000001=Input Controller Id!
+eventName.msg.000002=Input Controller Name!
+
+#memoKd
+memoKd.msg.000001=Input memo Code!!
+memoKd.msg.000002=Input memo Name!!
+memoKd.msg.000003=Input memo Division!!
+memoKd.msg.000004=Input Memo!!
+memoKd.msg.000005=Input Parameter Number
+
+
+#smsCode
+smsCode.msg.000001=Input Event Code!
+smsCode.msg.000002=fuction process Error!

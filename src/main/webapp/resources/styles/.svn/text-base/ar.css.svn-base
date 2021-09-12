@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+
+.table_view01 .center{text-align:center;}
+
+/* ar unpaid detail */
+.ar_top{}
+.wd70_tb{width:70%;}
+.wd29_tb{width:29%;}
+.wd100_tb{width:100%; }
+
+.m0p0{magin:0; padding:0;}
+.mb0pb0{margin-bottom:0; padding-bottom:0;}
+.mt0pt0{margin-top:0; padding-top:0;}
+.pymSpan{display:inline-block;  width:110px; padding:1px 4px 2px 4px; margin-top:2px;  border:1px solid #b8cbd7; background:#eff1f7; color:#000;}
+.pymSpan1{display:inline-block;  width:80px; padding:1px 4px 2px 4px; margin-top:2px;  border:1px solid #b8cbd7; background:#eff1f7; color:#000;}
+.pymSpan2{display:inline-block;  width:200px; padding:1px 4px 2px 4px; margin-top:2px; border:1px solid #b8cbd7; background:#eff1f7; color:#000;}
+.pymInput1{display:inline-block; width:150px; }
+.pymInput2{display:inline-block; width:272px; }
+.pymMthdBox{border: 1px border #B8CBD7;}
+
+.fnt_size20{font-size:20px;}
+
+.recp{width:300px; height:670px; border: 1px solid #426184;}
+.recp_header{text-align:left;/*  width: 120px; */ font-weight: bold;}
+.recp_tbsize{margin:0 auto; width:98%;}
+.recp_logo{text-align:center; margin:0 auto;}
+.recp_msg{width:300px; height:150px;}
+
+.h_20p{height:20px;}
+.h_30p{height:30px;}
+
+.amt{ margin-right:30px; text-align:right;}
+.dot_under{border-bottom: 2px dotted #426184; width: 280px; margin:0 auto; height:2px;}
+.dot_under1{border-bottom: 1px dotted #426184; width: 280px; margin:0 auto; height:1px;}
+.solid_under{border-bottom: 1px solid #426184; width: 280px; margin:0 auto; height:1px;}
+.solid_under1{border-bottom: 1px solid black; width: 160px; margin:0 auto; height:1px;}
+.cmplmnt_box{border:1px solid #BDBD7B; padding:2px};
+.conFirmList{width:120px;}
+.pymPad{padding:3px 4px 3px 3px;}
+/* .title {width:100%; margin:10px 0 5px 0; }
+.title:after{display:block;clear:both;content:''}
+.title h1 { background:url('../images/icon/bl_02.gif') 0 3px no-repeat; font-size:12px; color:#000; margin-right:10px; padding:3px 0 0 12px; float:left; }
+.title .info{padding:3px 0 0 0; color:#333; } */

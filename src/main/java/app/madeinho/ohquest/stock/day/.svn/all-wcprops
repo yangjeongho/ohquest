@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/ohqueststock/!svn/ver/227/ohQuest/src/main/java/app/madeinho/ohquest/stock/day
+END
+StockDay.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/ohqueststock/!svn/ver/227/ohQuest/src/main/java/app/madeinho/ohquest/stock/day/StockDay.java
+END
+StockRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ohqueststock/!svn/ver/220/ohQuest/src/main/java/app/madeinho/ohquest/stock/day/StockRepository.java
+END
+StockService.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ohqueststock/!svn/ver/215/ohQuest/src/main/java/app/madeinho/ohquest/stock/day/StockService.java
+END
+StockServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/ohqueststock/!svn/ver/222/ohQuest/src/main/java/app/madeinho/ohquest/stock/day/StockServiceImpl.java
+END
+StockController.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ohqueststock/!svn/ver/227/ohQuest/src/main/java/app/madeinho/ohquest/stock/day/StockController.java
+END

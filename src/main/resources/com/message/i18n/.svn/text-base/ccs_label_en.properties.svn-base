@@ -1,0 +1,470 @@
+# \uba54\uc2dc\uc9c0 \uc815\uc758 \ubd80\ubd84
+## \uc608\uc81c, cs.msg.confirm=\ud655\uc778\ud558\uc138\uc694.
+ccs.title.000001=Installation Available
+ccs.title.000002=Personal Number
+ccs.title.000003=HYBIRD
+ccs.title.000004=Agency Name
+ccs.title.000005=Service Beginning Appointment Day
+ccs.title.000006=BillAcnt Information
+ccs.title.000007=Bill Receipt Name
+ccs.title.000008=Select Package
+ccs.title.000009=Select Convergence
+ccs.title.000010=Select Offer
+ccs.title.000011=Order Detail Info
+ccs.title.000012=Inquiry Date
+ccs.title.000013=Work Type:
+ccs.title.000014=Counsel List
+ccs.title.000015=CounselList View
+ccs.title.000016=Caller No
+ccs.title.000017=Counsel Script
+ccs.title.000018=Counsel Script1
+ccs.title.000019=Counsel Script2
+ccs.title.000020=Counsel Script3
+ccs.title.000021=Counsel Script4
+ccs.title.000022=Counsel Script5
+ccs.title.000023=Counsel Script6
+ccs.title.000024=Counsel Script7
+ccs.title.000025=Counsel Script8
+ccs.title.000026=Counsel Script9
+ccs.title.000027=Counsel Script10
+ccs.title.000028=ergineer
+ccs.title.000029=counsel:
+ccs.title.000030=average date
+ccs.title.000031=step0
+ccs.title.000032=step1
+ccs.title.000033=step2
+ccs.title.000034=step3
+ccs.title.000035=step4
+ccs.title.000036=step5
+ccs.title.000037=step6
+ccs.title.000038=step7
+ccs.title.000039=step8
+ccs.title.000040=step9
+ccs.title.000041=step10
+ccs.title.000042=Counsel Information
+ccs.title.000043=Counsel Memo
+ccs.title.000044=Task History
+ccs.title.000045=Sms History
+ccs.title.000046=Transfer Num
+ccs.title.000047=Transfer Rep
+ccs.title.000048=Transfer Contents
+ccs.title.000049=Equipment
+ccs.title.000050=IAP
+ccs.title.000051=Seven(Greenberry)Contents
+ccs.title.000052=NOP Contents
+ccs.title.000053=BBR Contents
+ccs.title.000054=contract_type
+ccs.title.000055=preferred_language
+ccs.title.000056=Subscriber No
+ccs.title.000057=customer birthday
+ccs.title.000058=roaming flag
+ccs.title.000059=homezone info
+ccs.title.000060=recharge error count
+ccs.title.000061=cos
+ccs.title.000062=noti flag set
+ccs.title.000063=Commission Code
+ccs.title.000064=Plcy Title
+ccs.title.000065=Pay amount per Model/Product
+
+
+ccs.btn.000001=Act Rqst
+ccs.btn.000002=Work Cancel
+ccs.btn.000003=Work Process
+ccs.btn.000004=Process
+ccs.btn.000005=Cancel Request
+ccs.btn.000006=add(+)
+ccs.btn.000007=delete(-)
+ccs.btn.000008=Assignment
+ccs.btn.000009=Send Sms
+ccs.btn.000010=Crm Leads
+ccs.btn.000011=Search Add
+ccs.btn.000012=Sms Send
+ccs.btn.000013=SatisFaction
+ccs.btn.000014=Check And Save
+ccs.btn.000015=ChangeConvergnce
+ccs.btn.000016=Change Package
+ccs.btn.000017=Re-Transfer
+
+
+ccs.cccs000.btn.label.000001=Transfer
+
+ccs.cccs010.title.000001=Counselling Transfer
+ccs.cccs010.title.000002=Work Order
+ccs.cccs010.title.000003=Task Information
+ccs.cccs010.title.000004=Work Result
+ccs.cccs010.title.000005=One Time Charge
+ccs.cccs010.title.000006=My Job Schedule Status
+ccs.cccs010.title.000007=Only one operator
+ccs.cccs010.title.000008=Worker Schedule Status
+ccs.cccs010.title.000009=Work Schedule
+ccs.cccs010.title.000010=Worker Registration
+ccs.cccs010.title.000011=Do Not Edit Schedule
+ccs.cccs010.title.000012=Next Time Schedule
+ccs.cccs010.title.000013=Start Time
+ccs.cccs010.title.000014=End Time
+ccs.cccs010.title.000015=Order Info
+ccs.cccs010.title.000016=Progress Work
+
+
+ccs.cccs000_1.title.000001=CounselCatogory
+ccs.cccs000_1.title.000002=Counsel Script
+ccs.cccs000_1.title.000003=Counsel
+ccs.cccs000_1.title.000004=counsel Status
+ccs.cccs000_1.title.000005=Occurrence Date
+ccs.cccs000_1.title.000006=Occurrence Time
+ccs.cccs000_1.title.000007=Cust Name2
+ccs.cccs000_1.title.000008=Cust Name3
+
+ccs.ccs001.title.000001=Counsel Div.
+ccs.ccs001.title.000002=Counsel Type.
+ccs.ccs001.title.000003=Detail
+ccs.ccs001.title.000004=Detail2
+ccs.ccs001.title.000005=Detail3
+
+ccs.ccs011.title.000001=Counsel Info
+ccs.ccs011.title.000002=Transfer History
+ccs.ccs011.title.000003=Transfer Nm
+
+ccs.hlrView.title.000001=Static
+ccs.hlrView.title.000002=GPRS Data
+ccs.hlrView.title.000003=Dynamic
+
+ccs.subsView.title.000001=SubscriptionState
+ccs.subsView.title.000002=User
+ccs.subsView.title.000003=CounterGroup
+ccs.subsView.title.000004=Product
+ccs.subsView.title.000005=RechargeHistory
+ccs.subsView.title.000006=Counter
+ccs.subsView.title.000007=CallHistoryInfo
+ccs.subsView.title.000008=RollOverInfomation
+ccs.subsView.title.000009=RollOverDetail
+
+ccs.t3_3_3.title.000001=Worker Status View schedule
+ccs.t3_3_3.title.000002=Work Schedule
+ccs.t3_3_3.title.000003=Worker registration
+
+#ccsWork001
+ccs.ccsWork001.orderListTable.lable.000001=Order No.
+ccs.ccsWork001.orderListTable.lable.000002=Bundle Type
+ccs.ccsWork001.orderListTable.lable.000003=Work Detail
+ccs.ccsWork001.orderListTable.lable.000004=Scheduled Date
+ccs.ccsWork001.orderListTable.lable.000005=CounselDtlCdText
+
+ccs.ccsWork001.taskListTable.lable.000001=Work Num
+ccs.ccsWork001.taskListTable.lable.000002=Service Domain
+
+ccs.ccsWork001.productListTable.lable.000001=Service Status
+ccs.ccsWork001.productListTable.lable.000002=Service Start Regist Date
+ccs.ccsWork001.productListTable.lable.000003=Service Status Change Date
+
+ccs.ccsWork001.equipListTable.lable.000001=Equiment Type
+ccs.ccsWork001.equipListTable.lable.000002=Model Num
+ccs.ccsWork001.equipListTable.lable.000003=Model Name
+
+
+#ccsWork002
+ccs.ccsWork002.custEntranceTable.lable.000001=Subscriber Number
+ccs.ccsWork002.custEntranceTable.lable.000002=Bill Acnt Number
+ccs.ccsWork002.custEntranceTable.lable.000003=Owner Subscriber Number
+
+ccs.ccsWork002.t3_3_5_1grid.lable.000001=Equipment Type
+ccs.ccsWork002.t3_3_5_1grid.lable.000002=Manage Number
+
+ccs.ccsWork002.productListTable.lable.000001=Rate
+
+
+#ccsWork003_1
+ccs.ccsWork003_1.myWorkJobTable.lable.000001=Work Status
+ccs.ccsWork003_1.myWorkJobTable.lable.000002=Work Change Date
+
+
+
+#ccsWork003_20130318
+ccs.ccsWork003_120318.workerTaskTable.lable.000001=Work Details
+ccs.ccsWork003_120318.workerTaskTable.lable.000002=Subs. ID
+ccs.ccsWork003_120318.addUserTable.lable.000001=Work Representor
+
+
+#ccsWork003
+ccs.ccsWork003.workerSchedulerTable.lable.000001=08:30
+ccs.ccsWork003.workerSchedulerTable.lable.000002=09:00
+ccs.ccsWork003.workerSchedulerTable.lable.000003=09:30
+ccs.ccsWork003.workerSchedulerTable.lable.000004=10:00
+ccs.ccsWork003.workerSchedulerTable.lable.000005=10:30
+ccs.ccsWork003.workerSchedulerTable.lable.000006=11:00
+ccs.ccsWork003.workerSchedulerTable.lable.000007=11:30
+ccs.ccsWork003.workerSchedulerTable.lable.000008=12:00
+ccs.ccsWork003.workerSchedulerTable.lable.000009=12:30
+ccs.ccsWork003.workerSchedulerTable.lable.000010=13:00
+ccs.ccsWork003.workerSchedulerTable.lable.000011=13:30
+ccs.ccsWork003.workerSchedulerTable.lable.000012=14:00
+ccs.ccsWork003.workerSchedulerTable.lable.000013=14:30
+ccs.ccsWork003.workerSchedulerTable.lable.000014=15:00
+ccs.ccsWork003.workerSchedulerTable.lable.000015=15:30
+ccs.ccsWork003.workerSchedulerTable.lable.000016=16:00
+ccs.ccsWork003.workerSchedulerTable.lable.000017=16:30
+ccs.ccsWork003.workerSchedulerTable.lable.000018=17:00
+ccs.ccsWork003.workerSchedulerTable.lable.000019=17:30
+ccs.ccsWork003.workerSchedulerTable.lable.000020=18:00
+ccs.ccsWork003.workerSchedulerTable.lable.000021=18:30
+ccs.ccsWork003.workerSchedulerTable.lable.000022=19:00
+ccs.ccsWork003.workerSchedulerTable.lable.000023=19:30
+ccs.ccsWork003.workerSchedulerTable.lable.000024=20:00
+ccs.ccsWork003.workerSchedulerTable.lable.000025=20:30
+ccs.ccsWork003.workerSchedulerTable.lable.000026=21:00
+ccs.ccsWork003.workerSchedulerTable.lable.000027=21:30
+
+ccs.ccsWork003.workerTaskTable.lable.000001=Time
+ccs.ccsWork003.workerTaskTable.lable.000002=Subs. ID
+ccs.ccsWork003.workerTaskTable.lable.000003=Order No
+ccs.ccsWork003.workerTaskTable.lable.000004=Work No
+
+
+#ccsWork003WorkerTask
+ccs.ccsWork003WorkerTask.workerTaskListTable.label.000001=Order Seq
+ccs.ccsWork003WorkerTask.workerTaskListTable.label.000002=Job
+ccs.ccsWork003WorkerTask.workerTaskListTable.label.000003=CounselName
+
+
+#ccsWork0004_20130326
+ccs.ccsWork0004_20130326.workListGrid1.label.000001=svcCd
+ccs.ccsWork0004_20130326.workListGrid1.label.000002=Request Date8
+ccs.ccsWork0004_20130326.workListGrid1.label.000003=workFinDate8
+ccs.ccsWork0004_20130326.workListGrid1.label.000004=estbAddrNo
+
+
+#ccsWork004
+ccs.ccsWork004.orgGrid.lable.000001=Accept
+ccs.ccsWork004.orgGrid.lable.000002=Progress
+ccs.ccsWork004.orgGrid.lable.000003=Complete
+
+ccs.ccsWork004.orgDetailGrid.lable.000001=Counsel Type
+ccs.ccsWork004.orgDetailGrid.lable.000002=Registered date
+ccs.ccsWork004.orgDetailGrid.lable.000003=Transferred date
+ccs.ccsWork004.orgDetailGrid.lable.000004=Solved date
+ccs.ccsWork004.orgDetailGrid.lable.000005=Spent duration
+
+#ccsWork005
+ccs.ccsWork005.progressWorkListTable.lable.000001=Manager
+ccs.ccsWork005.progressWorkListTable.lable.000002=Address Number
+
+#ccsWork006_20130328
+ccs.ccsWork006_20130328.CounselListGrid.lable.000001=Answer
+ccs.ccsWork006_20130328.CounselListGrid.lable.000002=Counsel Status Text
+
+#ccsWork006
+ccs.ccsWork006.CounselListGrid.lable.000001=Counsel Id.
+ccs.ccsWork006.CounselListGrid.lable.000002=First Receivers
+ccs.ccsWork006.CounselListGrid.lable.000003=Handler
+ccs.ccsWork006.CounselListGrid.lable.000004=Transfferd Date
+ccs.ccsWork006.CounselListGrid.lable.000005=activityCd
+
+#csCccs000_1
+ccs.csCccs000_1.counselOrgOffersReg.lable.000001=cmpgnCd
+ccs.csCccs000_1.counselOrgOffersReg.lable.000002=offrType
+ccs.csCccs000_1.counselOrgOffersReg.lable.000003=rewardId
+
+#csCccs000
+ccs.csCccs000.counselInfoHist.lable.000001=Process 
+ccs.csCccs000.counselInfoHist.lable.000002=Counsel Detail
+
+ccs.csCccs000.subscriberList.lable.Combinedtype=Combined type
+ccs.csCccs000.subscriberList.lable.SubscriberID=Subscriber ID
+ccs.csCccs000.subscriberList.lable.Service=Service
+ccs.csCccs000.subscriberList.lable.Product=Product
+ccs.csCccs000.subscriberList.lable.BillingID=Billing ID
+ccs.csCccs000.subscriberList.lable.MSIDN=MSIDN
+ccs.csCccs000.subscriberList.lable.JoinDate=Join Date
+ccs.csCccs000.subscriberList.lable.ChangeDay=Change Day
+ccs.csCccs000.subscriberList.lable.Status=Status
+ccs.csCccs000.subscriberList.lable.StatusDetail=Status Detail
+ccs.csCccs000.subscriberList.lable.InstallAddress=Install Address
+
+ccs.csCccs000.taskHistoryListTable.lable.WorkStatus=Work Status
+ccs.csCccs000.taskHistoryListTable.lable.Combinedtype=Combined type
+ccs.csCccs000.taskHistoryListTable.lable.WorkDetail=Work Detail
+ccs.csCccs000.taskHistoryListTable.lable.SubscriberID=Subscriber ID
+ccs.csCccs000.taskHistoryListTable.lable.WorkNum=Work Num
+ccs.csCccs000.taskHistoryListTable.lable.ScheduledDate=Scheduled Date
+ccs.csCccs000.taskHistoryListTable.lable.WorkerName=Worker Name
+ccs.csCccs000.taskHistoryListTable.lable.ManagerName=Manager Name
+ccs.csCccs000.taskHistoryListTable.lable.CustName=Cust Name
+ccs.csCccs000.taskHistoryListTable.lable.Custphone=Cust phone
+ccs.csCccs000.taskHistoryListTable.lable.addNum=addNum
+ccs.csCccs000.taskHistoryListTable.lable.Address=Address
+
+ccs.csCccs000.counselOrgOffers.lable.cmpgnCd=cmpgnCd
+ccs.csCccs000.counselOrgOffers.lable.custNo=custNo
+ccs.csCccs000.counselOrgOffers.lable.entrNo=entrNo
+ccs.csCccs000.counselOrgOffers.lable.SubscriberId=SubscriberId
+ccs.csCccs000.counselOrgOffers.lable.offrType=offrType
+ccs.csCccs000.counselOrgOffers.lable.rewardId=rewardId
+
+ccs.csCccs000.smsHistoryList.lable.Seq=Seq
+ccs.csCccs000.smsHistoryList.lable.SubscriberId=Subscriber Id
+ccs.csCccs000.smsHistoryList.lable.DestAddr=Dest Addr
+ccs.csCccs000.smsHistoryList.lable.ShortMessage=Short Message
+ccs.csCccs000.smsHistoryList.lable.SendRsn=Send Rsn
+ccs.csCccs000.smsHistoryList.lable.ReservedDate=Reserved Date
+ccs.csCccs000.smsHistoryList.lable.RegistDate=Regist Date
+ccs.csCccs000.smsHistoryList.lable.Status=Status
+
+ccs.csCccs000.counselMemoList.lable.ServiceID=Service ID
+ccs.csCccs000.counselMemoList.lable.Category=Category
+ccs.csCccs000.counselMemoList.lable.Staff=Staff
+ccs.csCccs000.counselMemoList.lable.RegisteredDate=Registered Date
+ccs.csCccs000.counselMemoList.lable.Discount=Discount
+ccs.csCccs000.counselMemoList.lable.Contents=Contents
+
+#csCccs001
+ccs.csCccs001.counselDivisionTable.lable.CounselDiv.=Counsel Div.
+
+ccs.csCccs001.counselDtlCd2Table.lable.Detail2=Detail2
+
+ccs.csCccs001.counselDtlCd2Table.lable.Detail3=Detail3
+
+#csCccs002
+ccs.csCccs002.offerTable.lable.CampaignCode(offercd)=CampaignCode(offercd)
+ccs.csCccs002.offerTable.lable.CampaignName=CampaignName
+ccs.csCccs002.offerTable.lable.CustomerId=CustomerId
+ccs.csCccs002.offerTable.lable.NewContractRewardId=NewContractRewardId
+ccs.csCccs002.offerTable.lable.PolicyCode(dscntsvccd)=PolicyCode(dscntsvccd)
+ccs.csCccs002.offerTable.lable.aceNo=aceNo
+ccs.csCccs002.offerTable.lable.entrSvcSeqno=entrSvcSeqno
+ccs.csCccs002.offerTable.lable.Type=Type
+
+#csCccs011
+ccs.csCccs011.csCccs011ListTable.lable.TransferDate=Transfer Date
+ccs.csCccs011.csCccs011ListTable.lable.TransferTitle=Transfer Title
+ccs.csCccs011.csCccs011ListTable.lable.OperatorId=Operator Id
+
+#subsView
+ccs.subsView.stateGrid.lable.expire_date=expire date
+ccs.subsView.stateGrid.lable.change_date=change date
+ccs.subsView.stateGrid.lable.status=status
+ccs.subsView.stateGrid.lable.noti_date=noti date
+ccs.subsView.stateGrid.lable.subscription_key=subscription key
+
+ccs.subsView.userGrid.lable.user_type=user type
+ccs.subsView.userGrid.lable.user_key=user key
+ccs.subsView.userGrid.lable.subscription_key=subscription key
+
+ccs.subsView.counterGroupGrid.lable.CounterName=Counter Name
+ccs.subsView.counterGroupGrid.lable.balance=balance
+
+ccs.subsView.counterGrid.lable.counter_group=counter group
+ccs.subsView.counterGrid.lable.counter_name=counter name
+ccs.subsView.counterGrid.lable.counter_value=counter value
+ccs.subsView.counterGrid.lable.counter_unit_type=counter_unit type
+ccs.subsView.counterGrid.lable.counter_bill_type=counter_bill type
+
+ccs.subsView.productGrid.lable.bill_type=bill type
+ccs.subsView.productGrid.lable.product_type=product type
+ccs.subsView.productGrid.lable.product_name=product name
+ccs.subsView.productGrid.lable.status=status
+ccs.subsView.productGrid.lable.service_domain=service domain
+ccs.subsView.productGrid.lable.rcrr_last_check_date=rcrr last check date
+ccs.subsView.productGrid.lable.lifecycle_scheme_id=lifecycle scheme id
+ccs.subsView.productGrid.lable.campaign_reward_id=campaign reward id
+ccs.subsView.productGrid.lable.threshold_scheme_id=threshold scheme id
+ccs.subsView.productGrid.lable.deposit_scheme_id=deposit scheme id
+ccs.subsView.productGrid.lable.feature_code=feature code
+ccs.subsView.productGrid.lable.bill_cycle_date=bill cycle date
+ccs.subsView.productGrid.lable.subscription_date=subscription date
+ccs.subsView.productGrid.lable.product_id=product id
+ccs.subsView.productGrid.lable.subscription_key=subscription key
+
+ccs.subsView.rechargeGrid.lable.voucher_type=voucher type
+ccs.subsView.rechargeGrid.lable.recharge_type=recharge type
+ccs.subsView.rechargeGrid.lable.voucher_face_value=voucher face value
+ccs.subsView.rechargeGrid.lable.voucher_sn=voucher sn
+ccs.subsView.rechargeGrid.lable.recharge_time=recharge time
+ccs.subsView.rechargeGrid.lable.subscription_key=subscription key
+
+ccs.subsView.callGrid.lable.calling=calling
+ccs.subsView.callGrid.lable.called=called
+
+ccs.subsView.callGrid.lable.call_start_time=call_start time
+ccs.subsView.callGrid.lable.monetary_amount=monetary amount
+ccs.subsView.callGrid.lable.call_end_time=call end_time
+ccs.subsView.callGrid.lable.call_hisroty_seqno=call hisroty seqno
+ccs.subsView.callGrid.lable.call_type=call type
+ccs.subsView.callGrid.lable.subscription_key=subscription key
+
+ccs.subsView.rollInfoGrid.lable.CounterId=CounterId
+ccs.subsView.rollInfoGrid.lable.TotalCounter=TotalCounter
+ccs.subsView.rollInfoGrid.lable.Deposit=Deposit
+
+ccs.subsView.rollDetailGrid.lable.CounterGroup=CounterGroup
+ccs.subsView.rollDetailGrid.lable.CounterId=CounterId
+ccs.subsView.rollDetailGrid.lable.CounterName=CounterName
+ccs.subsView.rollDetailGrid.lable.CounterValue=CounterValue
+ccs.subsView.rollDetailGrid.lable.CounterUnit=CounterUnit
+ccs.subsView.rollDetailGrid.lable.CounterBill=CounterBill
+ccs.subsView.rollDetailGrid.lable.RollOverMonthAgo=RollOverMonthAgo
+
+#t3_3_3
+ccs.t3_3_3.t3_3_3_1grid.lable.DealerName=DealerName
+ccs.t3_3_3.t3_3_3_1grid.lable.Worker=Worker
+ccs.t3_3_3.t3_3_3_1grid.lable.00~80=00 ~ 80
+ccs.t3_3_3.t3_3_3_1grid.lable.8=8
+ccs.t3_3_3.t3_3_3_1grid.lable.9=9
+ccs.t3_3_3.t3_3_3_1grid.lable.10=10
+ccs.t3_3_3.t3_3_3_1grid.lable.11=11
+ccs.t3_3_3.t3_3_3_1grid.lable.12=12
+ccs.t3_3_3.t3_3_3_1grid.lable.13=13
+ccs.t3_3_3.t3_3_3_1grid.lable.14=14
+ccs.t3_3_3.t3_3_3_1grid.lable.15=15
+ccs.t3_3_3.t3_3_3_1grid.lable.16=16
+ccs.t3_3_3.t3_3_3_1grid.lable.17=17
+ccs.t3_3_3.t3_3_3_1grid.lable.18=18
+ccs.t3_3_3.t3_3_3_1grid.lable.19=19
+ccs.t3_3_3.t3_3_3_1grid.lable.20=20
+ccs.t3_3_3.t3_3_3_1grid.lable.21~24=21 ~ 24
+
+ccs.t3_3_3.t3_3_3_2grid.lable.WorkStatus=Work Status
+ccs.t3_3_3.t3_3_3_2grid.lable.Worknumber=Work number
+ccs.t3_3_3.t3_3_3_2grid.lable.History=History
+ccs.t3_3_3.t3_3_3_2grid.lable.Payment=Payment
+ccs.t3_3_3.t3_3_3_2grid.lable.Subscribers=Subscribers
+ccs.t3_3_3.t3_3_3_2grid.lable.OneWorkchange=One Work change
+ccs.t3_3_3.t3_3_3_2grid.lable.Expecteddate=Expected date
+
+ccs.t3_3_3.t3_3_3_3grid.lable.Worker_representatives=Worker representatives
+ccs.t3_3_3.t3_3_3_3grid.lable.Worker_ID=Worker ID
+ccs.t3_3_3.t3_3_3_3grid.lable.Worker_Name=Worker Name
+
+
+ccs.lable.000001=Select Service
+ccs.lable.000002=Change Convergence
+ccs.lable.000003=Hot Bill
+ccs.lable.000004=Set Terminate Info.
+ccs.lable.000005=Worker Assign
+ccs.lable.000006=Task Process
+ccs.lable.000007=BroadBand
+ccs.lable.000008=Task Status
+ccs.lable.000009=Task issued
+ccs.lable.000010=Task Processing
+ccs.lable.000011=Task Completed
+ccs.lable.000012=City
+ccs.lable.000013=Order Status
+ccs.lable.000014=Cust Type
+ccs.lable.000015=Equipment Information
+ccs.lable.000016=Direct
+ccs.lable.000017=Reservation(Wire)
+ccs.lable.000018=Change Reservation Date
+ccs.lable.000019=Work Start Time
+ccs.lable.000020=Result
+ccs.lable.000021=Result Details
+ccs.lable.000022=Complete
+ccs.lable.000023=Order Num
+ccs.lable.000024=Task Name
+ccs.lable.000025=Cancellation Charge
+ccs.lable.000026=Unpaid Installment
+ccs.lable.000027=Task temp
+ccs.lable.000028=Selected Offer
+ccs.lable.000029=Search offer
+ccs.lable.000030=Offer
+ccs.lable.000031=Questions
+ccs.lable.000032=Compete Date
+

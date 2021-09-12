@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration PUBLIC "-//APACHE//DTD LOG4J 1.2//EN" "http://logging.apache.org/log4j/1.2/apidocs/org/apache/log4j/xml/doc-files/log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+	
+	<!-- Appenders -->
+	<appender name="console" class="org.apache.log4j.ConsoleAppender">
+		<param name="Target" value="System.out" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%-5p: %c - %m%n" />
+		</layout>
+	</appender>
+	
+	<appender name="dailyFile" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="file" value="/home/user/mcbs/logs/acube.log" /><!-- 개발서버 -->
+		<!-- <param name="file" value="/weblogic/ACube/log/acube.log" /> --><!-- 운영서버 -->
+		<param name="Append" value="true"/>
+		<param name="DatePattern" value="'.'yyyy-MM-dd"/> 
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %5p [%c] %m%n" />
+		</layout>
+	</appender>
+ 	
+	<appender name="sqlFile" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="file" value="/home/user/mcbs/logs/sql-query.log" /><!-- 개발서버 -->
+		<!-- <param name="file" value="/weblogic/ACube/log/sql-query.log" /> --><!-- 운영서버 -->
+		<param name="Append" value="true"/>
+		<param name="DatePattern" value="'.'yyyy-MM-dd"/>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %5p [%c] %m%n" />
+		</layout>
+	</appender>
+	
+	<appender name="eventLog" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="file" value="/home/user/mcbs/logs/event.log" /><!-- 개발서버 -->
+		<!-- <param name="file" value="/weblogic/ACube/log/acube.log" /> --><!-- 운영서버 -->
+		<param name="Append" value="true"/>
+		<param name="DatePattern" value="'.'yyyy-MM-dd"/> 
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %5p [%c] %m%n" />
+		</layout>
+	</appender>
+	<!-- Application Loggers -->
+	<logger name="com.acube">
+		<level value="debug" />
+	</logger>
+	<logger name="com.acube.unitel.common.interceptor">
+		<level value="debug" />
+		<appender-ref ref="eventLog"/>
+	</logger>
+	<!-- 3rdparty Loggers -->
+	<logger name="org.springframework">
+		<level value="debug" />
+	</logger>
+	
+	<logger name="org.apache">
+		<level value="error" />
+	</logger>
+	
+	<logger name="org.hibernate">
+		<level value="error" />
+	</logger>
+	
+	<logger name="com.atomikos">
+		<level value="error" />
+	</logger>
+		
+	<logger name="org.hibernate.type" additivity="false">
+		<level value="error" />
+		<appender-ref ref="sqlFile"/>
+		<appender-ref ref="console" />
+	</logger>
+	
+	<logger name="org.apache.ibatis" additivity="false">
+		<level value="debug" />
+		<appender-ref ref="sqlFile"/>
+		<appender-ref ref="console" />
+	</logger>
+
+	<category name="java.sql" additivity="false">
+		<priority value="debug"/>
+		<appender-ref ref="sqlFile"/>
+		<appender-ref ref="console" />
+	</category>
+
+	<!-- Root Logger -->
+	<root>
+		<priority value="debug" />
+		<appender-ref ref="dailyFile" />
+		<appender-ref ref="console" />
+	</root>
+</log4j:configuration>

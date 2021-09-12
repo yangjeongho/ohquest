@@ -1,0 +1,68 @@
+@charset "utf-8";
+@import "btn.css";
+
+/* Layout */
+#wrap{width:100%; min-width:1190px;}
+#wrap_1190{width:100%; min-width:1190px;}
+#wrap_400{width:100%; min-width:400px;}
+#wrap_800{width:100%; min-width:800px;}
+#wrap_900{width:100%; min-width:900px;}
+#wrap_1000{width:100%; min-width:1000px;}
+
+header {background:url(../images/common/head_bg.gif) 0 0 repeat-x; padding:0 0 5px 0; height:70px;_display:inline-block;width:100%;min-width:1245px;}
+header:after{display:block;clear:both;content:''}
+#container{*display:inline-block;_float:left;_width /**/:100%;padding-right:56px; min-width:1190px;}
+#container:after{display:block;clear:both;content:''}
+#content{float:left;width:100%;margin-right:-56px; min-width:1128px;}
+.aside{float:right;width:56px;}
+aside {height:866px;left:56px; position:relative; width:56px; float:right; background:url(../images/common/left_bg.gif) 0 0 repeat-y; text-align:center; line-height:0; }
+/*footer {clear:both;border-top:solid 1px #848684;}*/
+#footer {
+    position : absolute;
+    bottom : 0;
+    height : 60px;
+    margin-top : 40px;
+  }
+
+
+/*Header*/
+.logo {width:130px; padding:17px 0 0 10px; _padding-top:18px; float:left;margin-right:-150px;}
+.top_box {margin-left:150px;height:36px; background:#000;}
+
+.top_info_box {width:100%; background:url(../images/common/top_infobg02.gif) 0 0 repeat-x;height:36px;}
+.top_info_box:after{display:block;clear:both;content:''}
+
+.top_info_box li{ display:inline;float:left; background:url(../images/common/top_infobg01.gif) 0 0 no-repeat; padding:13px 0 0 15px; height:23px; font-size:11px; color:#313031;}
+.top_info_box li span {font-weight:bold;}
+.top_info_box li.loginfo{float:right; background:url(../images/common/top_infobg03.gif) right 0 no-repeat; padding-right:15px; padding-top:10px !important;}
+.top_info_box select{width:88px; height:20px; vertical-align:middle; border:1px solid #a5a6a5; background:#F7F3F7;}
+
+
+
+
+/* ASIDE */
+aside .todo { width:50px; margin-top:10px; margin-left:3px; background:url('../images/common/todo_bg.gif') 0 0 no-repeat;  padding:33px 0 11px 0;  line-height:18px;   }
+aside .todo  a{ color:#de49a5; font-weight:bold; text-decoration:underline;  }
+
+
+/* Section - 타이틀 영역 */
+section hgroup { background:url(../images/common/topbar_bar_bg.gif) 0 0 repeat-x;  padding:4px 15px 7px 10px; height:20px;}
+section hgroup.bs { background:url(../images/common/topbar_bar_bg02.gif) 0 0 repeat-x;}
+section hgroup.pa { background:url(../images/common/topbar_bar_bg03.gif) 0 0 repeat-x;}
+section hgroup.st { background:url(../images/common/topbar_bar_bg04.gif) 0 0 repeat-x;}
+section hgroup:after{display:block;clear:both;content:''}
+section hgroup h1 { float:left; font-size:12px; padding-top:5px; color:#fff; font-weight:bold; }
+section hgroup .util { float:right; }
+section hgroup .util ul li { float:left; }
+
+.iframe_box { padding:3px 0 10px 15px ; clear:both;}
+
+
+/*My Menu 2013-01-11 추가 */
+.my_menu_box {width:150px; position:absolute; right:56px; z-index:10000;margin-left:1175px;}
+.my_menu_box p.bottom{background:url('../images/mymenu/bottom.png') 0 0 no-repeat; height:10px;}
+
+.my_menu {border-left:1px solid #333;border-right:1px solid #333; background:#fff; padding:0px 8px;}
+.my_menu li {border-bottom:1px solid #ddd; width:134px;}
+.my_menu a {display:block; color:#333; padding:5px 0 5px 10px; background:#fff url('../images/mymenu/dot01.gif') 1px 8px no-repeat; line-height:14px; text-align:left; letter-spacing:-1px;}
+.my_menu a:hover {background-color:#efefef; color:#336598;}

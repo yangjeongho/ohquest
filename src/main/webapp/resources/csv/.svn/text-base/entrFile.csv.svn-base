@@ -1,0 +1,3 @@
+entrNo,custRnmNo,custName,custName1,custName2,addrNum,vilageAboveAddr,vilageBelowAddr,sexCode,occupationCode,entranceAgentCode,custDvCode,custKindCode
+300002730,AA13042700,파일33,등록을33,테스트33,565,서울시 구로구,구로3동 에이스,1,,,1,1
+300002729,AA13042800,파일23,등록을23,테스트23,565,서울시 구로구,구로3동 에이스,2,,,1,1

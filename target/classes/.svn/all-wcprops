@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/ohqueststock/!svn/ver/36/ohQuest/target/classes
+END
+database.properties
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/ohqueststock/!svn/ver/5/ohQuest/target/classes/database.properties
+END
+ehcache.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/ohqueststock/!svn/ver/5/ohQuest/target/classes/ehcache.xml
+END
+app-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/ohqueststock/!svn/ver/5/ohQuest/target/classes/app-servlet.xml
+END
+tomcatDataSource.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/ohqueststock/!svn/ver/36/ohQuest/target/classes/tomcatDataSource.xml
+END
+sqlMapConfig.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/ohqueststock/!svn/ver/36/ohQuest/target/classes/sqlMapConfig.xml
+END
+ohQuest.properties
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/ohqueststock/!svn/ver/36/ohQuest/target/classes/ohQuest.properties
+END
+webLogicDataSource.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/ohqueststock/!svn/ver/36/ohQuest/target/classes/webLogicDataSource.xml
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/ohqueststock/!svn/ver/5/ohQuest/target/classes/applicationContext.xml
+END
+djob.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/ohqueststock/!svn/ver/5/ohQuest/target/classes/djob.xml
+END
+dlaunch.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/ohqueststock/!svn/ver/5/ohQuest/target/classes/dlaunch.xml
+END
+log4j.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/ohqueststock/!svn/ver/36/ohQuest/target/classes/log4j.xml
+END
+tiles-defs.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/ohqueststock/!svn/ver/36/ohQuest/target/classes/tiles-defs.xml
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/ohqueststock/!svn/ver/303/ohQuest/src/main/java/app/madeinho/ohquest/stock/mystock
+END
+MyStockValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/ohqueststock/!svn/ver/94/ohQuest/src/main/java/app/madeinho/ohquest/stock/mystock/MyStockValidator.java
+END
+MyStock.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/ohqueststock/!svn/ver/303/ohQuest/src/main/java/app/madeinho/ohquest/stock/mystock/MyStock.java
+END
+MyStockRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/ohqueststock/!svn/ver/226/ohQuest/src/main/java/app/madeinho/ohquest/stock/mystock/MyStockRepository.java
+END
+MyStockService.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/ohqueststock/!svn/ver/226/ohQuest/src/main/java/app/madeinho/ohquest/stock/mystock/MyStockService.java
+END
+MyStockServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/ohqueststock/!svn/ver/226/ohQuest/src/main/java/app/madeinho/ohquest/stock/mystock/MyStockServiceImpl.java
+END
+MyStockController.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/ohqueststock/!svn/ver/303/ohQuest/src/main/java/app/madeinho/ohquest/stock/mystock/MyStockController.java
+END

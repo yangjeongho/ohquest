@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+		http://www.springframework.org/schema/batch http://www.springframework.org/schema/batch/spring-batch-2.1.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+		http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.0.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd
+		http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.0.xsd"
+	xmlns:batch="http://www.springframework.org/schema/batch"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:jee="http://www.springframework.org/schema/jee"> 
+ 
+ 	<context:property-placeholder location="/WEB-INF/classes/*.properties" order="0"/>
+	<context:component-scan base-package="app.madeinho.ohquest">
+		<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>		
+	</context:component-scan>
+	
+	<import resource="classpath:tomcatDataSource.xml"/>
+	<!-- <import resource="classpath:webLogicDataSource.xml"/> --> 
+	
+	<bean id="localeResolver" class="org.springframework.web.servlet.i18n.SessionLocaleResolver" />
+	
+	<bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+		<property name="basenames">
+			<list>
+				<value>com.message.i18n.pub_label</value>
+				<value>com.message.i18n.pub_messages</value>
+				<value>com.message.i18n.bs_label</value>
+				<value>com.message.i18n.bs_messages</value>
+				<value>com.message.i18n.co_label</value>
+				<value>com.message.i18n.co_messages</value>
+				<value>com.message.i18n.work_label</value>
+				<value>com.message.i18n.work_messages</value>
+				<value>com.message.i18n.vo_label</value>
+				<value>com.message.i18n.vo_messages</value>
+				<value>com.message.i18n.cos_label</value>
+				<value>com.message.i18n.cos_messages</value>
+				<value>com.message.i18n.cs_label</value>
+				<value>com.message.i18n.cs_messages</value>
+				<value>com.message.i18n.ccs_label</value>
+				<value>com.message.i18n.ccs_messages</value>
+				<value>com.message.i18n.bill_label</value>
+				<value>com.message.i18n.bill_messages</value>
+				<value>com.message.i18n.entr_label</value>
+				<value>com.message.i18n.entr_messages</value>
+				<value>com.message.i18n.roam_label</value>
+				<value>com.message.i18n.error_messages</value>
+				<value>com.message.i18n.res_label</value>	
+				<value>com.message.i18n.or_label</value>				
+			</list>
+		</property>
+	</bean>
+		
+	<bean id="messageSourceAccessor" class="org.springframework.context.support.MessageSourceAccessor">
+		<constructor-arg ref="messageSource" />
+	</bean>
+
+<!-- 
+	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver"
+		p:maxUploadSize="${attach.max.size}" p:uploadTempDir-ref="uploadDirResource" p:defaultEncoding="UTF-8" />
+ 		
+	<bean id="uploadDirResource" class="org.springframework.core.io.FileSystemResource">
+			<constructor-arg value="${attach.temp.path}" />
+
+	</bean>
+ -->
+   
+	<bean id="cacheManager" class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean"  p:configLocation="/WEB-INF/classes/ehcache.xml" />
+	<bean id="codeCache" class="org.springframework.cache.ehcache.EhCacheFactoryBean" p:cacheManager-ref="cacheManager" p:cacheName="codeCache"/>
+
+</beans>

@@ -1,0 +1,25 @@
+# sample
+sample.label.welcom=Welcome.
+sample.label.name=Sample
+
+## \uacf5\ud1b5 \ub77c\ubca8 
+cmn.label.list=List
+cmn.label.etc=Etc
+cmn.label.search=Search
+cmn.label.add=Add
+cmn.label.save=Save
+cmn.label.mod=Modify
+cmn.label.del=Delete
+cmn.label.view=View
+cmn.label.detail=Detail
+cmn.label.ok=Ok
+cmn.label.item=Item
+cmn.label.file=File
+cmn.label.close=Close
+cmn.label.yes=Yes
+cmn.label.no=No
+cmn.label.select=Select
+cmn.label.download=Download
+cmn.label.click=Click
+cmn.label.refresh=Refresh
+cmn.label.nothing=\uc5c6\uc74c

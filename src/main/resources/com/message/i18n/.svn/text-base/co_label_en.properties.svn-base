@@ -1,0 +1,427 @@
+# \uacf5\ud1b5
+cmn.btn.tempsave=tempsave
+cmn.btn.save=Save
+cmn.btn.newSave=New Save
+cmn.btn.close=Close
+cmn.btn.edit=Edit
+cmn.btn.check=Check
+cmn.btn.click=Click
+cmn.btn.product=product
+cmn.btn.confirm=Confirm
+cmn.btn.choose=choose
+cmn.btn.add=Add
+cmn.btn.downAdd=\u2193ADD
+cmn.btn.sdr=SDR
+cmn.btn.delete=Delete
+cmn.btn.upDelete=\u2191Delete
+cmn.btn.update=Update
+cmn.btn.new=New
+cmn.btn.pdf=Pdf
+cmn.btn.end=End
+cmn.btn.excel=Excel
+cmn.btn.history=History
+cmn.btn.saveconfirm=Save & Confirm
+cmn.btn.search=Search
+cmn.btn.yesno=Y/N
+cmn.btn.fileupload=Upload
+cmn.btn.templateDown=Template Down
+cmn.btn.repSubsReg=Rep Sub's Reg.
+cmn.btn.singleSubsReg=Single Sub's Reg
+cmn.btn.customerUpdate=Customer Update
+cmn.btn.template=Template
+cmn.btn.reset=Reset
+cmn.btn.modify=Modify
+cmn.btn.select=Select
+cmn.btn.cancel=Cancel
+cmn.btn.reg=Registration
+cmn.btn.multireg=Multi-Registration
+cmn.btn.apply=Apply
+cmn.btn.print=Print
+cmn.btn.sort=Sort
+cmn.btn.send=Send
+cmn.btn.load=Load
+cmn.btn.move=Move
+cmn.btn.more=More
+cmn.btn.seeMore=See More
+cmn.btn.button=Button
+cmn.btn.Promote=Promote
+cmn.btn.download=Download
+cmn.btn.creation=Creation
+cmn.btn.received=Received
+cmn.btn.regTimeBand=RegTimeBand
+cmn.btn.invoicetoPDF=Invoice to PDF
+cmn.btn.changeMemberType=Change MemberType
+cmn.btn.representative=Representative
+cmn.btn.RegTimeInterval=RegTimeInterval
+cmn.btn.modifyCode=Modify Code
+cmn.btn.addCode=Add Code
+cmn.btn.addMember=Add Member
+cmn.btn.deleteMember=Delete Member
+cmn.btn.preVision=PreVision
+cmn.btn.memberConfig=Member Config.
+cmn.btn.currencyPerSDR=Currency Per SDR
+cmn.btn.gotoStatus=Go to Status
+cmn.btn.gotoVerification=Go to Verification
+cmn.btn.gotoInvoiceStatus=Go to Invoice Status
+cmn.btn.goToInvoiceDetail=Go to Invoice Detail
+cmn.btn.stateUpdate=State Update
+cmn.btn.invoiceCreation=Invoice Creation
+cmn.btn.saveToExcel=Save To Excel
+cmn.btn.fileUpload=File Upload
+cmn.btn.createGroup=Create Group
+cmn.btn.updateGroup=Update Group
+cmn.btn.ggRate=GG Rate
+cmn.btn.groupCheck=Group Check
+cmn.btn.hlrView=HLR View
+cmn.btn.subscriptionView=Subscription View
+cmn.btn.NewBillAccount=New Bill Account
+cmn.btn.Viewoldproduct=View old product
+cmn.btn.autoVas=autoVas
+cmn.btn.Saveandconfirm=Save and confirm
+cmn.btn.SendXml=SendXml
+cmn.btn.SendVas=SendVas
+cmn.btn.SearchStatus=SearchStatus
+cmn.btn.Reserve=Reserve
+cmn.btn.Clear=Clear
+cmn.btn.ErrorDownload=Error Download
+
+co.label.at=@
+co.label.zero=0
+co.label.one=1
+co.label.two=2
+co.label.three=3
+co.label.four=4
+co.label.slash=/
+co.label.swungDash=~ 
+co.label.A=A
+co.label.B=B
+co.label.choose=:::Choose:::
+co.label.using=--\uc0ac\uc6a9\uc911--
+co.label.child=child
+co.label.parent=parent
+co.label.district=district
+co.label.subDistrict=subDistrict
+co.label.building=building
+co.label.entrance=entrance
+co.label.apt=apt
+co.label.location=location
+co.label.templateDown=template Download
+co.label.addressCode=addressCode
+co.label.doorCode=doorCode
+co.label.entranceName=Entrance Name
+co.label.doorName=Door Name
+co.label.result=Result
+co.label.message=message
+co.label.userInput=\uc0ac\uc6a9\uc790 \uc785\ub825
+co.label.agentId=AGENT_ID
+co.label.agentName=AGENT_NAME
+co.label.dlrId=DLR_ID
+co.label.effective=EFFECTIVE
+co.label.expiration=EXPIRATION
+co.label.workTelNo=WORK_TELNO
+co.label.naver=\ub124\uc774\ubc84
+co.label.daum=\ub2e4\uc74c
+co.label.gmail=Gmail
+co.label.msn=MSN
+co.label.relationType=Relation Type
+co.label.typeList=Type List
+co.label.relationName=Relation Name
+co.label.parentType=Parent Type
+co.label.lastLevelCheck=Last Level Check
+co.label.couselCodeName=Cousel Code Name
+co.label.explanation=Explanation
+co.label.functionName=Function Name
+co.label.newCodeId=new Code Id
+co.label.counselCode=Counsel Code
+co.label.subGroup1=Sub Group1
+co.label.subGroup2=Sub Group2
+co.label.featureCodeKind=Feature Code Kind
+co.label.instStartDttm=instStartDttm
+co.label.appInd=appInd
+co.label.installDate=Install Date
+co.label.page=Page
+co.label.url=url
+co.label.value=value
+co.label.scurityCharAuthentication=Scurity char Authentication
+
+#\uc5b8\uc5b4
+co.label.en=English
+co.label.ko=Korean
+co.label.mn=\u043c\u043e\u043d\u0433\u043e\u043b \u0445\u044d\u043b
+
+# \co\notice
+cmn.label.menu=Menu
+cmn.label.notice=Notice
+cmn.label.title=Title
+cmn.label.author=Author
+cmn.label.important=Important
+cmn.label.content=Content
+cmn.label.fileattach=FileAttach
+cmn.label.mytodolist=My ToDo List
+cmn.label.TaskReceipt=TaskReceipt
+cmn.label.MyTask=MyTask
+cmn.label.Notice-new=Notice-new
+cmn.label.Notice-modify=Notice-modify
+cmn.label.SaveComplete=Save Complete
+cmn.label.DeleteComplete=Delete Complete
+notice.label.WorkDetails=WorkDetails
+
+# \ucf54\ub4dc \uc804\uc6a9 \ub77c\ubca8 \uc131\uaca9
+code.label.mon=MON
+code.label.tue=TUE
+code.label.wed=WED
+code.label.thu=THU
+code.label.fri=FRI
+code.label.sat=SAT
+code.label.sun=SUN
+
+code.label.unitel=Unitel
+code.label.univision=Univision
+co.label.city=City
+
+
+code.label.000001=Code Management
+code.label.000002=Code Type
+code.label.000003=Code Id
+code.label.000004=CSV Upload
+code.label.000005=Used
+code.label.000006=Available Periode
+code.label.000007=Code Name
+code.label.000008=Explanation
+code.label.000009=Bill Account Number
+code.label.000010=Reason for Status Change
+code.label.000011=Reason for Status Details
+code.label.000012=That Month Rate
+code.label.000013=Arrears
+code.label.000014=Number of Subscriber Line
+code.label.000015=Type
+code.label.000016=Email
+code.label.000017=Name of Provider
+code.label.000018=Name of Representer
+code.label.000019=Type of Business
+code.label.000020=Business Status
+code.label.000021=Business Number
+code.label.000022=Service
+code.label.000023=Mobile
+code.label.000024=Premium
+code.label.000025=VAS Product
+code.label.000026=Mobile Product2
+code.label.000027=POST
+code.label.000028=NO BILL
+code.label.000029=E-Mail Address
+code.label.000030=Copy Customer E-MAIL
+code.label.000031=Bill Start Date
+code.label.000032=Bill End Date
+code.label.000033=Product Name
+
+# \uacf5\ud1b5\uc8fc\uc18c
+
+address.label.000001=0000
+address.label.000002=\uc0ac\uc6a9\uc790\uc815\ubcf4
+
+#bqCode
+bqCode.label.000001=RelationTypeList
+bqCode.label.000002=relsType
+bqCode.label.000003=custType
+bqCode.label.000004=relsCustType
+bqCode.label.000005=Relation
+
+# Product
+code.label.000034=Market
+code.label.000035=Product Code
+code.label.000036=Product Name
+code.label.000037=Service Domain
+code.label.000038=Bill Type
+code.label.000039=Product Type
+code.label.000040=Cust Division
+code.label.000041=Product Status
+code.label.000042=Sales Start Date
+code.label.000043=Sales End Date
+code.label.000044=Deferred Flag
+code.label.000045=Bundle Y/N
+code.label.000046=CUG Y/N
+code.label.000047=Bill Cycle
+code.label.000048=Treatement Price
+code.label.000049=Treatement Day
+code.label.000050=Discount Desc.
+code.label.000051=Bonus Desc.
+code.label.000052=Tariff Desc
+code.label.000053=Bound Deposit Y/N
+code.label.000054=Reservation Day
+code.label.000055=Auto Expire Day
+code.label.000056=Sms Period
+code.label.000057=Real Product Change Day
+code.label.000058=Short Name
+code.label.000059=Ext. Product Name
+code.label.000060=Currency
+code.label.000061=Cug Member Count
+code.label.000062=Product Sub Type
+code.label.000063=Next Join Product
+
+#code/code\ud3f4\ub354
+code.label.000064=LevelSeq
+code.label.000065=Level
+code.label.000066=Time
+code.label.000067=Group_seq
+code.label.000068=Name
+code.label.000069=User Name
+code.label.000070=counsel Type
+code.label.000071=Counsel Category
+code.label.000072=Counsel
+code.label.000073=Group
+code.label.000074=User
+code.label.000075=Type Level1
+code.label.000076=Type Level2
+code.label.000077=Type Level3
+code.label.000078=Type Level4
+code.label.000079=Type Level5
+code.label.000080=Code
+code.label.000081=Kind Cd
+code.label.000082=Kind
+code.label.000083=Unit Division Code
+code.label.000084=Code Detail
+code.label.000085=Suspend Y/N
+code.label.000086=Add Code
+code.label.000087=Modify Code
+code.label.000088=Group name
+code.label.000089=Activity Seq
+code.label.000090=ItemLinkSeq
+code.label.000091=Type Lev1 Add Box
+code.label.000092=Type Lev2 Add Box
+code.label.000093=Type Lev3 Add Box
+code.label.000094=Type Lev4 Add Box
+code.label.000095=Type Lev5 Add Box
+code.label.000096=Lev3 Type Event Id
+code.label.000097=Lev3 Type Event Add Box
+code.label.000098=Lev4 Type Event Id
+code.label.000099=Lev4 Type Event Add Box
+code.label.000100=Lev5 Type Event Id
+code.label.000101=Lev5 Type Event Add Box
+
+
+#code/counsel
+counsel.label.000001=CCMITEMQUESSEQ
+counsel.label.000002=ITEM_NAME
+counsel.label.000003=TOP_QUESTION
+counsel.label.000004=ItemSeq
+counsel.label.000005=ItemGrpActSeq
+counsel.label.000006=PARENT_Ques_Desc
+counsel.label.000007=Activity
+counsel.label.000008=ccmItemSeq
+counsel.label.000009=itemNm
+counsel.label.000010=QnA
+counsel.label.000011=Question_Link List
+counsel.label.000012=Answer_Link List
+counsel.label.000013=Question List
+counsel.label.000014=Answer List
+counsel.label.000015=QnA List
+counsel.label.000016=ccmItemLinkSeq
+counsel.label.000017=parentCcmItemLinkSeq
+counsel.label.000018=ccmItemQuesSeq
+counsel.label.000019=ccmItemAnswSeq
+counsel.label.000020=ccmItemSeq
+counsel.label.000021=linkLevel
+counsel.label.000022=Type Name
+
+
+#coverage
+coverage.label.000001=\uc124\uce58\uc77c
+
+#error
+error.msg.000001=403 ERROR
+error.msg.000002=404 ERROR
+error.msg.000003=500 ERROR
+
+#eventLnkg
+eventLnkg.label.ABA_CO_LNKG=ABA_CO_LNKG
+eventLnkg.label.ABA_CO_LNKG_DTL=ABA_CO_LNKG_DTL
+eventLnkg.label.ABA_CO_LNKG_DEV=ABA_CO_LNKG_DEV
+eventLnkg.label.ABA_CO_LNKG_SUBSCRIBER=ABA_CO_LNKG_SUBSCRIBER
+eventLnkg.label.aplyDttm=aplyDttm
+eventLnkg.label.bfrImsi=bfrImsi
+eventLnkg.label.bfrmeid=bfrmeid
+eventLnkg.label.bfrProdNo=bfrProdNo
+eventLnkg.label.bfrSimNo=bfrSimNo
+eventLnkg.label.cableId=cableId
+eventLnkg.label.crteDttm=crteDttm
+eventLnkg.label.devType=devType
+eventLnkg.label.dlServiceCode=dlServiceCode
+eventLnkg.label.dlUpdateStamp=dlUpdateStamp
+eventLnkg.label.mac=mac
+eventLnkg.label.meid=meid
+eventLnkg.label.modelId=modelId
+eventLnkg.label.piType=piType
+eventLnkg.label.prodNo=prodNo
+eventLnkg.label.prssApplCd=prssApplCd
+eventLnkg.label.pvSttsCd=pvSttsCd
+eventLnkg.label.pvSttsTime=pvSttsTime
+eventLnkg.label.rsnCd=rsnCd
+eventLnkg.label.serial=serial
+eventLnkg.label.simNo=simNo
+eventLnkg.label.smcId=smcId
+eventLnkg.label.sysCreationDate=sysCreationDate
+eventLnkg.label.sysUdpateDate=sysUdpateDate
+eventLnkg.label.userPw=userPw
+eventLnkg.label.voipPridUrl=voipPridUrl
+eventLnkg.label.workChnlCd=workChnlCd
+eventLnkg.label.workDvCd=workDvCd
+eventLnkg.label.lnkgSeqno=lnkgSeqno
+eventLnkg.label.valdStrtDttm=valdStrtDttm
+eventLnkg.label.ftrValue=ftrValue
+eventLnkg.label.ftrParam=ftrParam
+eventLnkg.label.valdEndDttm=valdEndDttm
+eventLnkg.label.devSeqno=devSeqno
+eventLnkg.label.lnkbSubsSeqno=lnkbSubsSeqno
+eventLnkg.label.assignDate=assignDate
+eventLnkg.label.releaseDate=releaseDate
+eventLnkg.label.subMac=subMac
+eventLnkg.label.gwSerial=gwSerial
+eventLnkg.label.gwDevId=gwDevId
+eventLnkg.label.bandWidth=bandWidth
+eventLnkg.label.quota=quota
+
+#eventlog
+eventlog.label.ControllerId=Controller Id
+eventlog.label.ControllerName=Controller Name
+eventlog.label.CTN=CTN
+eventlog.label.logSeqno=logSeqno
+
+#eventName
+eventName.label.EventNameList=Event Name List
+eventName.label.EventNameDetail=Event Name Detail
+eventName.label.controlid=controlid
+eventName.label.ControlNm=ControlNm
+
+#memoKd
+memoKd.label.MemoCode=Memo Code
+memoKd.label.MemoName=Memo Name
+memoKd.label.MemoDivision=Memo Division
+memoKd.label.Memo=Memo
+memoKd.label.ParameterNumber=Parameter Number
+memoKd.label.MemoKindList=Memo Kind List
+memoKd.label.MemoKindDetail=Memo Kind Detail
+
+#file
+file.label.Home=Home
+
+#login
+login.label.SelectMarket=Select Market
+
+#smsEvent
+co.smscode.smscode.label.00000=Sms Type
+co.smscode.smscode.label.00001=Sms Name
+co.smscode.smscode.label.00002=Event Code
+co.smscode.smscode.label.00003=Sms Code List
+co.smscode.smscode.label.00004=Sms Code Detail
+co.smscode.smscode.label.00005=SMS Phr
+co.smscode.smscode.label.00006=event description
+co.smscode.smscode.label.00007=Language
+co.smscode.smscode.label.00008=Event NM
+co.smscode.smscode.label.00009=Sys Creation Date
+co.smscode.smscode.label.000010=Update Date
+co.smscode.smscode.label.000011=Operator ID
+
+#security
+co.security.label.000001=Change User
+co.security.label.000002=Change
+co.security.label.000003=User ID

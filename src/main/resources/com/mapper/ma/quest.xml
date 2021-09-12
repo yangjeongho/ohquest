@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
+<mapper namespace="app.madeinho.ohquest.ma.quest.QuestRepository">
+
+
+	<select id="getQuestAlltList" parameterType="AsQuest" resultType="AsQuest">
+		SELECT
+					idOH_MEMBER,
+					idOH_MEMBER_TRGT,
+					OH_MUMBER_ID,
+					TYPE_KD,
+					TYPE_CD,
+					NAME_1,
+					NAME_2,
+					NAME_3,
+					EMAIL_ADDR,
+					MOBILE_NO,
+					ETC_PHONE1,
+					ETC_PHONE2,
+					BDAY,
+					ADDRESS_1,
+					ADDRESS_2,
+					COUNTRY_CD,
+					CONT_CREATE_DATE,
+					CONT_UPDATE_DATE,
+					CONT_SYSTEM
+		 FROM MA_PROJECT
+	</select>
+	
+
+	<select id="getQuestList" parameterType="string" resultType="AsQuest">
+		SELECT
+			  AGENT_ID         As agentId,
+			  ORG_CODE         As orgCode,
+			  DLR_ID           As dlrId,
+			  AGENT_NAME       As agentName,
+			  CURRENT_PASSWORD As password,
+			  EFFECTIVE_DATE8  As effectiveDate,
+			  EXPIRATION_DATE8 As expirationData,
+			  EMAIL_ADDRESS    As emailQuest,
+			  HOME_TELNO       As homeTelno
+		 FROM MA_PROJECT
+	</select>
+	
+	<insert id="insertQuest" parameterType="AsQuest">
+        INSERT INTO MA_QUEST (
+			idMA_PROJECT,
+			QUEST_STATUS,
+			Q_WHO,
+			Q_WHEN,
+			Q_WHERE,
+			Q_WHAT,
+			Q_WHY,
+			Q_HOW,
+			QUEST_DESC,
+			PURPOSE,
+			QUEST_POLICY,
+			EFFECT_START,
+			EFFECT_PROCESS,
+			EFFECT_END,
+			QUEST_PERSONS,
+			QUEST_REG_DATE,
+			QUEST_STRT_DATE,
+			QUEST_END_DATE,
+			CONT_CREATE_DATE,
+			CONT_UPDATE_DATE,
+			CONT_SYSTEM
+        ) VALUES(
+			#{idmaProject      ,jdbcType=VARCHAR}, 
+			#{questStatus      ,jdbcType=VARCHAR},
+			#{qWho              ,jdbcType=VARCHAR},
+			#{qWhen             ,jdbcType=VARCHAR},
+			#{qWhere            ,jdbcType=VARCHAR},
+			#{qWhat             ,jdbcType=VARCHAR},
+			#{qWhy              ,jdbcType=VARCHAR},
+			#{qHow              ,jdbcType=VARCHAR},
+			#{questDesc        ,jdbcType=VARCHAR},
+			#{purpose          ,jdbcType=VARCHAR},
+			#{questPolicy      ,jdbcType=VARCHAR},
+			#{effectStart      ,jdbcType=VARCHAR},
+			#{effectProcess    ,jdbcType=VARCHAR},
+			#{effectEnd        ,jdbcType=VARCHAR},
+			#{questPersons     ,jdbcType=VARCHAR},
+			#{questRegDate     ,jdbcType=VARCHAR},
+			#{questStrtDate    ,jdbcType=VARCHAR},
+			#{questEndDate     ,jdbcType=VARCHAR},
+			now(),
+			#{contUpdateDate   ,jdbcType=VARCHAR},
+			#{contSystem       ,jdbcType=VARCHAR}
+        )      
+	</insert>
+
+</mapper>

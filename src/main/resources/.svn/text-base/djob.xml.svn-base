@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/batch http://www.springframework.org/schema/batch/spring-batch-2.1.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <import resource="classpath:dlaunch.xml" />
+    
+	<job id="djob" xmlns="http://www.springframework.org/schema/batch">
+		<step id="step3">
+			<tasklet ref="myTasklet"/>
+			<!--  <tasklet ref="fileDeletingTasklet" />-->
+		</step>
+	</job>
+
+	<bean id="myTasklet" class="org.springframework.batch.core.step.tasklet.MethodInvokingTaskletAdapter"> 
+		<property name="targetObject"> 
+		    <!--<bean class="com.unitel.acube.batch.d.JdbcUserDao" p:dataSource-ref="dataSource" />-->
+		    
+		    <!--  <bean class="com.acube.unitel.or.user.UserServiceImpl"  /> -->
+		    
+		    
+		</property>
+		<property name="targetMethod" value="saveUserBatch" /> 
+	</bean>
+	<!--  <bean id="fileDeletingTasklet"
+		class="com.unitel.acube.batch.d.TaskletProcess">
+		<property name="directoryResource">
+			<bean id="directory"
+				class="org.springframework.core.io.FileSystemResource">
+				<constructor-arg value="target/test-outputs/test-dir" />
+			</bean>
+		</property>
+	</bean>-->
+</beans>

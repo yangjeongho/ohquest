@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
+<mapper namespace="app.madeinho.ohquest.stock.day.StockRepository">
+	<sql id="dayRateColumn">
+		SC_CODE          AS scCode        ,
+		TYPE             AS type          ,
+		REG_DATE         AS regDate       ,
+		SITE_REG_DT      AS siteRegDt     ,
+		PRO_STATUS       AS proStatus     ,
+		PRO_CAN_DATE     AS proCanDate    ,
+		PRO_APP_DATE     AS proAppDate    ,
+		NAME             AS name          ,
+		SI_RATE          AS siRate        ,
+		HI_RATE          AS hiRate        ,
+		LOW_RATE         AS lowRate       ,
+		COL_RATE         AS colRate       ,
+		COL_TYPE         AS colType       ,
+		SALE_COUNT       AS saleCount     ,
+		SALE_AMT         AS saleAmt       ,
+		CONT_CREATE_DATE AS contCreateDate,
+		CONT_UPDATE_DATE AS contUpdateDate,
+		CONT_SYSTEM      AS contSystem    ,
+		100*(HI_RATE/SI_RATE) AS upPs
+	</sql>
+	
+	 	<insert id="addStockDay" parameterType="AsStock">
+		INSERT INTO SC_DAY_RATE(
+			SC_CODE          ,
+			TYPE             ,
+			REG_DATE         ,
+			SITE_REG_DT      ,
+			PRO_STATUS       ,
+			PRO_CAN_DATE     ,
+			PRO_APP_DATE     ,
+			NAME             ,
+			SI_RATE          ,
+			HI_RATE          ,
+			LOW_RATE         ,
+			COL_RATE         ,
+			COL_TYPE         ,
+			SALE_COUNT       ,
+			SALE_AMT         ,
+			CONT_CREATE_DATE 
+			
+		) VALUES(
+			 #{scCode        ,jdbcType=VARCHAR},               
+			 #{type          ,jdbcType=VARCHAR},
+			 SYSDATE(),
+			 #{siteRegDt     ,jdbcType=VARCHAR},
+			 #{proStatus     ,jdbcType=VARCHAR},
+			 #{proCanDate    ,jdbcType=VARCHAR},
+			 #{proAppDate    ,jdbcType=VARCHAR},
+			 #{name          ,jdbcType=VARCHAR},
+			 #{siRate        },                 
+			 #{hiRate        },                 
+			 #{lowRate       },                 
+			 #{colRate       },                 
+			 #{colType       ,jdbcType=VARCHAR},
+			 #{saleCount     ,jdbcType=VARCHAR},
+			 #{saleAmt       },                 
+			 SYSDATE()          
+			
+		)
+	</insert>
+	
+<!-- 	<insert id="addCode" parameterType="AsLookupCode">
+		INSERT INTO aba_co_fnd_lookup_values(
+			ccode_group        
+			, language           
+			, ccode        
+			, meaning            
+			, description        
+			, enabled_flag       
+			, start_date_active  
+			, end_date_active    
+			, created_by         
+			, creation_date      
+			, last_updated_by    
+			, last_update_date   
+			, source_lang        
+			, security_group_id  
+			, application_id
+			, svc_domain
+			, sub_grp1	
+			, sub_grp2	
+		) VALUES(
+			  #{codeGroup       }
+			, #{language         }
+			, #{code       }
+			, #{meaning          ,jdbcType=VARCHAR}
+			, #{description      ,jdbcType=VARCHAR}
+			, #{ enabledFlag     }
+			, #{startDateActive  ,jdbcType=VARCHAR}
+			, #{endDateActive    ,jdbcType=VARCHAR}
+			, #{operator.userId       }
+			, SYSDATE
+			, #{operator.userId  ,jdbcType=VARCHAR}
+			, SYSDATE
+			, #{sourceLang       }
+			, #{securityGroupId  ,jdbcType=VARCHAR}
+			, #{applicationId, jdbcType=VARCHAR}
+			, #{svcDomain	 , jdbcType=VARCHAR}
+			, #{subGrp1	 	 , jdbcType=VARCHAR}
+			, #{subGrp2	 	 , jdbcType=VARCHAR}
+		)
+	</insert>
+	<update id="updateCode" parameterType="AsLookupCode">
+		UPDATE aba_co_fnd_lookup_values 
+		SET enabled_flag 	  = #{enabledFlag}                   
+		, meaning             = #{meaning          ,jdbcType=VARCHAR} 
+		, description         = #{description      ,jdbcType=VARCHAR}
+		, svc_domain          = #{svcDomain	 	   , jdbcType=VARCHAR}  
+		, sub_grp1	          = #{subGrp1	 	   , jdbcType=VARCHAR}  
+		, sub_grp2	          = #{subGrp2	 	   , jdbcType=VARCHAR}  
+		, start_date_active   = #{startDateActive  ,jdbcType=VARCHAR}    
+		, end_date_active     = #{endDateActive    ,jdbcType=VARCHAR}    
+		, last_updated_by   = #{operator.userId  ,jdbcType=VARCHAR} 
+		, last_update_date    = SYSDATE
+		WHERE ccode_group = #{codeGroup}
+		AND ccode = #{code}
+		AND language = #{language} 
+	</update> -->
+
+<!--  	
+	<insert id="addOrUpdateCode" parameterType="AsLookupCode">
+    MERGE /*+ LEADING(S) USE_NL(S T) */
+	 INTO ABA_CO_FND_LOOKUP_VALUES  T                       				       		
+	USING
+	(
+	SELECT	
+		  #{codeGroup}									AS  CCODE_GROUP        	
+		, #{language}									AS  LANGUAGE              
+		, #{code}										AS  CCODE                 
+		, #{meaning          ,jdbcType=VARCHAR}			AS  MEANING               
+		, #{description      ,jdbcType=VARCHAR}			AS  DESCRIPTION           
+		, #{enabledFlag}								AS  ENABLED_FLAG          
+		, #{startDateActive  ,jdbcType=VARCHAR}			AS  START_DATE_ACTIVE     
+		, #{endDateActive    ,jdbcType=VARCHAR}			AS  END_DATE_ACTIVE       
+		, #{operator.userId}							AS  CREATED_BY            
+		, SYSDATE										AS  CREATION_DATE         
+		, #{operator.userId  ,jdbcType=VARCHAR}			AS  LAST_UPDATED_BY       
+		, SYSDATE										AS  LAST_UPDATE_DATE      
+		, #{sourceLang}									AS  SOURCE_LANG           
+		, #{securityGroupId  ,jdbcType=VARCHAR}			AS  SECURITY_GROUP_ID     
+		, #{applicationId	 ,jdbcType=VARCHAR}			AS  APPLICATION_ID        
+		, #{svcDomain	 	 ,jdbcType=VARCHAR}			AS  SVC_DOMAIN            
+		, #{subGrp1	 	 	 ,jdbcType=VARCHAR}			AS  SUB_GRP1	            
+		, #{subGrp2	 	 	 ,jdbcType=VARCHAR}			AS  SUB_GRP2
+		
+	FROM DUAL
+	) S
+	ON (
+			   T.CCODE_GROUP	= S.CCODE_GROUP
+		  AND  T.CCODE			= S.CCODE
+		  AND  T.LANGUAGE		= S.LANGUAGE
+	)
+	WHEN MATCHED THEN
+	UPDATE
+	   SET
+		  T.ENABLED_FLAG 	  	= S.ENABLED_FLAG 	  
+		, T.MEANING             = S.MEANING           
+		, T.DESCRIPTION         = S.DESCRIPTION       
+		, T.SVC_DOMAIN          = S.SVC_DOMAIN        
+		, T.SUB_GRP1	        = S.SUB_GRP1	     	
+		, T.SUB_GRP2	        = S.SUB_GRP2	     	
+		, T.START_DATE_ACTIVE   = S.START_DATE_ACTIVE 
+		, T.END_DATE_ACTIVE     = S.END_DATE_ACTIVE   
+		, T.LAST_UPDATED_BY   	= S.LAST_UPDATED_BY   
+		, T.LAST_UPDATE_DATE    = SYSDATE
+
+	WHEN NOT MATCHED THEN
+	INSERT													
+	   (  	  
+		  CCODE_GROUP       
+		, LANGUAGE          
+		, CCODE             
+		, MEANING           
+		, DESCRIPTION       
+		, ENABLED_FLAG      
+		, START_DATE_ACTIVE 
+		, END_DATE_ACTIVE   
+		, CREATED_BY        
+		, CREATION_DATE     
+		, LAST_UPDATED_BY   
+		, LAST_UPDATE_DATE  
+		, SOURCE_LANG       
+		, SECURITY_GROUP_ID 
+		, APPLICATION_ID    
+		, SVC_DOMAIN        
+		, SUB_GRP1	      
+		, SUB_GRP2	      
+	   ) 
+        VALUES(
+		  S.CCODE_GROUP      
+        , S.LANGUAGE         
+        , S.CCODE            
+        , S.MEANING          
+        , S.DESCRIPTION      
+        , S.ENABLED_FLAG         
+        , S.START_DATE_ACTIVE
+        , S.END_DATE_ACTIVE  
+        , S.CREATED_BY       
+		, SYSDATE    
+		, S.LAST_UPDATED_BY  
+		, SYSDATE
+        , S.SOURCE_LANG      
+        , S.SECURITY_GROUP_ID
+        , S.APPLICATION_ID   
+        , S.SVC_DOMAIN       
+        , S.SUB_GRP1	      
+        , S.SUB_GRP2	      
+		)
+	
+	</insert>
+	
+	<delete id="deleteCode" parameterType="AsLookupCode">
+		DELETE FROM aba_co_fnd_lookup_values
+		WHERE ccode_group = #{codeGroup}
+		AND ccode = #{code}
+	</delete>
+	
+	<select id="getCode" parameterType="AsLookupCode" resultType="AsLookupCode">
+		SELECT
+		<include refid="codeColumn"/>
+		FROM aba_co_fnd_lookup_values
+		WHERE ccode_group = #{codeGroup}
+		AND ccode   = #{code}
+		AND language      = #{language}
+		ORDER BY ccode
+	</select>
+	
+	<select id="getCodeTypeList" parameterType="string" resultType="AsLookupCode">
+		SELECT
+		DISTINCT ccode_group         AS codeGroup       
+		FROM aba_co_fnd_lookup_values
+		WHERE language      = #{language}
+		ORDER BY ccode_group
+	</select>
+-->	
+<!--
+	<select id="getCodeList" parameterType="string" resultType="AsCode">
+		SELECT
+		<include refid="codeColumn"/>
+		FROM CO_CODE
+		WHERE CODE_GROUP = #{codeGroup}
+		ORDER BY CODE_ID
+	</select>
+	
+
+	<select id="getEventProdCdList" parameterType="hashmap" resultType="AsCode">
+		select distinct  ext_prod_cd AS codeId,   
+		       ext_prod_cd AS codeName
+		      , '' AS tmpMode
+		      , '' AS tmpVal1
+		      , '' AS tmpVal2
+		from aba_sb_svc_sms_phr_by_evnt
+		order by ext_prod_cd		  
+	</select>
+ 		
+	<select id="getLanguageList" parameterType="hashmap" resultType="AsCode">
+		select distinct  LANGUAGE AS codeId,   
+		       LANGUAGE AS codeName
+		      , '' AS tmpMode
+		      , '' AS tmpVal1
+		      , '' AS tmpVal2
+		from aba_sb_svc_sms_phr_by_evnt	
+		order by LANGUAGE	  
+	</select>
+--> 	
+
+	<select id="getCountRegData" parameterType="string" resultType="int">
+		SELECT count(1) cnt
+		FROM SC_DAY_RATE A
+		WHERE SITE_REG_DT = #{siteRegDt}
+	</select>
+
+	<select id="getCountRegDataScCode" parameterType="AsStock" resultType="int">
+		SELECT count(1) cnt
+		FROM SC_DAY_RATE A
+		WHERE SITE_REG_DT = #{siteRegDt}
+		  AND SC_CODE     = #{scCode        ,jdbcType=VARCHAR}
+	</select>
+		
+    <select id="getMaxDayRate" parameterType="AsStock" resultType="AsStock">
+		SELECT
+		<include refid="dayRateColumn"/>
+		 FROM SC_DAY_RATE X,
+				(
+				select max(idSC_DAY_SEQ) idSC_DAY_SEQ
+				from SC_DAY_RATE 
+			 	<if test="scCode != null and scCode != ''">
+			 	WHERE
+					SC_CODE LIKE CONCAT('%', #{scCode          ,jdbcType=VARCHAR}, '%')
+					or
+					NAME    LIKE CONCAT('%', #{scCode          ,jdbcType=VARCHAR}, '%')
+				</if>				
+				 group by SC_CODE) Y
+		 WHERE X.idSC_DAY_SEQ = Y.idSC_DAY_SEQ
+         ORDER BY 100*(HI_RATE/SI_RATE) DESC
+         
+		 <if test="scCode == null or scCode == ''">
+			limit 0,50
+		 </if>
+		 <if test="scCode != null and scCode != ''">
+			limit 0,200
+		 </if>
+		 
+	</select>
+	
+    <select id="getStockDay30Info" parameterType="AsStock" resultType="AsStock">
+		SELECT DATE_FORMAT(cont_create_date, '%Y-%m-%d') as sdate,
+				sc_code, 
+				avg(si_rate),max(si_rate) ,
+				min(si_rate),
+		        (max(si_rate)-min(si_rate))/max(si_rate) *100
+		FROM SC_DAY_RATE 
+		where cont_create_date between DATE_ADD(SYSDATE(), INTERVAL -30 DAY) and sysdate() 
+		and sc_code = #{scCode        ,jdbcType=VARCHAR}
+		GROUP BY DATE_FORMAT(cont_create_date, '%Y-%m-%d'), sc_code ORDER BY sdate 
+	</select>		
+		
+</mapper>

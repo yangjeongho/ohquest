@@ -1,0 +1,1163 @@
+# \ub77c\ubca8 \uc815\uc758 \ubd80\ubd84
+## \uc608\uc81c, bs.label.list=\ubaa9\ub85d
+
+#menu title
+menu.bs.title.000000=\uccad\uad6c/\uc218\ub0a9
+menu.bs.title.000001=\uccad\uc218\ubbf8\uad00\ub9ac
+menu.bs.title.000002=\uacfc\uae08
+menu.bs.title.000003=\uc11c\ube44\uc2a4\uc774\ub825\uc870\ud68c
+menu.bs.title.000004=\uc11c\ube44\uc2a4\ub0b4\uc5ed\uc870\ud68c
+menu.bs.title.000005=\uc11c\ube44\uc2a4\uc694\uc57d\uc870\ud68c
+menu.bs.title.000006=\uc7ac\uacfc\uae08\uc694\uccad\uad00\ub9ac
+menu.bs.title.000007=\uc7ac\uacfc\uae08\uc694\uccad\ub4f1\ub85d
+menu.bs.title.000008=\uc7ac\uacfc\uacfc\uae08\uc694\uccad\ub0b4\uc5ed\uc870\ud68c
+menu.bs.title.000009=\uccad\uad6c
+menu.bs.title.000010=\uccad\uad6c\uc815\ubcf4\uc870\ud68c
+menu.bs.title.000011=\ud56b\ube4c
+menu.bs.title.000012=\uccad\uad6c/\ub0b4\uc5ed\ud604\ud669\uad00\ub9ac
+menu.bs.title.000013=\uac01\uc885\ub0b4\uc5ed\uc11c\ubc1c\ud589
+menu.bs.title.000014=\uc815\uaddc\uccad\uad6c\uc11c\ubc1c\ud589\ub0b4\uc5ed\uc870\ud68c
+menu.bs.title.000015=\ubd84\ub9ac\uccad\uad6c
+menu.bs.title.000016=\uccad\uad6c\uacc4\uc815\ubd84\ub9ac
+menu.bs.title.000017=\uccad\uad6c\uacc4\uc815\ud1b5\ud569
+menu.bs.title.000018=\ub85c\ubc0d\uccad\uad6c
+menu.bs.title.000019=\ub85c\ubc0d\uccad\uad6c\ub0b4\uc5ed
+menu.bs.title.000020=\uccad\uad6c\ud560\uc778
+menu.bs.title.000021=\uc870\uc815
+menu.bs.title.000022=\uc694\uae08\uc870\uc815
+menu.bs.title.000023=\uc870\uc815\uc774\ub825
+menu.bs.title.000024=\ub0a9\ubd80
+menu.bs.title.000025=\ub0a9\ubd80\ub0b4\uc5ed
+menu.bs.title.000026=\ubbf8\ub0a9
+menu.bs.title.000027=\ubbf8\ub0a9\ub0b4\uc5ed
+menu.bs.title.000028=\uc694\uae08\uc9c0\uc6d0
+menu.bs.title.000029=\ubbf8\ub0a9\ud604\ud669
+menu.bs.title.000030=\ubbf8\ub0a9\ud68c\uc218\ud604\ud669
+menu.bs.title.000031=\uace0\uc561\ubbf8\ub0a9\ud604\ud669
+menu.bs.title.000032=\uc740\ud589\ub0a9\ubd80\ub0b4\uc5ed\uc870\ud68c
+menu.bs.title.000033=OCS\uc5f0\ub3d9\ub0a9\ubd80\uc870\ud68c
+menu.bs.title.000034=\uc9c1\uad8c\ud574\uc9c0\ub300\uc0c1\uc790\uc870\ud68c
+menu.bs.title.000035=\ub300\uc190\uad00\ub9ac
+menu.bs.title.000036=\ub300\uc190\ub300\uc0c1\uc790\uc870\ud68c
+menu.bs.title.000037=\ub300\uc190\ub300\uc0c1\uc790\ub4f1\ub85d
+menu.bs.title.000038=\uac00\uc785\uc790\uc120\ud0dd
+menu.bs.title.000039=\uc77c\ubc18\uc218\ub0a9
+menu.bs.title.000040=E-Bank \ub0a9\ubd80
+menu.bs.title.000041=\uac00\uc785\uc790\ubcc4 \uc218\ub0a9
+menu.bs.title.000042=\ub300\uc190\uc190\uc2e4\ub4f1\ub85d
+menu.bs.title.000043=\uc5d0\uc774\uc9d5\ud604\ud669
+bs.mn.test.000000=\ud55c\uae00\u3139\u3139\u3139\u3139\u3139
+
+
+
+menu.bs.title.000100=\uc120\ubd88\ucda9\uc804
+menu.bs.title.000101=\uc120\ubd88\ucda9\uc804 \ub4f1\ub85d
+menu.bs.title.000102=\uc120\ubd88\ucda9\uc804 \uc870\ud68c
+menu.bs.title.000103=\ucda9\uc804\uc774\ub825 \uc870\ud68c
+menu.bs.title.000104=\ubcf4\uc99d\uae08
+menu.bs.title.000105=\ubcf4\uc99d\uae08 \ucd94\uac00\ub4f1\ub85d
+menu.bs.title.000106=\ubcf4\uc99d\uae08 \ud658\ubd88\ub4f1\ub85d
+menu.bs.title.000107=\ubcf4\uc99d\uae08 \uc794\uc561\uc870\ud68c
+menu.bs.title.000108=\ubcf4\uc99d\uae08 \uc774\ub825\uc870\ud68c
+
+
+menu.bs.title.000109=\ub9ac\ud3ec\ud2b8 \uad00\ub9ac
+menu.bs.title.000110=\uc694\uc57d\uc7a5\ud45c\ud604\ud669
+menu.bs.title.000111=\uc6b4\uc601\uc9c0\uc6d0
+menu.bs.title.000112=\uccad\uad6c\uc9c0\uc6d0
+menu.bs.title.000113=\uccad\uad6c\uc8fc\uae30\ub4f1\ub85d
+menu.bs.title.000114=\uccad\uad6c\ud56d\ubaa9\ub4f1\ub85d
+menu.bs.title.000115=\uccad\uad6c\uc11c\uba54\uc138\uc9c0\ub4f1\ub85d
+menu.bs.title.000116=\uccad\uad6c\ud56d\ubaa9\uba54\uc138\uc9c0\ub4f1\ub85d
+menu.bs.title.000117=\ub0a9\ubd80\uc9c0\uc6d0
+menu.bs.title.000118=\uac00\uc785\uc790\ub0a9\ubd80\uc6b0\uc120\uc21c\uc704
+menu.bs.title.000119=\uc778\ubcf4\uc774\uc2a4\uc720\ud615\ub0a9\ubd80\uc6b0\uc120\uc21c\uc704
+menu.bs.title.000120=\ub0a9\ubd80\uc6b0\uc120\uc21c\uc704
+
+
+
+
+#dialog title
+dialog.bsArManage.title=\uccad\uad6c/\uc218\ub0a9/\ubbf8\ub0a9 \uad00\ub9ac
+dialog.bs1.title=\uc694\uae08 > \uacfc\uae08 > \uc11c\ube44\uc2a4\uc774\uc6a9\ub0b4\uc5ed\uc870\ud68c > \uc11c\ube44\uc2a4\ub0b4\uc5ed\uc870\ud68c
+dialog.bs2.title=\uc694\uae08 > \uacfc\uae08 > \uc11c\ube44\uc2a4\uc774\uc6a9\ub0b4\uc5ed\uc870\ud68c > \uc11c\ube44\uc2a4\uc694\uc57d\uc870\ud68c
+#dialog.bs3.title=\uc694\uae08 > \uacfc\uae08  > \uc7ac\uacfc\uae08\uc694\uccad\uad00\ub9ac > \uc7ac\uacfc\uae08\uc694\uccad\ub4f1\ub85d
+#dialog.bs4.title=\uc694\uae08 > \uacfc\uae08  > \uc7ac\uacfc\uae08\uc694\uccad\uad00\ub9ac > \uc7ac\uacfc\uae08\uc694\uccad\ub0b4\uc5ed\uc870\ud68c
+dialog.bs5.title=\uc694\uae08 > \uccad\uad6c > \uccad\uad6c\uc815\ubcf4\uc870\ud68c
+dialog.bs6.title=\uc694\uae08 > \uccad\uad6c > HotBill\uc870\ud68c
+dialog.bs8.title=\uc694\uae08 > \uccad\uad6c > \uccad\uad6c\uc11c/\ub0b4\uc5ed\uc11c\uad00\ub9ac > \uac01\uc885\ub0b4\uc5ed\uc11c\ubc1c\ud589
+dialog.bs81.title=\uc694\uae08 > \uccad\uad6c > \uccad\uad6c\uc11c/\ub0b4\uc5ed\uc11c\uad00\ub9ac > \uac01\uc885\ub0b4\uc5ed\uc11c\ubc1c\ud589\uc2e0\uccad
+dialog.bs9.title=\uc694\uae08 > \uccad\uad6c > \uccad\uad6c\uc11c/\ub0b4\uc5ed\uc11c\uad00\ub9ac > \uc815\uaddc\uccad\uad6c\uc11c\ubc1c\ud589\ub0b4\uc5ed\uc870\ud68c
+#dialog.bs91.title=\uc694\uae08 > \uccad\uad6c > \uccad\uad6c\uc11c/\ub0b4\uc5ed\uc11c\uad00\ub9ac > \uc815\uaddc\uccad\uad6c\uc11c\ubc1c\ud589\ub0b4\uc5ed\uc870\ud68c
+dialog.bs14.title=\uc694\uae08 > \uccad\uad6c> \ub85c\ubc0d\uccad\uad6c\uad00\ub9ac > \ub85c\ubc0d\uccad\uad6c\ub0b4\uc5ed\uc870\ud68c
+dialog.bs15.title=\uc694\uae08 > \uc694\uae08\uc870\uc815 > \uc694\uae08\uc870\uc815\uad00\ub9ac
+dialog.bs16.title=\uc694\uae08 > \uc694\uae08\uc870\uc815 > \uc870\uc815\uc774\ub825\uc870\ud68c
+dialog.csBill002.title=Billing Account Information
+dialog.csBill003.title=Separate Billing Account
+dialog.csBill006.title=Separate Billing Account(Parent)
+
+dialog.ar1.title=\uc694\uae08 > \uc218\ub0a9 > \ub0a9\ubd80\uc0c1\uc138\ub0b4\uc5ed\uc870\ud68c
+dialog.ar22.title=\uc694\uae08 > \ubbf8\ub0a9 > \ubbf8\ub0a9\uad00\ub9ac > \ubbf8\ub0a9\uc0c1\uc138\ub0b4\uc5ed
+dialog.ar25.title=\ubbf8\ub0a9 > \ub300\uc190\uad00\ub9ac > \ub300\uc190\ub300\uc0c1\uc790\uad00\ub9ac
+dialog.ar27.title=\uc694\uae08\uc5c5\ubb34\uc9c0\uc6d0 > \ub0a9\ubd80\uc9c0\uc6d0\uad00\ub9ac > \uc740\ud589\uc785\uae08\ub0b4\uc5ed\uc870\ud68c
+dialog.ar28.title=\uc694\uae08\uc5c5\ubb34\uc9c0\uc6d0 > \ubbf8\ub0a9\ud604\ud669 > \ubbf8\ub0a9\ud68c\uc218\ud604\ud669
+dialog.ar29.title=\uc694\uae08\uc5c5\ubb34\uc9c0\uc6d0 > \ubbf8\ub0a9\ud604\ud669 > \uace0\uc561\ubbf8\ub0a9\ud604\ud669
+
+#ar22 grid width 
+ar.ar22.grid1.c000.width=200
+
+
+
+#label
+ar.ar1.label.000000=\uc694\uae08>\uc218\ub0a9>\ub0a9\ubd80\uc0c1\uc138\ub0b4\uc5ed\uc870\ud68c
+ar.ar1.label.000001=\uc720\ud615
+ar.ar1.label.000002=\uc0c1\ud488\ubc88\ud638
+ar.ar1.label.000003=\uac00\uc785\ubc88\ud638
+ar.ar1.label.000004=\uace0\uac1d\ubc88\ud638
+ar.ar1.label.000006=\uc2e4\uc0ac\uc6a9\uc790\ubc88\ud638
+ar.ar1.label.000007=\uc0ac\uc5c5\uc790\ubc88\ud638
+ar.ar1.label.000008=\uccad\uad6c\uacc4\uc815\ubc88\ud638
+ar.ar1.label.000009=\uc0c1\ud488\uad6c\ubd84
+ar.ar1.label.000010=\uc804\ud654\uc0c1\ud488
+ar.ar1.label.000011=\uae30\ud0c0\uc0c1\ud488
+ar.ar1.label.000012=\ub0a9\ubd80\uc77c\uc790
+ar.ar1.label.000013=3\uac1c\uc6d4
+ar.ar1.label.000014=6\uac1c\uc6d4
+ar.ar1.label.000015=1\ub144
+ar.ar1.label.000016=\uc218\ub0a9\ubc29\ubc95
+ar.ar1.label.000017=\uc804\uccb4
+ar.ar1.label.000018=Barter
+ar.ar1.label.000019=\ud604\uae08
+ar.ar1.label.000020=\uc9c0\ub85c
+ar.ar1.label.000021=voucher
+ar.ar1.label.000022=\uc120\ubd88\uc794\uc561
+ar.ar1.label.000023=point
+ar.ar1.label.000024=\uc740\ud589\uc785\uae08
+ar.ar1.label.000027=\uacc4\uc88c\ubc88\ud638
+ar.ar1.label.000029=\ub0a9\ubd80\ub0b4\uc5ed
+ar.ar1.label.000030=\ud398\uc774\uc9c0\uc774\ub3d9
+ar.ar1.label.000031=\ub2e4\uc6b4\ub85c\ub4dc
+ar.ar1.label.000032=\uc785\uae08\uc77c\uc790
+ar.ar1.label.000033=\ub0a9\ubd80\uc77c\uc2dc
+ar.ar1.label.000034=\uc0c1\ud488\ubc88\ud638
+ar.ar1.label.000035=\ub0a9\ubd80\uc6d0\uba85
+ar.ar1.label.000036=\ub0a9\ubd80\ubc29\ubc95
+ar.ar1.label.000037=\ub0a9\ubd80\ub300\uc0c1\uae08\uc561
+ar.ar1.label.000038=\ub0a9\ubd80\ubc18\uc601\uae08\uc561
+ar.ar1.label.000039=Barter
+ar.ar1.label.000040=Barter\uc218\ub7c9
+ar.ar1.label.000041=Barter\ub2e8\uac00
+ar.ar1.label.000042=Voucher \ubc88\ud638
+ar.ar1.label.000043=\ucc98\ub9ac\uc77c\uc790
+ar.ar1.label.000044=\uc740\ud589\uba85
+ar.ar1.label.000045=\uacc4\uc88c\ubc88\ud638
+ar.ar1.label.000046=\uc791\uc5c5\ub300\ub9ac\uc810
+ar.ar1.label.000047=\uc791\uc5c5\uc790
+ar.ar1.label.000048=\uc791\uc5c5\uc790\uba85
+ar.ar1.label.000049=\uc740\ud589(\ud604\uae08)
+
+ar.ar28.label.000001=\uad6c\ubd84
+ar.ar28.label.000002=M+1
+ar.ar28.label.000003=M+2
+ar.ar28.label.000004=M+3
+ar.ar28.label.000005=M+4
+ar.ar28.label.000006=M+5
+ar.ar28.label.000007=\ub2e8\uae30\uc18c\uacc4
+ar.ar28.label.000008=M+6~12
+ar.ar28.label.000009=M+13~24
+ar.ar28.label.000010=M+25~
+ar.ar28.label.000011=\uc7a5\uae30\uc18c\uacc4
+ar.ar28.label.000012=\ucd1d\uacc4
+ar.ar28.label.000013=\uac74\uc218
+ar.ar28.label.000014=\uae08\uc561
+ar.ar28.label.000015=\ud68c\uc218\uae30\uac04
+
+ar.ar29.label.000001=\uac00\uc785\uc790\uba85
+ar.ar29.label.000002=\ubbf8\ub0a9\uc2dc\uc791\ub0a0\uc9dc
+ar.ar29.label.000003=\ubbf8\ub0a9\uc885\ub8cc\ub0a0\uc9dc
+ar.ar29.label.000004=\ubbf8\ub0a9\uac1c\uc6d4\uc218
+ar.ar29.label.000005=\ucc98\ub9ac\ub144\uc6d4
+
+
+
+bs.bs5.label.000000=\uccad\uad6c\uc791\uc5c5\uc77c
+bs.bs5.label.000001=\ub0a9\ubd80\ubc29\ubc95
+bs.bs5.label.000002=\uccad\uad6c\uae08\uc561
+bs.bs5.label.000003=\ub0a9\ubd80\uae08\uc561
+bs.bs5.label.000004=\ubbf8\ub0a9\uc561
+bs.bs5.label.000005=\uc794\uace0\ubc18\uc601\uc561
+bs.bs5.label.000006=\uccad\uad6c\uae08\uc561
+bs.bs5.label.000007=\uccad\uad6c\ucd1d\uc561
+bs.bs5.label.000008=\uacf5\uae09\uac00\uc561
+bs.bs5.label.000009=\ubd80\uac00\uc138
+bs.bs5.label.000010=\uc644\ub8cc\uc5ec\ubd80
+bs.bs5.label.000011=\uc804\uc6d4
+bs.bs5.label.000012=\uc740\ud589\uc785\uae08
+bs.bs5.label.000013=\ud655\uc778
+bs.bs5.label.000014=\uc0ac\uc6a9\ub144\uc6d4
+bs.bs5.label.000015=\uc0c1\ud488\ubc88\ud638
+bs.bs5.label.000016=\uc694\uae08\ud569\uacc4
+bs.bs5.label.000017=\uc694\uae08\uc885\ub958
+bs.bs5.label.000018=\uae30\ubcf8\ub8cc
+bs.bs5.label.000019=\uccad\uad6c\ubd84\ub958\uba85
+bs.bs5.label.000020=\uccad\uad6c\ud56d\ubaa9\uba85
+bs.bs5.label.000021=\uccad\uad6c\uae08\uc561
+bs.bs5.label.000022=\uccad\uad6c\ubd84\ub958\uba85
+bs.bs5.label.000023=\uc774\uc6a9\uc694\uae08(a) 1 + 2
+bs.bs5.label.000024=\uc774\ub3d9\ud1b5\uc2e0
+bs.bs5.label.000025=\uae30\ubcf8\ub8cc
+bs.bs5.label.000026=\ud560\ubd80\uc694\uae08
+bs.bs5.label.000027=\ub2e8\ub9d0\uae30\ud560\ubd80\uae08(*)
+bs.bs5.label.000028=\uc18c\uacc41
+bs.bs5.label.000029=\uc720\ud615
+bs.bs5.label.000030=\uccad\uad6c\uacc4\uc815\ubc88\ud638
+bs.bs5.label.000031=\uc0c1\ud488\ubc88\ud638
+bs.bs5.label.000033=\uace0\uac1d\ubc88\ud638
+bs.bs5.label.000034=\uc2e4\uc0ac\uc6a9\uc790\ubc88\ud638
+bs.bs5.label.000035=\uc0ac\uc5c5\uc790\ubc88\ud638
+bs.bs5.label.000036=\uccad\uad6c\uacc4\uc815\ubc88\ud638
+bs.bs5.label.000037=\uccad\uad6c\uc774\ub825
+
+bs.bs5.label.000040=6\uac1c\uc6d4
+bs.bs5.label.000041=1\ub144
+bs.bs5.label.000042=\uac00\uc785\uc0c1\ud488\ubcc4 \uccad\uad6c \uc0c1\uc138\ub0b4\uc5ed
+bs.bs5.label.000043=\uc0ac\uc6a9\uae08\uc561
+
+
+ar.ar22.label.000000=Unpaid Details
+ar.ar22.label.000001=Search
+ar.ar22.label.000002=Nominee Info.
+ar.ar22.label.000003=Contract Number
+ar.ar22.label.000004=Owner
+ar.ar22.label.000005=Price Plan
+ar.ar22.label.000006=Tel.
+ar.ar22.label.000007=Mobile
+ar.ar22.label.000008=Zip Code
+ar.ar22.label.000009=Email
+ar.ar22.label.000010=Address
+ar.ar22.label.000011=Unpaid Amount
+ar.ar22.label.000012=Unpaid Amount This Month
+ar.ar22.label.000013=First Requested Month
+ar.ar22.label.000014=Last Requested Month
+ar.ar22.label.000015=Arrear Info.
+ar.ar22.label.000021=02Month~11Month
+ar.ar22.label.000022=12Month~23Month
+ar.ar22.label.000023=24Month~35Month
+ar.ar22.label.000024=More 36Month
+ar.ar22.label.000025=Billing Month
+ar.ar22.label.000026=Bill Amount
+ar.ar22.label.000027=Adjustment Amount
+ar.ar22.label.000028=Total
+ar.ar22.label.000029=Receipt Amount
+ar.ar22.label.000030=Unpaid Amount
+ar.ar22.label.000031=Bill/Payment/Unpaid Details
+ar.ar22.label.000032=Bon Info.
+
+
+ar.ar28.label.000001=Division
+ar.ar28.label.000002=M+1
+ar.ar28.label.000003=M+2
+ar.ar28.label.000004=M+3
+ar.ar28.label.000005=M+4
+ar.ar28.label.000006=M+5
+ar.ar28.label.000007=Short-Term Subtotal
+ar.ar28.label.000008=M+6~12
+ar.ar28.label.000009=M+13~24
+ar.ar28.label.000010=M+25~
+ar.ar28.label.000011=Long-Term Subtotal
+ar.ar28.label.000012=Total
+ar.ar28.label.000013=Count
+ar.ar28.label.000014=Amount
+ar.ar28.label.000015=Payback Period
+
+
+ar.ar29.label.000001=Subscriber Name
+ar.ar29.label.000002=Nonpayment Startup Date
+ar.ar29.label.000003=Nonpayment End Date
+ar.ar29.label.000004=Nonpayment Months
+ar.ar29.label.000005=Process Date
+
+bs.bsArManage.label.000000=Billing Management
+bs.bsArManage.label.000001=Type
+bs.bsArManage.label.000002=Bill Account No
+bs.bsArManage.label.000003=Product Number
+bs.bsArManage.label.000004=Subscriber ID
+bs.bsArManage.label.000005=Customer No
+bs.bsArManage.label.000006=\uc2e4\uc0ac\uc6a9\uc790\ubc88\ud638
+#
+#bs.bsArManage.label.000006=Real User Name
+bs.bsArManage.label.000007=Certificate No
+bs.bsArManage.label.000008=Bill Account Info
+bs.bsArManage.label.000009=Owner
+bs.bsArManage.label.000010=Tel.
+bs.bsArManage.label.000011=Mobile
+bs.bsArManage.label.000012=Bill Account No
+bs.bsArManage.label.000013=Account Balance
+bs.bsArManage.label.000014=E-Mail
+bs.bsArManage.label.000015=Phone Number
+bs.bsArManage.label.000016=General
+bs.bsArManage.label.000017=Charge Inquiry
+bs.bsArManage.label.000018=Bill Summary
+bs.bsArManage.label.000019=Bill Item
+#bs.bsArManage.label.000019 \uc6d0\ub798 Bill Item \uc774\uc5c8\uc74c.....!!!!!!!!!!!!!!!
+bs.bsArManage.label.000020=Period
+bs.bsArManage.label.000021=3 Months
+bs.bsArManage.label.000022=6 Months
+bs.bsArManage.label.000023=12 Months
+bs.bsArManage.label.000024=Bill Account No
+bs.bsArManage.label.000025=Subscription No
+bs.bsArManage.label.000026=Bill Item
+bs.bsArManage.label.000027=Payment
+bs.bsArManage.label.000028=Next Month Bill/Payment
+bs.bsArManage.label.000029=Bill Amount
+bs.bsArManage.label.000030=Unpaid Amount
+bs.bsArManage.label.000031=Total Amount
+bs.bsArManage.label.000032=Received Amount
+bs.bsArManage.label.000033=Prepayment
+bs.bsArManage.label.000034=Invoice Type
+bs.bsArManage.label.000035=Payment Type
+bs.bsArManage.label.000036=Bank
+bs.bsArManage.label.000037=Account No
+bs.bsArManage.label.000038=Account Holder
+bs.bsArManage.label.000039=E-Mail
+bs.bsArManage.label.000040=SMS
+bs.bsArManage.label.000041=Issue Type
+bs.bsArManage.label.000042=Payment Confirm. Doc.
+bs.bsArManage.label.000043=Fee(This Month) Confirm. Doc.
+bs.bsArManage.label.000044=Unpaid Confirm. Doc.
+bs.bsArManage.label.000045=Arrear Info.
+bs.bsArManage.label.000046=Outgoing Barring
+bs.bsArManage.label.000047=Incoming Barring
+bs.bsArManage.label.000048=Service Cancellation
+bs.bsArManage.label.000049=Blacklist Registration
+bs.bsArManage.label.000050=Write-Off
+bs.bsArManage.label.000051=Bill Account
+bs.bsArManage.label.000052=Payment Hist.
+bs.bsArManage.label.000053=Adjustment Hist.
+bs.bsArManage.label.000054=Details Publication
+bs.bsArManage.label.000055=Multi
+bs.bsArManage.label.000056=Charged Amount
+bs.bsArManage.label.000057=This-Month Billed Amount
+bs.bsArManage.label.000058=Discount Details (Detail View)
+bs.bsArManage.label.000059=Adjusted Charge After Bill
+bs.bsArManage.label.000060=Value Of Supply
+bs.bsArManage.label.000061=VAT
+bs.bsArManage.label.000060=Supply Price
+bs.bsArManage.label.000061=Additional Tax
+bs.bsArManage.label.000062=Bill Item
+bs.bsArManage.label.000063=Amount
+bs.bsArManage.label.000064=Total Charged Amount (a)
+bs.bsArManage.label.000065=Mobile
+bs.bsArManage.label.000066=A Base Rate
+bs.bsArManage.label.000067=Installments
+bs.bsArManage.label.000068=Subtotal (1)
+bs.bsArManage.label.000069=Date
+bs.bsArManage.label.000070=Period
+bs.bsArManage.label.000071=Download
+bs.bsArManage.label.000072=Treatment Info.
+bs.bsArManage.label.000073=Bill Cycle
+bs.bsArManage.label.000074=Entrance Contract
+bs.bsArManage.label.000075=Details
+bs.bsArManage.label.000076=Sending
+bs.bsArManage.label.000077=Currency Unit
+bs.bsArManage.label.000078=Notification Hist.
+bs.bsArManage.label.000079=Bill Serial No.
+
+
+bs.bsArManage.grid.000000=\uacb0\ud569\uc720\ud615\uba85
+bs.bsArManage.grid.000001=\uc11c\ube44\uc2a4
+bs.bsArManage.grid.000002=\uc0c1\ud488(\uc694\uae08\uc81c)\uba85
+bs.bsArManage.grid.000003=\uccad\uad6c\uacc4\uc815\ubc88\ud638
+bs.bsArManage.grid.000004=\uac00\uc785\ubc88\ud638
+bs.bsArManage.grid.000005=\uba85\uc758\uc790\uba85
+bs.bsArManage.grid.000006=\uc2e4\uc0ac\uc6a9\uc790\ubc88\ud638
+
+bs.bsArManage.grid.000007=\uc0c1\ud488\ubc88\ud638
+bs.bsArManage.grid.000008=\uccad\uad6c\uc6d4
+bs.bsArManage.grid.000009=\ub2f9\uc6d4\uccad\uad6c\uae08\uc561
+bs.bsArManage.grid.000010=\uc99d\uc561\uae08\uc561(+)
+bs.bsArManage.grid.000011=\uc870\uc815\uae08\uc561(-)
+bs.bsArManage.grid.000012=\uc870\uc815\ud6c4 \uccad\uad6c\uae08\uc561
+bs.bsArManage.grid.000013=\ub0a9\ubd80\uae08\uc561
+bs.bsArManage.grid.000014=\ubbf8\ub0a9\uae08\uc561
+bs.bsArManage.grid.000015=\uc811\uc218\uc77c
+bs.bsArManage.grid.000016=\uccad\uad6c\ub144\uc6d4
+bs.bsArManage.grid.000017=\ubc1c\uc1a1\uc77c
+bs.bsArManage.grid.000018=\uccad\uad6c\uc11c\uc885\ub958
+bs.bsArManage.grid.000019=\ucd9c\ub825\ud6c4 \uae08\uc561
+bs.bsArManage.grid.000020=\ub0a9\ubd80\ubc29\ubc95
+bs.bsArManage.grid.000021=\uc774\uba54\uc77c\uc8fc\uc18c
+bs.bsArManage.grid.000022=FAX\ubc88\ud638
+bs.bsArManage.grid.000024=\uc0c1\ud488\ubc88\ud638
+bs.bsArManage.grid.000025=\uac00\uc785\uace0\uac1d\uba85
+bs.bsArManage.grid.000026=\uc11c\ube44\uc2a4\uba85
+bs.bsArManage.grid.000027=\uc694\uae08\uc0c1\ud488\uba85
+bs.bsArManage.grid.000028=\uc694\uae08\ud56d\ubaa9\uba85
+bs.bsArManage.grid.000029=\uccad\uad6c\uae08\uc561
+bs.bsArManage.grid.000030=\ud560\uc778/\uac10\uba74\uae08\uc561
+bs.bsArManage.grid.000031=\uc99d\uc561\uae08\uc561
+bs.bsArManage.grid.000032=\uc870\uc815\uae08\uc561
+bs.bsArManage.grid.000033=\uae08\uc561(vat\ud3ec\ud568)
+bs.bsArManage.grid.000034=\ub0a9\ubd80\uc77c
+
+bs.bsArManage.grid.000035=\ub0a9\ubd80\uc6d0\uba85
+bs.bsArManage.grid.000036=\ub0a9\ubd80\ubc29\ubc95
+bs.bsArManage.grid.000037=\ub0a9\ubd80\uae08\uc561
+bs.bsArManage.grid.000038=barter
+bs.bsArManage.grid.000039=barter \uc218\ub7c9
+bs.bsArManage.grid.000040=barter \ub2e8\uac00
+bs.bsArManage.grid.000041=voucher \ubc88\ud638
+bs.bsArManage.grid.000042=\ucc98\ub9ac\uc77c
+
+bs.bsArManage.grid.000043=\uc740\ud589\uba85
+bs.bsArManage.grid.000044=\uacc4\uc88c\ubc88\ud638
+bs.bsArManage.grid.000045=\uc0c1\ud0dc
+bs.bsArManage.grid.000046=\uccad\uad6c\uc6d4
+bs.bsArManage.grid.000047=\ub0a9\ubd80\uc790
+bs.bsArManage.grid.000048=\uc870\uc815\uc694\uccad\uae08\uc561
+bs.bsArManage.grid.000049=\uc870\uc815\ubd80\uac00\uc138
+bs.bsArManage.grid.000050=\uc870\uc815\uae08\uc561
+bs.bsArManage.grid.000051=\uc870\uc815\uc720\ud615
+bs.bsArManage.grid.000052=\uc870\uc815\uc77c\uc790
+bs.bsArManage.grid.000053=\uc870\uc815\uc790 \uc774\ub984/id
+bs.bsArManage.grid.000054=\uc870\uc815\ud56d\ubaa9
+bs.bsArManage.grid.000055=\uc870\uc815\uc0ac\uc720
+bs.bsArManage.grid.000056=\ubc1c\uc1a1\uc77c\uc2dc
+bs.bsArManage.grid.000057=\uc624\ub958\ub0b4\uc5ed
+bs.bsArManage.grid.000058=\ube44\uace0
+bs.bsArManage.grid.000059=\uccad\uad6c\uc77c\uc790
+bs.bsArManage.grid.000060=\uccad\uad6c\uc720\ud615
+bs.bsArManage.grid.000061=\ubbf8\ub0a9\uae08\uc561
+bs.bsArManage.grid.000062=\uccad\uad6c\ud56d\ubaa9\uba85
+
+bs.bsArManage.subpop.000000=\uace0\uac1d\uba85
+bs.bsArManage.subpop.000001=\uccad\uad6c\uacc4\uc815\ubc88\ud638
+bs.bsArManage.subpop.000002=\uccad\uad6c\ud654\ud3d0\ub2e8\uc704
+bs.bsArManage.subpop.000003=\uccad\uad6c\uae08\uc561
+bs.bsArManage.subpop.000004=\uc870\uc815\uae08\uc561
+bs.bsArManage.subpop.000005=\uc870\uc815\ud6c4\uae08\uc561
+bs.bsArManage.subpop.000006=\uc218\ub0a9\uae08\uc561
+bs.bsArManage.subpop.000007=\ubbf8\ub0a9\uae08\uc561
+bs.bsArManage.subpop.000008=\uc218\ub0a9\uad6c\ubd84
+bs.bsArManage.subpop.000009=\uacb0\uc81c\uc218\ub2e8
+bs.bsArManage.subpop.000010=\ud604\uae08
+bs.bsArManage.subpop.000011=\ubcf4\uc99d\uae08
+bs.bsArManage.subpop.000012=barter
+bs.bsArManage.subpop.000013=voucher
+bs.bsArManage.subpop.000014=\uc120\ubd88\uc794\uc561
+bs.bsArManage.subpop.000015=point
+bs.bsArManage.subpop.000016=\uc218\ub0a9\ud654\ud3d0\ub2e8\uc704
+bs.bsArManage.subpop.000017=\ubcf4\uc720\ubcf4\uc99d\uae08
+bs.bsArManage.subpop.000018=\ucd5c\uc18c\ubcf4\uc99d\uae08
+bs.bsArManage.subpop.000019=\uc218\ub0a9\uac00\ub2a5\uae08\uc561
+bs.bsArManage.subpop.000020=barter \uc774\ub984
+bs.bsArManage.subpop.000021=barter \uc218\ub7c9
+bs.bsArManage.subpop.000022=barter \ub2e8\uac00
+bs.bsArManage.subpop.000023=voucher \ubc88\ud638
+bs.bsArManage.subpop.000024=voucher \ud654\ud3d0\ub2e8\uc704
+bs.bsArManage.subpop.000025=voucher \uae08\uc561
+bs.bsArManage.subpop.000026=\uc120\ubd88\uc794\uc561
+bs.bsArManage.subpop.000027=\uc120\ubd88\uc0ac\uc6a9\uc561
+bs.bsArManage.subpop.000028=\uc0ac\uc6a9\ud6c4\uc794\uc561
+bs.bsArManage.subpop.000029=\ud604\uc7acpoint
+bs.bsArManage.subpop.000030=\uc0ac\uc6a9point
+bs.bsArManage.subpop.000031=\uc794\uc5ecpoint
+bs.bsArManage.subpop.000032=\uc218\ub0a9\uae08\uc561
+bs.bsArManage.subpop.000033=\ud658\uc0b0\uae30\uc900
+bs.bsArManage.subpop.000034=\uc218\ub0a9\uc694\uccad\uae08\uc561
+bs.bsArManage.subpop.000035=\uc218\ub0a9\uba54\ubaa8
+bs.bsArManage.subpop.000036=\uc218\ub0a9\uc694\uccad
+bs.bsArManage.subpop.000037=\ub2eb\uae30
+bs.bsArManage.subpop.000038=\uc989\uc2dc\ub0a9\ubd80
+bs.bsArManage.subpop.000039=\uc775\uc6d4\uccad\uad6c\ub0a9\ubd80
+bs.bsArManage.subpop.000040=\uc870\ud68c
+
+bs.bsArManage.err.000001=\uc218\ub0a9\ubc1b\uc744 \uad8c\ud55c\uc774 \uc5c6\uc2b5\ub2c8\ub2e4.
+bs.bsArManage.err.000002=\uc218\ub0a9\ud560 \ub300\uc0c1\uc774 \uc5c6\uc2b5\ub2c8\ub2e4.
+
+bs.bs6.label.000000=\uc720\ud615
+
+bs.bs6.label.000002=\uace0\uac1d\ubc88\ud638
+bs.bs6.label.000003=\uba85\uc758\uc790\uba85
+bs.bs6.label.000004=\uc0ac\uc5c5\uc790\ubc88\ud638
+bs.bs6.label.000005=\uc804\ud654\ubc88\ud638
+bs.bs6.label.000006=\ud578\ub4dc\ud3f0\ubc88\ud638
+bs.bs6.label.000007=\ud56b\ube4c\uc694\uccad\uc77c\uc790
+bs.bs6.label.000008=\ud56b\ube4c\uc694\uccad\uad6c\ubd84
+bs.bs6.label.000009=\uc2e4\uc2dc\uac04\uc218\ub0a9
+bs.bs6.label.000010=\uc77c\uc2dc\uc815\uc9c0
+bs.bs6.label.000011=\ud574\uc9c0
+bs.bs6.label.000012=\uc694\uae08\uc81c\ubcc0\uacbd
+bs.bs6.label.000013=pools\ubcc0\uacbd
+bs.bs6.label.000014=\uba85\uc758\ubcc0\uacbd
+bs.bs6.label.000015=\uccad\uad6c\uc8fc\uae30\ubcc0\uacbd
+#bs.bs6.label.000016=\ud638\ud154\uc218\ub0a9   #\ud638\ud154\uc218\ub0a9\uc5c6\uc74c
+bs.bs6.label.000017=\ud56b\ube4c\uacc4\uc0b0\uc720\ud615
+
+
+bs.bs6.label.000020=\uacf5\uae09\uac00\uc561
+bs.bs6.label.000021=\ubd80\uac00\uc138
+bs.bs6.label.000022=\ubbf8\ub0a9\uccad\uad6c\uae08\uc561(\ub2f9\uc6d4)
+bs.bs6.label.000023=\ucd1d \uccad\uad6c\uae08\uc561
+bs.bs6.label.000024=hotbill \uacc4\uc0b0\uacb0\uacfc
+bs.bs6.label.000025=hotbill \ud560\uc778\ubc18\ud658\uae08 \uc0c1\uc138
+bs.bs6.label.000026=\uccad\uad6c\ub144\uc6d4\uc77c
+bs.bs6.label.000027=\uccad\uad6c\ubd84\ub958\uba85
+bs.bs6.label.000028=\uccad\uad6c\ud56d\ubaa9\uba85
+bs.bs6.label.000029=\uccad\uad6c\uae08\uc561
+bs.bs6.label.000030=\uccad\uad6c\ud56d\ubaa9
+bs.bs6.label.000031=\uc57d\uc815\uad6c\ubd84 (\uac1c\uc6d4)
+bs.bs6.label.000033=\uc57d\uc815 \uc2dc\uc791\uc77c\uc790
+bs.bs6.label.000034=\ud574\uc9c0 \ud76c\ub9dd\uc77c\uc790
+
+bs.bs6.label.000036=\uc57d\uc815\uc0ac\uc6a9\uae30\uac04 (\uc77c)
+bs.bs6.label.000038=\uc57d\uc815\uae08\uc561
+bs.bs6.label.000039=\uc57d\uc815\ud560\uc778\ubc18\ud658\uae08
+bs.bs6.label.000040=\ud560\uc778\uae08\uc561
+bs.bs6.label.000041=\ucd1d\uc561
+bs.bs6.label.000043=hotbill\uacc4\uc0b0
+bs.bs6.label.000044=\uc2e4\uc2dc\uac04\uc218\ub0a9
+bs.bs6.label.000045=\ud56b\ube4c\uc218\ub0a9
+
+
+bs.bs6.grid.000003=\uc0c1\ud0dc
+bs.bs6.grid.000004=\uc0c1\uc138\uc0c1\ud0dc
+bs.bs6.grid.000005=\uc2e4\uc0ac\uc6a9\uc790
+
+
+
+bs.label.000000=\uc870\ud68c\uc694\uccad\uc790
+bs.label.000001=\uc870\ud68c\uc0ac\uc720
+bs.label.000002=\ubaa8\ubc14\uc77c\uc804\ud654
+bs.label.000003=cdma\uc790\ub3d9
+bs.label.000004=wcdma/gms\uc790\ub3d9/\uc784\ub300
+bs.label.000005=\uc0c1\uc138\uc720\ud615
+bs.label.000006=\uc804\uccb4(\ub370\uc774\ud130\ud1b5\ud654\uc81c\uc678)
+bs.label.000007=\uad6d\ub0b4\ud638(\uc74c\uc131)
+bs.label.000008=\uad6d\ub0b4\ud638(\uc601\uc0c1)
+bs.label.000009=SMS
+bs.label.000010=\ub370\uc774\ud130\uc11c\ube44\uc2a4
+bs.label.000011=\uad6d\uc81c\ud638
+bs.label.000012=\ubd80\uac00\ud638(\uc804\uccb4)
+bs.label.000013=\ubd80\uac00\ud638(\uc218\uc2e0\uc790\ubd80\ub2f4)
+bs.label.000014=\ubd80\uac00\ud638(\uc815\ubcf4\uc774\uc6a9\ub8cc)
+bs.label.000015=\uc9c1\uc811\uc785\ub825
+bs.label.000016=\uc6d4\ubcc4\uc120\ud0dd
+bs.label.000017=\uc21c\uc11c
+bs.label.000018=\ucc29\uc2e0\ubc88\ud638
+bs.label.000019=\ud1b5\ud654\uc2dc\uac01
+bs.label.000020=\uc774\uc6a9\ud55c\uc11c\ube44\uc2a4
+bs.label.000021=\ub9dd\ub0b4\ud1b5\ud654
+bs.label.000022=\uc0ac\uc6a9\uc2dc\uac04
+
+bs.label.000023=\ub3c4\uc218\ud658\uc0b0\ucd08(\uc74c\uc131)
+bs.label.000024=\ub370\uc774\ud130\uc0ac\uc6a9\ub7c9(kb)
+
+bs.label.000025=\ud560\uc778 \uc804 \uae08\uc561
+bs.label.000026=\uc815\ubcf4\uc774\uc6a9\ub8cc
+bs.label.000027=\ud560\uc778\ub0b4\uc6a9 \uc11c\ube44\uc2a4 \uc124\uba85
+bs.label.000028=\ub2e4\uc6b4\ub85c\ub4dc \uc11c\ube44\uc2a4\uba85
+bs.label.000029=\uc870\ud68c\ud544\ud130
+bs.label.000030=\uac80\uc0c9\ub144\uc6d4
+bs.label.000031=\ubd80\uac00\uc11c\ube44\uc2a4
+bs.label.000032=\ud328\ud0b7
+bs.label.000033=\uc804\uccb4 messaging
+bs.label.000034=\uae30\ud0c0
+bs.label.000035=\uacf5\uc81c\uc11c\ube44\uc2a4\uba85
+bs.label.000036=\uc2dc\uac04\ub300
+bs.label.000037=\uad6c\uac04\ub300
+bs.label.000038=\ucd1d\uc81c\uacf5\ub7c9
+bs.label.000039=\ucd1d\uc0ac\uc6a9\ub7c9
+bs.label.000040=\ucd1d\uc794\uc5ec\ub7c9
+bs.label.000041=\ucd5c\uc885\uc0ac\uc6a9\uc77c\uc2dc
+bs.label.000042=\ud560\uc778\uc11c\ube44\uc2a4\uba85
+bs.label.000043=\uc0ac\uc6a9\uac74\uc218
+bs.label.000044=\uc790\ub3d9\uc774\uccb4/\uc2e0\uc6a9\uce74\ub4dc \uc601\uc218\uc99d
+bs.label.000045=\ub2f9\uc6d4\uc694\uae08\ub0b4\uc5ed\uc11c
+bs.label.000046=\uc989\uc2dc\ubc1c\ud589
+bs.label.000047=\ubc1c\ud589\uc77c
+bs.label.000048=\ubc1c\uc1a1\uc0ac\uc720
+bs.label.000049=\ubc1c\uc1a1\ubc29\ubc95
+bs.label.000050=\ubc1c\uc1a1\uc81c\uc678\uc5ec\ubd80
+bs.label.000051=\uccad\uad6c\uc11c\uc720\ud615
+bs.label.000052=\ub0a9\ubd80\uae30\ud55c\uc77c\uc790
+bs.label.000053=\ud569\uc0b0\uccad\uad6c\uae08\uc561
+bs.label.000054=\ub300\uc0c1\uccad\uad6c\uacc4\uc815\ubaa9\ub85d
+bs.label.000055=\ud30c\uc77c\uc120\ud0dd
+bs.label.000056=\ub85c\ubc0d\uc720\ud615
+bs.label.000057=\ud604\uc9c0\ubc1c\uc2e0
+bs.label.000058=\uad6d\uc81c\ubc1c\uc2e0
+bs.label.000059=\uc218\uc2e0
+bs.label.000060=\uad6d\uc81c\uc218\uc2e0\ub8cc
+bs.label.000061=\ub370\uc774\ud130\uc815\uc561 \ub85c\ubc0d\uc694\uae08\uc81c
+bs.label.000062=\uc784\ub300\uae30\ubcf8\ub8cc
+bs.label.000063=\ubd84\uc2e4\ubd80\ub2f4\uae08
+bs.label.000064=\ubc18\ub0a9\uc720\uc608\uae08
+bs.label.000065=\ud30c\uc190\ubcc0\uc0c1\uae08
+bs.label.000066=\ubd80\ub2f4\ud569\uacc4
+bs.label.000067=\ud569\uacc4
+bs.label.000068=\uc2e4\uc0ac\uc6a9\uc790\uba85
+bs.label.000069=\uac00\uc785\uc815\ubcf4
+bs.label.000070=\uc694\uae08\uc885\ud569\uc815\ubcf4
+bs.label.000071=\uc870\uc815\uad6c\ubd84/\uc0ac\uc720
+
+bs.label.000073=\uac10\uc561
+bs.label.000074=\uc99d\uc561
+bs.label.000075=\uc870\uc815\uc0c1\uc138\uad6c\ubd84
+bs.label.000076=\uc989\uc2dc\ubc18\uc601
+bs.label.000077=\uc775\uc6d4\ubc18\uc601
+bs.label.000078=\uaf2c\ub9ac\ud45c
+bs.label.000079=\uc694\uae08\ud56d\ubaa9\ubcc4
+bs.label.000080=\uccad\uad6c\uc6d4\ubcc4
+bs.label.000081=\uccad\uad6c\ub0b4\uc5ed
+bs.label.000082=\uc0c1\uc138\ud56d\ubaa9 :
+bs.label.000083=\uc694\uae08\ud56d\ubaa9
+bs.label.000084=\uc870\uc815\ub204\uacc4
+bs.label.000085=\uc870\uc815
+bs.label.000086=\uc870\uc815\uac00\ub2a5\uae08\uc561
+bs.label.000087=\uc804\uc561\uc870\uc815
+bs.label.000088=\ubd80\uac00\uc138\ud3ec\ud568
+bs.label.000089=\ubd80\uac00\uc138\ubbf8\ud3ec\ud568
+bs.label.000090=\uc601\uc5c5\ubc0f\uc815\ucc45
+bs.label.000091=\uc704\uc57d\uae08\uba74\uc81c
+bs.label.000092=\uc870\uc815\ubc18\uc601
+bs.label.000093=\uc628\ub77c\uc778
+bs.label.000094=\uc870\uc815\ucde8\uc18c
+bs.label.000095=\ub4f1\uae09
+bs.label.000096=\ucde8\uc18c\uc5ec\ubd80
+bs.label.000097=\uc138\uae08
+bs.label.000098=\uc870\uc815\ubd84\ub958
+bs.label.000099=WIFI
+bs.label.000100=\uc77c\ubc18\ud1b5\ud654\ub0b4\uc5ed
+bs.label.000101=\uc811\uc218/\ucc98\ub9ac
+bs.label.000102=FAX
+bs.label.000103=FAX
+bs.label.000104=\uae30\ubcf8\uc8fc\uc18c
+bs.label.000105=FAX\ubc88\ud638
+bs.label.000106=\uc0c1\uc138\uc8fc\uc18c
+bs.label.000107=\ub3c4\uba54\uc778\uc785\ub825
+bs.label.000108=\ubc1c\ud589
+bs.label.000109=\ub370\uc774\ud130\uc694\uae08
+bs.label.000110=\uc2e0\uccad\uae08\uc561
+bs.label.000111=\uc870\uc815\uc0c1\uc138
+bs.label.000112=\ubc1c\uc2e0\ubc88\ud638
+bs.label.000113=\uacb0\uc81c\uc218\ub2e8\ucf54\ub4dc
+bs.label.000114=\ud654\ud3d0\ub2e8\uc704\ucf54\ub4dc
+bs.label.000115=\uce74\ub4dc\ucf54\ub4dc
+bs.label.000116=\uce74\ub4dc\uc885\ub958
+bs.label.000117=\ubc14\ud130\ucf54\ub4dc
+bs.label.000118=\ud56d\ubaa9\uba85
+bs.label.000119=\uae08\uc561
+bs.label.000120=\ucd1d \uae08\uc561
+bs.label.000121=\uc9c0\ubd88\uae08\uc561
+bs.label.000122=\ud6c4\ubd88\uae08\uc561
+bs.label.000123=\ucd94\uac00
+bs.label.000124=\uc218\uc815
+bs.label.000125=\uc0ad\uc81c
+bs.label.000126=\uc601\uc218\uc99d
+bs.label.000127=\uc218\ub0a9\ub0a0\uc9dc
+bs.label.000128=\ub2f4\ub2f9\uc790\uba85
+bs.label.000129=\uc218\ub839\uc778
+bs.label.000130=\uc601\uc218\uc99d\ubc88\ud638
+bs.label.000131=\ub300\uc190\ud655\uc815\uc77c
+bs.label.000132=\ub300\uc190\ucc98\ub9ac\uc77c
+bs.label.000133=\uc9c1\uad8c\ud574\uc9c0\uae30\uac04
+bs.label.000134=\uc791\uc5c5\uc5f0\uc6d4
+bs.label.000135=\ub300\uc190\ud655\uc815
+bs.label.000136=\ubcf4\uc99d\uae08(A)
+bs.label.000137=\uc5f0\uccb4\uae08\uc561(B)
+bs.label.000138=\ucc28\uc561(A-B)
+bs.label.000139=\ucf54\ub4dc
+bs.label.000140=\uccad\uad6c\ud56d\ubaa9\uba85
+bs.label.000141=\uc57d\uc5b4
+bs.label.000142=\ub0a9\ubd80\uc6b0\uc120\uc21c\uc704
+bs.label.000143=\uc870\uc815\uc6b0\uc120\uc21c\uc704
+bs.label.000144=\uc6b0\uc120\uc21c\uc704 \uba85\uce6d
+bs.label.000145=\uc6b0\uc120\uc21c\uc704
+bs.label.000146=\uc0c1\ud488
+bs.label.000147=\uc800\uc7a5
+bs.label.000148=\uc8fc\uae30\ucf54\ub4dc
+bs.label.000149=\uc124\uba85
+bs.label.000150=\uc2dc\uc791\uc77c
+bs.label.000151=\uc885\ub8cc\uc77c
+bs.label.000152=\uc0ac\uc6a9\uc5ec\ubd80
+bs.label.000153=\uc0dd\uc131\uc77c
+bs.label.000154=\ub0a9\uae30\uc77c
+bs.label.000155=\uc740\ud589\ucf54\ub4dc
+bs.label.000156=\ub0a9\ubd80\uae30\uac04
+bs.label.000157=\uccad\uad6c\uc815\ubcf4\uac80\uc0c9
+bs.label.000158=\uc218\ub0a9\uc815\ubcf4\uac80\uc0c9
+bs.label.000159=\uc804\ud654\ubc88\ud638
+bs.label.000160=\uae30\ubcf8\ub8cc
+bs.label.000161=\uc0ac\uc6a9\ub8cc
+bs.label.000162=\ud560\uc778
+bs.label.000163=\uc0ac\uc6a9\uc561
+bs.label.000164=\ubd80\uac00\uc138
+bs.label.000165=\uc11c\ube44\uc2a4\uc694\uae08
+bs.label.000166=\ud569\uacc4\uae08\uc561
+bs.label.000167=\uccad\uad6c\uae08\uc561
+bs.label.000168=\uc0ac\uc6a9\uc2dc\uc791\uc77c
+bs.label.000169=\uc0ac\uc6a9\uc885\ub8cc\uc77c
+bs.label.000170=\uc778\ubcf4\uc774\uc2a4\uc77c\uc790
+bs.label.000171=\ud30c\uc77c\ubc88\ud638
+bs.label.000172=\uc778\ubcf4\uc774\uc2a4\ubc88\ud638
+bs.label.000173=Org ID
+bs.label.000174=Branch ID
+bs.label.000175=Notice No
+bs.label.000176=\ud654\ud3d0
+bs.label.000177=\uc778\ubcf4\uc774\uc2a4\uae08\uc561
+bs.label.000178=\uc778\ubcf4\uc774\uc2a4\ud56d\ubaa9
+bs.label.000179=\uc785\uae08\uc561
+bs.label.000180=\uc774\uccb4\uc791\uc5c5\uc77c
+bs.label.000181=\uc785\uae08\uc0c1\ud0dc
+bs.label.000182=\ubc1c\uc0dd\uc77c
+bs.label.000183=\ubc1c\uc0dd\uc791\uc5c5\ub7c9
+bs.label.000184=\uc785\uae08\uc77c\uc790
+bs.label.000185=\uc785\uae08\uc791\uc5c5\uc790
+bs.label.000186=\uacc4\uc0b0\uae08\uc561
+bs.label.000187=\uc694\uccad\uad6c\ubd84
+bs.label.000188=\uc0c1\ud0dc\uad6c\ubd84
+bs.label.000189=\ucc98\ub9ac\uad6c\ubd84
+bs.label.000190=\uc218\uc791\uc5c5\uc644\ub8cc\uc77c\uc2dc
+bs.label.000191=\uc218\uc791\uc5c5\uc644\ub8cc\uc791\uc5c5\uc790
+bs.label.000192=\uc624\ub958\ubc1c\uc0dd\uc77c\uc2dc
+bs.label.000193=\uc624\ub958\ub0b4\uc5ed
+bs.label.000194=\uc7ac\uc804\uc1a1\uc694\uccad
+bs.label.000195=\uc218\uc791\uc5c5\uc644\ub8cc\ucc98\ub9ac
+#bs.label.000196=\ub300\uc190\ub300\uc0c1
+#bs.label.000197=\ub300\uc190\ud655\uc815
+bs.label.000198=\ud574\uc9c0\ub300\uc0c1
+bs.label.000199=\ud574\uc9c0\ud655\uc815
+bs.label.000200=\uc8fc\uae30
+bs.label.000201=\uba85\uce6d
+bs.label.000202=\ub0b4\uc5ed\uc11c\uc885\ub958
+bs.label.000203=\uc601\uc218\uc99d\ucd9c\ub825
+bs.label.000204=\uc5c5\ub370\uc774\ud2b8
+bs.label.000205=\ubbf8\ub0a9\uc885\ub958
+bs.label.000206=\ucda9\uc804\uae08\uc561
+bs.label.000207=\uc791\uc5c5\uc790ID
+bs.label.000208=\ucda9\uc804\uc77c\uc790
+bs.label.000209=\ucda9\uc804\uc720\ud615
+bs.label.000210=\uacb0\ud569\uc11c\ube44\uc2a4
+bs.label.000211=\ucda9\uc804\ucc98\ub9ac\uc0c1\ud0dc
+bs.label.000212=\uc601\uc218\uc99d\uc7ac\ucd9c\ub825
+bs.label.000213=\ubcf4\uc99d\uae08
+bs.label.000214=\uc2dc\uc791\uc77c\uc790
+bs.label.000215=\ub9cc\uae30\uc77c\uc790
+bs.label.000216=\ud658\ubd88\ubcf4\uc99d\uae08
+bs.label.000217=\ubcf4\uc99d\uae08 \uc785\uae08
+bs.label.000218=\ubcf4\uc99d\uae08 \ud658\ubd88
+bs.label.000219=\uccad\uad6c\ud56d\ubaa9\ucf54\ub4dc
+bs.label.000220=\ub300\ubd84\ub958
+bs.label.000221=\uc911\ubd84\ub958
+bs.label.000222=\uccad\uad6c\uc11c\ube44\uc2a4
+bs.label.000223=\uba54\uc2dc\uc9c0\ud0c0\uc785
+bs.label.000224=\ucd9c\ub825\uc21c\uc11c
+bs.label.000225=\uc0ac\uc6a9\uc720\ud615
+bs.label.000226=\ud560\uc778\ud0c0\uc785
+bs.label.000227=\uba54\uc2dc\uc9c0\ucf54\ub4dc
+bs.label.000228=\uc5b8\uc5b4
+bs.label.000229=\uba54\uc2dc\uc9c0\uc81c\ubaa9
+bs.label.000230=\uc694\uccad\ubd80\uc11c
+bs.label.000231=\uba54\uc2dc\uc9c0\uc0ac\uc6a9\uc5ec\ubd80
+bs.label.000232=\uc6b0\uc120\uc21c\uc704
+bs.label.000233=\uc720\ud6a8\uc2dc\uc791\uc77c\uc2dc
+bs.label.000234=\uc720\ud6a8\uc885\ub8cc\uc77c\uc2dc
+bs.label.000235=\ud3ec\ub9f7\ud0c0\uc785
+bs.label.000236=Format1
+bs.label.000237=Format2
+bs.label.000238=Format3
+bs.label.000239=Format4
+bs.label.000240=Format5
+bs.label.000241=Format6
+bs.label.000242=\ud1b5\ud654\uc2dc\uac01
+bs.label.000243=\uc774\uc6a9\ud55c\uc11c\ube44\uc2a4
+bs.label.000244=\ub9dd\ub0b4\ud1b5\ud654
+bs.label.000245=\uc0ac\uc6a9\ub7c9( KB )
+bs.label.000246=\ud560\uc778\ub0b4\uc6a9
+bs.label.000247=\uc11c\ube44\uc2a4\uc124\uba85
+bs.label.000248=\uc870\ud68c\uad6c\ubd84
+bs.label.000249=\uc7ac\uacfc\uae08\uc694\uccad
+bs.label.000250=\uc7ac\uacfc\uae08\uacb0\uacfc
+bs.label.000251=\uc7ac\uacfc\uae08\uc77c\uc790
+bs.label.000252=\uba54\uc2dc\uc9c0\uc720\ud615\ucf54\ub4dc
+bs.label.000253=\uba54\uc2dc\uc9c0\uc720\ud615\uba85
+bs.label.000254=\ubcc0\uc218
+bs.label.000255=\ubcc0\uc218\uba85
+bs.label.000256=\uc2e0\uaddc
+bs.label.000257=\uc784\uc2dc\uc800\uc7a5
+bs.label.000258=\ud56d\ubaa9
+bs.label.000259=\uc0ac\uc6a9\ub7c9
+bs.label.000260=\ucd1d\uacc4
+bs.label.000261=\ud30c\uc77c \uc62c\ub9ac\uae30
+bs.label.000262=\uce74\ub4dc\ud0c0\uc785
+bs.label.000263=\uc778\ubcf4\uc774\uc2a4 \uc774\ub984
+bs.label.000264=Rate
+bs.label.000265=Call Type
+bs.label.000266=\uce74\ub4dc\ubc88\ud638
+bs.label.000267=\uc778\ubcf4\uc774\uc2a4\uc720\ud615\uba85
+bs.label.000268=\uccad\uad6c\uba54\uc2dc\uc9c0\ud56d\ubaa9
+bs.label.000269=\ub0a9\ubd80\uc0c1\uc138\ub0b4\uc5ed
+bs.label.000270=\uc791\uc5c5\ub300\ub9ac\uc810\uba85
+bs.label.000271=\uc778\ubcf4\uc774\uc2a4\uc720\ud615
+bs.label.000272=\uc778\ubcf4\uc774\uc2a4\uae08\uc561
+bs.label.000273=\uccad\uad6c\ud56d\ubaa9\ucd9c\ub825\uba85
+bs.label.000274=\ubd80\uac00\uc138\uacc4\uc0b0\ub300\uc0c1\uc5ec\ubd80
+bs.label.000275=\uace0\uac1d\uc785\uae08\uc77c\uc790
+bs.label.000276=\ub0a8\uc740 \uae08\uc561
+bs.label.000277=\ubc1b\uc740 \uae08\uc561
+bs.label.000278=\uc794\uace0
+bs.label.000279=\uc774\ubca4\ud2b8\uad6c\ubd84
+bs.label.000280=\ubcf4\uc99d\uae08\uc694\uc18c\uba85
+bs.label.000281=\uccad\uad6c\ubc1c\ud589\ubd84\ub958\uba85
+bs.label.000282=\uccad\uad6c\uc8fc\uae30\ucf54\ub4dc
+bs.label.000283=\uc870\ud68c\uae30\uc900\uae08\uc561
+bs.label.000284=\uc870\ud68c\uc5f0\uc6d4
+bs.label.000285=\uc120\ubd88\uce74\ub4dc\uc720\ud615\ucf54\ub4dc
+bs.label.000286=\uc874\uc7ac\ud558\uc9c0 \uc54a\ub294 \uce74\ub4dc\ud0c0\uc785\ucf54\ub4dc\uc785\ub2c8\ub2e4.
+bs.label.000287=\uadf8\ub9ac\ub4dc\uc758 \ud589\uc744 \uc120\ud0dd\ud574\uc8fc\uc138\uc694.
+bs.label.000288=\uc791\uc5c5\uad6c\ubd84
+bs.label.000289=\uc9c4\ud589\uc0c1\ud0dc
+bs.label.000290=\ub300\uc0c1\uad6c\ubd84
+bs.label.000292=\uacfc\ub0a9\uae08\uc561
+bs.label.000293=\uacfc\ub0a9\uc0c1\uacc4\uae08\uc561
+bs.label.000294=\ubcf4\uc99d\uae08\ub0a9\ubd80
+bs.label.000295=\ubcf4\uc99d\uae08\ud658\ubd88
+bs.label.000296=\ubcf4\ud5d8\uae08\uc561
+bs.label.000297=\uc190\uc2e4\uae08\uc561
+bs.label.000298=\uc794\uace0
+bs.label.000299=\ud574\uc9c0\uc694\uccad\uc77c\uc790
+bs.label.000300=\ucd5c\uc885\uac00\uc785\uc0c1\ud0dc
+bs.label.000301=\ub300\uc0c1\uac00\uc785\uc0c1\ud0dc
+bs.label.000302=\ucd5c\uc885\uc0c1\ud0dc
+bs.label.000303=\uc0c1\ud0dc\ubcc0\uacbd\uc77c\uc2dc
+bs.label.000304=\ub300\uc0c1\uc790\uc870\ud68c
+bs.label.000305=\uc190\uc2e4\uae08\uc561\ub4f1\ub85d
+bs.label.000306=\ub9e4\ub2c8\uc800 \uc544\uc774\ub514
+bs.label.000307=\ubcf4\uc99d\uae08\uc694\uc18c\uba85
+bs.label.000308=\uc624\ub958\uc0ac\uc720
+bs.label.000309=\ucfe0\ud3f0\ubc88\ud638
+bs.label.000310=\ubcf4\uc99d\uae08 \uc794\uace0
+
+
+
+bs.label.000400=\uad6c\ubd84
+bs.label.000401=\uc791\uc5c5
+bs.label.000402=\uc870\ud68c
+bs.label.000403=\uc791\uc5c5\uc2dc\uc791\uc77c\uc2dc
+bs.label.000404=\uc791\uc5c5\uc885\ub8cc\uc77c\uc2dc
+bs.label.000405=\uc0c1\ud0dc
+bs.label.000406=\ub300\uc0c1\uc790 \uc218
+bs.label.000407=\uacfc\ub0a9\uae08
+bs.label.000408=\ubbf8\ub0a9\uae08
+bs.label.000409=\ubcf4\uc99d\uae08
+bs.label.000410=\uacfc\ub0a9\uc0c1\uacc4\uae08\uc561
+bs.label.000411=\ubcf4\uc99d\uae08\ub0a9\ubd80\uae08
+bs.label.000412=\ubcf4\uc99d\uae08\ud658\ubd88\uae08
+bs.label.000413=\ubcf4\ud5d8\uc190\uc2e4\uae08
+bs.label.000414=\uc190\uc2e4\uae08\uc561
+bs.label.000415=\uc794\uace0
+bs.label.000416=\ud574\uc9c0\uc790\uc218
+
+
+
+
+bs.label.000417=\uc2dc\uc791\uc77c\uc790
+bs.label.000418=\uc885\ub8cc\uc77c\uc790
+bs.label.000419=\uccad\uad6c\ucd5c\uc18c\uae08\uc561
+bs.label.000420=\uc5f0\uccb4\ubc1c\uc0dd\ucd5c\uc18c\uae08\uc561
+bs.label.000421=\ub0a9\ubd80\ub9c8\uac10\ucd94\uac00\uc77c\uc218
+
+bs.label.000422=\uccad\uad6c\uc77c\uc790
+bs.label.000423=\ub0a8\ubd80\uae30\ud55c\uc77c
+bs.label.000424=SMS\ubc1c\uc1a1
+bs.label.000425=E-MAIL\ubc1c\uc1a1
+
+
+
+bs.label.000426=\uc11c\ube44\uc2a4
+bs.label.000427=\uac00\uc785\ubc88\ud638
+bs.label.000428=\uace0\uac1d\uba85
+bs.label.000429=\uc0c1\ud488\ubc88\ud638
+bs.label.000430=\uc2dc\uc791\uc77c\uc2dc
+
+bs.label.000431=\ud1b5\ud654\uc720\ud615\uba85
+bs.label.000432=\uc0ac\uc6a9\uae08\uc561 
+bs.label.000433=\ud560\uc778\uae08\uc561 
+bs.label.000434=\uccad\uad6c\uae08\uc561
+bs.label.000435=\uc0ac\uc6a9\ub7c9
+bs.label.000436=\uc0ac\uc6a9\ucd08
+
+#write off page
+bs.label.000437=\ud574\uc9c0\uc694\uccad
+
+bs.dtl.000001=\uc811\uc218\uc77c\uc2dc
+
+#\ubd84\ub9ac\uccad\uad6c\ud398\uc774\uc9c0
+bs.sepa.000001=\uccad\uad6c\uc11c\uc218\uc2e0\uc0c1\ud488\ubc88\ud638 
+bs.sepa.000002=\uccad\uad6c\uc804\uc790\uc6b0\ud3b8\uc8fc\uc18c
+bs.sepa.000003=\ub0a9\ubd80\uace0\uac1d\uba85
+bs.sepa.000004=\ub0a9\ubd80\uace0\uac1dSSN
+bs.sepa.000005=\ub0a9\ubd80\uacc4\uc88c\ubc88\ud638
+bs.sepa.000006=\ud30c\uc77c\uc744 \uc120\ud0dd\ud574 \uc8fc\uc138\uc694
+bs.sepa.000007=excel \ud30c\uc77c\ub9cc \uac00\ub2a5\ud569\ub2c8\ub2e4.
+bs.sepa.000008=\uadf8\ub9ac\ub4dc \ud589\uc744 \uc120\ud0dd\ud574\uc8fc\uc138\uc694
+bs.sepa.000009=\ubd84\ub9ac\uccad\uad6c \ub300\uc0c1\uc744 \uc120\ud0dd\ud574\uc8fc\uc138\uc694
+bs.sepa.000010=\uc2dc\uc791\uc77c\uc790\ub97c \uc120\ud0dd\ud574\uc8fc\uc138\uc694
+bs.sepa.000011=\uc2dc\uc791\uc77c\uc790 \uc720\ud6a8\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4.
+bs.sepa.000012=\uc0c1\ud488\uc744 \uc120\ud0dd\ud574\uc8fc\uc138\uc694
+bs.sepa.000013=\uc798\ubabb\ub41c \uac12\uc740 \uc800\uc7a5\ud560\uc218 \uc5c6\uc2b5\ub2c8\ub2e4
+bs.sepa.000014=\uccad\uad6c\uacc4\uc815\uc774 \ud65c\uc131\uc0c1\ud0dc\uac00 \uc544\ub2d9\ub2c8\ub2e4.
+bs.sepa.000015=\uccad\uad6c\uc8fc\uae30\uac00 \ub2e4\ub974\uba74 \uc120\ud0dd\ud560\uc218 \uc5c6\uc2b5\ub2c8\ub2e4.
+
+
+
+
+##\uc11c\ube44\uc2a4 \ub0b4\uc5ed\uc870\ud68c
+bs.warning.startDate=\uc2dc\uc791\uc77c\uc790\ub294 \ud544\uc218\uc785\ub2c8\ub2e4.
+bs.warning.endDate=\uc885\ub8cc\uc77c\uc790\ub294 \ud544\uc218\uc785\ub2c8\ub2e4.
+bs.warning.subsNo=\uac00\uc785\ubc88\ud638\ub294 \ud544\uc218\uc785\ub2c8\ub2e4.
+
+bs.warning.permission=\uad8c\ud55c\uc774 \uc5c6\uc2b5\ub2c8\ub2e4.
+
+
+#separate bill child
+bs.sepa.000301=\uac00\uc785\uc790
+bs.sepa.000302=\uac00\uc785\uc790\ubc88\ud638\ub294 \ud544\uc218\uc785\ub2c8\ub2e4.
+bs.sepa.000303=\uccad\uad6c\uc2dc\uc791\uc77c\uc790\uac00 \uc720\ud6a8\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4.
+bs.sepa.000304=\uccad\uad6c\uc885\ub8cc\uc77c\uc790\uac00 \uc720\ud6a8\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4.
+bs.sepa.000305=Product or Invoice Name\uc911 \ud558\ub098\ub294 \uc785\ub825\ud574\uc57c\ud574\uc694
+bs.sepa.000306=Product or Invoice Name must be input only one
+
+##Validation Test
+bs.billCycle.billCyclCd=\uccad\uad6c\uc8fc\uae30\ucf54\ub4dc\ub294 1 ~ 31\uae4c\uc9c0\ub9cc \ud5c8\uc6a9\ub429\ub2c8\ub2e4.
+bs.billCycle.billCyclCdStrtDd=\uccad\uad6c\uc8fc\uae30\ucf54\ub4dc \uc2dc\uc791\uc77c\uc790\ub294 1 ~ 31\uae4c\uc9c0\ub9cc \ud5c8\uc6a9\ub429\ub2c8\ub2e4.
+bs.billCycle.billCyclDscr=30\ubc14\uc774\ud2b8
+
+
+##\uccad\uad6c\uc791\uc5c5\ud560\ub2f9(\uc5c5\ub85c\ub4dc) 
+bs.blWkType.required=Type\uc740 \ud544\uc218\uc785\ub2c8\ub2e4.
+bs.blWkID.required=ID\ub294 \ud544\uc218\uc785\ub2c8\ub2e4.
+
+##\uac00\uc785\uc790\ubcc4 \uc218\ub0a9
+ar.pym.msg.000001=\uace0\uac1d\uc774 \ub0a9\ubd80\ud55c \uae08\uc561\ubcf4\ub2e4 \uadf8\ub9ac\ub4dc\uc758 \ub0a9\ubd80 \uae08\uc561\uc774 \ud07d\ub2c8\ub2e4. \uc870\uc815\ud574\uc8fc\uc138\uc694.
+ar.pym.msg.000002=\uae08\uc561\uc744 \ud655\uc778 \ud574\uc8fc\uc138\uc694...
+ar.pym.msg.000003=\uacfc\ub0a9\uc740 \uc548 \ub429\ub2c8\ub2e4.
+ar.pym.msg.000004=DATA\uac00 \uc774\uc0c1\ud569\ub2c8\ub2e4.
+ar.pym.msg.000005=\uc601\uc218\uc99d\uc758 \ucd1d \ud56d\ubaa9\uc218\ub97c \ubc97\uc5b4\ub0ac\uc2b5\ub2c8\ub2e4.
+ar.pym.msg.000006=\uc218\ub0a9\ub41c \uae08\uc561\ubcf4\ub2e4 \uc785\ub825\ub41c \uae08\uc561\uc774 \ud07d\ub2c8\ub2e4.
+ar.pym.msg.000007=\uc774\ubca4\ud2b8 \uc720\ud615\uc774 \uc5c6\uc2b5\ub2c8\ub2e4.
+ar.pym.msg.000008=\uc218\ub0a9 \uae08\uc561\uc744 \uc785\ub825\ud558\uc138\uc694.
+ar.pym.msg.000009=\uc218\ub0a9\uae08\uc561\uc774 \uccad\uad6c\uae08\uc561\ubcf4\ub2e4 \ud07d\ub2c8\ub2e4.
+ar.pym.msg.000010=\ud658\ubd88 \ubc1b\uc744 \uae08\uc561\uc774 \uc5c6\uc2b5\ub2c8\ub2e4.
+ar.pym.msg.000011=\ud604\uc7ac \uacb0\uc81c\uc218\ub2e8\uc774 \uc785\ub825\ub418\uc5b4 \uc788\uc2b5\ub2c8\ub2e4.
+ar.pym.msg.000012=\uacb0\uc81c\uc218\ub2e8\uc744 \uc120\ud0dd\ud558\uc5ec \uc8fc\uc2ed\uc2dc\uc624.
+ar.pym.msg.000013=\uc785\ub825\ucc3d\uc744 \ucc44\uc6b0\uc138\uc694.
+ar.pym.msg.000014=\ud574\ub2f9\ud558\ub294 \uac12\uc774 \uc5c6\uc2b5\ub2c8\ub2e4.
+ar.pym.msg.000015=\uc131\uacf5
+ar.pym.msg.000016=\uc2e4\ud328
+ar.pym.msg.000017=\ud56b\ube4c\ubc88\ud638\uac00 \uc5c6\uc2b5\ub2c8\ub2e4.
+ar.pym.msg.000018=\uc778\uc99d\ud0a4\uac00 \uc5c6\uc2b5\ub2c8\ub2e4.
+ar.pym.msg.000019= grid\uc758 \uacb0\uc81c\uc218\ub2e8\uacfc select\uc758 \uacb0\uc81c\uc218\ub2e8\uc774 \ub2e4\ub985\ub2c8\ub2e4.
+ar.pym.msg.000020=\uc218\uc815\ud560 \ud589\uc744 \uc120\ud0dd\ud558\uc138\uc694
+ar.pym.msg.000021=\uc0ad\uc81c\ud560 \uacb0\uc81c\uc218\ub2e8\uc740
+ar.pym.msg.000022=\uc785\ub2c8\ub2e4. \uc0ad\uc81c\ud558\uc2dc\uaca0\uc2b5\ub2c8\uae4c?
+ar.pym.msg.000023=\uc0ad\uc81c\ud560 \ud589\uc744 \uc120\ud0dd\ud558\uc9c0 \uc54a\uc558\uc2b5\ub2c8\ub2e4.
+ar.pym.msg.000024=\ucd94\ud6c4 \uc81c\uacf5 \uc608\uc815\uc785\ub2c8\ub2e4.
+ar.pym.msg.000025=\ubcf4\uc720\ud55c \ud3ec\uc778\ud2b8\ubcf4\ub2e4 \uc785\ub825 \uae08\uc561\uc774 \ub354 \ud07d\ub2c8\ub2e4.
+ar.pym.msg.000026=\uc0ac\uc6a9\uac00\ub2a5\ud55c \ubcf4\uc99d\uae08\ubcf4\ub2e4 \uc785\ub825\uae08\uc561\uc774 \ub354 \ud07d\ub2c8\ub2e4.
+ar.pym.msg.000027=\ubcf4\uc720\ud55c \uc120\ubd88\uc794\uc561\ubcf4\ub2e4 \uc785\ub825 \uae08\uc561\uc774 \ub354 \ud07d\ub2c8\ub2e4.
+ar.pym.msg.000028=\ub0a9\ubd80\ud558\uae30\ub85c \ud55c \uae08\uc561 \ubcf4\ub2e4 \uc218\ub0a9 \ubc1b\uc740 \uae08\uc561\uc774 \uc801\uc2b5\ub2c8\ub2e4.
+ar.pym.msg.000029=\uac12\uc774 \uc785\ub825\ub418\uc9c0 \uc54a\uc558\uc2b5\ub2c8\ub2e4.
+ar.pym.msg.000030=\uc720\ud6a8\ud558\uc9c0 \uc54a\ub294 \ubc14\uc6b0\ucc98\ubc88\ud638\uc785\ub2c8\ub2e4.
+ar.pym.msg.000031=\uc874\uc7ac\ud558\uc9c0\uc54a\ub294 \ubc14\uc6b0\ucc98\ubc88\ud638\uc785\ub2c8\ub2e4.
+ar.pym.msg.000032=\ubc14\uc6b0\ucc98\ubc88\ud638\ub97c \uc785\ub825\ud558\uc138\uc694.
+ar.pym.msg.000033=Previous deposit can not be deleted.
+
+bs.blitmProduct.chargeItemCd=Charge Item Code
+bs.blitmProduct.blitemMclsCd=Sub Category
+bs.blitmProduct.prodCd=
+bs.blitmProduct.valdStrtDt=Valid Start Date
+bs.blitmProduct.fisclSaleCd=Fiscal Sale Code
+bs.blitmProduct.vatAplyYn=VAT Apply YN
+bs.blitmProduct.blitemCd=Bill Item
+bs.blitmProduct.blitemLclsCd=Main Category
+bs.blitmProduct.invsKdCd=Invoice Pay. Type
+bs.blitmProduct.critdClssCd=Invoice Unit Code
+
+
+
+
+
+
+
+
+
+
+
+
+
+##Common
+bsar.msg.000001=\ub370\uc774\ud130\uac00 \uc5c6\uc2b5\ub2c8\ub2e4.
+bsar.msg.000002=\uac80\uc0c9\ud560 \uac12\uc744 \uc785\ub825\ud558\uc138\uc694.
+bsar.msg.000003=Start Date is required
+bsar.msg.000004=End Date is required
+bsar.msg.000005=Bill Issued Start Date is required
+bsar.msg.000006=Bill Issued End Date is required
+bsar.msg.000007=Type is required
+bsar.msg.000008=Successfully Saved!
+bsar.msg.000009=Save Fail!
+bsar.msg.000010=Please Select Row
+bsar.msg.000011=Please Select Only One Row
+bsar.msg.000012=data hijacking
+bsar.msg.000013=Please, Input Number Type
+bsar.msg.000014=The Current Value
+bsar.msg.000015=Please Input Data
+bsar.msg.000016=Invalid Data
+
+##bs1
+bs.bs1.msg.000001= Call Type \uc740 \ud544\uc218\uac12\uc785\ub2c8\ub2e4.
+##bs2
+bs.bs2.msg.000001 =\uac00\uc785\ubc88\ud638\ub294 \ud544\uc218\uc785\ub2c8\ub2e4.
+bs.bs2.msg.000002 =\uc0c1\ud488\ubc88\ud638\ub294 \ud544\uc218\uc785\ub2c8\ub2e4.
+
+##bs4
+bs.bs4.msg.000001 =\uc7ac\uacfc\uae08 \uc694\uccad
+
+##bs5
+bs.bs5.msg.000001=\uac00\uc785\uc790 \uc0c1\ud0dc\uac00 \uc5c6\uc2b5\ub2c8\ub2e4.
+bs.bs5.msg.000002=One more data exist dialog open
+
+##bs12
+bs.bs12.msg.000001=Please, Select Biller
+
+##nonPymDtls
+ar.nonPymDtls.msg.000001=\ud604\uc7ac \uc870\uac74\uc73c\ub85c \uc870\ud68c\ub41c \uac83\uc774 \uc5c6\uc2b5\ub2c8\ub2e4.
+
+##billCycle
+bs.billCycle.msg.000001=Please Select Cycle Code
+bs.billCycle.msg.000002=Please Select UsedYn
+bs.billCycle.msg.000003=Created Date is Empty or Invalid value
+bs.billCycle.msg.000004=Due Date is Empty or Invalid value
+
+##billMsg
+bs.billMsg.msg.000001=Format
+bs.billMsg.msg.000002= value too large
+
+##billPolicy
+bs.billPolicy.msg.000001=Bill Min. Amt is required
+bs.billPolicy.msg.000002=Dunning Min. Amt is required
+bs.billPolicy.msg.000003=Due Date Add Day is required
+
+##billWorkDtlRegi
+bs.billWorkDtlRegi.msg.000001=Work YYMM is required
+bs.billWorkDtlRegi.msg.000002=Bill Cycle is required
+bs.billWorkDtlRegi.msg.000003=Bill Date is required
+bs.billWorkDtlRegi.msg.000004=Due Date is required
+
+##billWorkListAssign
+bs.billWorkListAssign.msg.000001=Temporary Added
+bs.billWorkListAssign.msg.000002=Already existing data in grid
+
+##billWorkProc
+bs.billWorkProc.msg.000001=Please choose Cycle Code
+bs.billWorkProc.msg.000002=Please select only one row in Work List
+bs.billWorkProc.msg.000003=You can't Assign because it is not wating mode
+bs.billWorkProc.msg.000004=Please choose a Add button or row in grid
+bs.billWorkProc.msg.000005=Work YYMM is required
+bs.billWorkProc.msg.000006=Cycle Code is required
+bs.billWorkProc.msg.000007=Please Insert the Work YYMM for List Assign
+bs.billWorkProc.msg.000008=Please Choose the Cycle Code for List Assign
+bs.billWorkProc.msg.000010=\uc11c\uce58
+bs.billWorkProc.msg.000011=Please Select a Row in Work List
+bs.billWorkProc.msg.000012=Please Select a Only One Row in Work List
+
+##billPymPriority
+ar.billPymPriority.msg.000001=Duplicate Payment Apply Priority
+ar.billPymPriority.msg.000002=Duplicate Adjustment Apply Priority
+
+##pymPriority
+ar.pymPriority.msg.000001=Duplicate Payment Priority
+
+##subscriberPymPriority
+ar.subscriberPymPriority.msg.000001=Duplicate Service Priority
+ar.subscriberPymPriority.msg.000002=Duplicate Unpaid Amount Priority
+
+##bnkTrnsferDtls
+ar.bnkTrnsferDtls.msg.000001=Please, Input To Payment Date
+ar.bnkTrnsferDtls.msg.000002=Please, Input From Payment Date
+
+##eBnkPym
+ar.eBnkPym.msg.000001=\ub370\uc774\ud130\uac00 \uc5c6\uac70\ub098 \uc5d0\ub7ec\uac00 \ub0ac\uc2b5\ub2c8\ub2e4.
+ar.eBnkPym.msg.000002=\ud30c\uc77c\uc744 \uba3c\uc800 \uc120\ud0dd\ud574 \uc8fc\uc138\uc694.
+ar.eBnkPym.msg.000003=csv or xls or xlsx only
+ar.eBnkPym.msg.000004=\uadf8\ub8f9\uc0ac\ub294 \uc218\ub0a9\ud560 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4.
+ar.eBnkPym.msg.000005=Select Data, Please
+
+##pymDtls
+ar.pymDtls.msg.000001=not value
+ar.pymDtls.msg.000002=The same level or a higher level of dealer.
+ar.pymDtls.msg.000003=The same level or a higher level of user.
+ar.pymDtls.msg.000004=Dealer Code 6 words
+ar.pymDtls.msg.000005=No Result
+ar.pymDtls.msg.000006=userId  Code 30 words
+ar.pymDtls.msg.000007=\ud544\uc218 \uc870\ud68c\uc870\uac74\uc774 \uc5c6\uac70\ub098, \uc870\ud68c\ud560 \uc218 \uc5c6\ub294 \uc870\uac74\uc785\ub2c8\ub2e4.
+ar.pymDtls.msg.000008=Please Input Type Value
+##largeNonPymState
+ar.largeNonPymState.msg.000001=Please, Input  To Inquery Standard Amount
+ar.largeNonPymState.msg.000002=Please, Input From Inquery Standard Amount
+ar.largeNonPymState.msg.000003=Please, Input Process Date
+##nonPymCollectState
+ar.nonPymCollectState.msg.000001=Please, Input To PayBack Date
+ar.nonPymCollectState.msg.000002=Please, Input From PayBack Date
+
+##bsArManage
+bsar.bsArManage.msg.000001=\ub97c \uc804\uc1a1\ud558\uaca0\uc2b5\ub2c8\ub2e4.
+
+##Bill Item
+bs.billItem.0001=\uc0ac\uc6a9\uc5ec\ubd80
+bs.billItem.0002=0\uc6d0 \ucd9c\ub825\uc5ec\ubd80
+
+##arPayment
+ar.arPym.msg.000001=\ub300\ub9ac\uc810\uc758 \ubcf4\uc99d\uae08\uc774 \ubd80\uc871\ud569\ub2c8\ub2e4.
+
+##onlinePaymentDtls
+ar.onlinePymDtls.000001=\uc5f0\ub3d9\ub0a9\ubd80\ub204\uc801\ubc88\ud638
+ar.onlinePymDtls.000002=\ud56b\ube4c\ubc88\ud638
+ar.onlinePymDtls.000003=\uc791\uc5c5\uad6c\ubd84
+ar.onlinePymDtls.000004=\uc791\uc5c5\uc0c1\uc138\uad6c\ubd84
+ar.onlinePymDtls.000005=\ub300\ub9ac\uc810\uc601\uc218\uc99d\ubc88\ud638
+ar.onlinePymDtls.000006=\uc9c0\uc810ID
+ar.onlinePymDtls.000007=\uc9c0\uc810\uc774\ub984
+ar.onlinePymDtls.000008=\uc2a4\ud0edID
+ar.onlinePymDtls.000009=\uc2a4\ud0ed\uc774\ub984
+ar.onlinePymDtls.000010=\uc218\ub0a9\uba54\ubaa8
+ar.onlinePymDtls.000011=\ub0a9\ubd80\ud56d\ubaa9
+ar.onlinePymDtls.000012=\uce74\ub4dc\ud0c0\uc785
+ar.onlinePymDtls.000013=\ub2f9\uc6d4\uccad\uad6c\uae08\uc561
+ar.onlinePymDtls.000014=\uc775\uc6d4\uccad\uad6c\uae08\uc561
+ar.onlinePymDtls.000015=\ub0a9\ubd80\uc0c1\uc138\ucf54\ub4dc
+ar.onlinePymDtls.000016=\ubc88\ud638
+
+##aging report
+ar.agingReport.000001=\uc2dc\uc810\uad6c\ubd84
+ar.agingReport.000002=\uc870\ud68c\uae30\uc900
+ar.agingReport.000003=\uc794\uc561
+ar.agingReport.000004=\uc218\ub0a9\uae08\uc561
+ar.agingReport.000005=\ucd5c\uc885\ub0a9\ubd80\uc77c
+ar.agingReport.000006=\uace0\uac1d\uc720\ud615
+ar.agingReport.000007=\uc791\uc5c5\ub144\uc6d4\uc774 \uc5c6\uc2b5\ub2c8\ub2e4.
+ar.agingReport.000008=\uccad\uad6c\uc8fc\uae30\uac00 \uc5c6\uc2b5\ub2c8\ub2e4.
+ar.agingReport.000009=\uc5d0\uc774\uc9d5\uc791\uc5c5\uad6c\ubd84\uc774 \uc5c6\uc2b5\ub2c8\ub2e4.
+ar.agingReport.000010=Choose
+ar.agingReport.000011=Reset
+ar.agingReport.000012=ReportView
+ar.agingReport.000013=
+ar.agingReport.000014=
+ar.agingReport.000015=
+ar.agingReport.000016=
+ar.agingReport.000017=
+ar.agingReport.000018=
+
+##adjustment add
+ar.adjust.0001=Bill Amt(after reflection)

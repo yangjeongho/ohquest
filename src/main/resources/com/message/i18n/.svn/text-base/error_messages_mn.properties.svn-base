@@ -1,0 +1,28 @@
+# Default Error Message
+err.default=\u0421\u0438\u0441\u0442\u0435\u043c\u044d\u044d\u0441 \u0430\u043b\u0434\u0430\u0430 \u0433\u0430\u0440\u043b\u0430\u0430. \u0414\u0430\u0440\u0430\u0430 \u0434\u0430\u0445\u0438\u043d \u043e\u0440\u043e\u043b\u0434\u043e\u043d\u043e \u0443\u0443.
+
+# \uc2dc\uc2a4\ud15c \uc624\ub958 \uba54\uc2dc\uc9c0 \uc815\uc758 \ubd80\ubd84
+err.403=You must have a authority for inquiry. </br> Ask Admin.</br>
+err.404=Can not find page.</br>Put correct URL.<br>
+err.500=Internal Error!</br>Ask system administer.<br>
+err.nodata=No data
+err.errmsg=error message
+
+# \uc11c\ubc84 \uc624\ub958 \uba54\uc2dc\uc9c0 \uc815\uc758 \ubd80\ubd84
+err.000001=It is alreay existed code. Please check code Id.
+err.000002=Wrong ID or Password. Try again. 
+err.000003=Ongoing case can not be changed on this menu</br>Click New Subscription belown.
+err.000004=Product by subscription for bundle product can not be changed. <br>Please change bundle product on bundle type. 
+err.000005=It is not bundle product. <br> Prduct change can be done on Price Plan & Number & Device Change except bundle product. 
+err.000006=Can not change prepaid/postpaid for ongoing case on this window. <br>Click New Subscription on the below.
+err.000007=It is not belong to current domain.
+err.000008=Can not handled terminated case.
+err.000009=Batch product change is only available for subscription complete case which has status as 'A'.
+err.000010=Batch process able for maximum 100 cases.
+err.000011=Duplicate Counsel!!!.
+err.000012=Prepaid Account can not HotBill
+#\uc5d0\ub7ec\uba54\uc2dc\uc9c0\uac00 \ucd94\uac00 \ub420\ub54c\ub9c8\ub2e4 \ub9c8\uc9c0\ub9c9 \uc2dc\ud000\uc2a4\ub97c \ubcc0\uacbd\ud574\uc57c \ud55c\ub2e4.
+err.last.seq=12
+
+
+err.bs.test=Discount registration fail.(\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440 \u0421\uff1f\u0445\u0431\u0430\u0430\u0442\u0430\u0440 \u0434\uff1f\uff1f\u0440\u044d\u0433 12 \u0445\u043e\u0440\u043e\u043e 1111)

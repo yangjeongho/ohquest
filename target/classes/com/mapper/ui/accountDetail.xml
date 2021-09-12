@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
+<mapper namespace="app.madeinho.ohquest.ui.accountdetail.AccountDetailRepository">
+                   
+	<sql id="accountDetailColumn">
+	    idUI_ACCOUNT_DETAIL AS iduiAccountDetail,
+	    idUI_ACCOUNT_CODE   AS iduiAccountCode,  
+	    REG_TYPE1           AS regType1,         
+	    REG_TYPE2           AS regType2,         
+	    REG_DATE            AS regDate,          
+	    INCOME_AMT          AS incomeAmt,        
+	    OUTGO_AMT           AS outgoAmt,        
+	    BALANCE             AS balance, 
+	    idSC_MY_STOCK       AS idscMyStock,      
+	    REMARK              AS remark,           
+	    CONT_CREATE_DATE    AS contCreateDate,   
+	    CONT_UPDATE_DATE    AS contUpdateDate,   
+	    CONT_SYSTEM         AS contSystem        
+	</sql>
+	
+    <sql id="getAccountDetailListWhere">
+		<if test="count > 0">
+		    where 
+			<foreach collection="filters" separator=" AND " item="filter" index="index">
+				${filter.name} = '${filter.value}' 
+			</foreach>
+		</if>
+	</sql>	
+	
+
+	<select id="getAccountDetailList" parameterType="AsSearchFilter" resultType="AsAccountDetail">
+    	SELECT  
+    		<include refid="accountDetailColumn"/>       
+    	FROM UI_ACCOUNT_DETAIL
+    		<include refid="getAccountDetailListWhere" />
+    </select>
+		
+	<insert id="insertAccountDetail" parameterType="AsAccountDetail">
+		INSERT INTO UI_ACCOUNT_DETAIL
+			(   idUI_ACCOUNT_CODE,
+			    REG_TYPE1,
+			    REG_TYPE2,
+			    REG_DATE,
+			    INCOME_AMT,
+			    OUTGO_AMT,
+			    BALANCE,
+			    idSC_MY_STOCK,
+			    REMARK,
+			    CONT_CREATE_DATE,
+			    CONT_UPDATE_DATE,
+			    CONT_SYSTEM)
+		VALUES(	
+	          #{iduiAccountCode      ,jdbcType=VARCHAR},
+			  #{regType1             ,jdbcType=VARCHAR},
+			  #{regType2             ,jdbcType=VARCHAR},
+			  #{regDate              ,jdbcType=VARCHAR},
+			  #{incomeAmt            ,jdbcType=VARCHAR},
+			  #{outgoAmt             ,jdbcType=VARCHAR},
+			  #{balance              ,jdbcType=VARCHAR},
+			  #{idscMyStock          ,jdbcType=VARCHAR},
+			  #{remark               ,jdbcType=VARCHAR},
+			  SYSDATE(),
+			  #{contUpdateDate       ,jdbcType=VARCHAR},
+			  #{contSystem           ,jdbcType=VARCHAR}
+		)      
+	</insert>
+	
+	  <select id="getMyAccountDetailAlltList" parameterType="AsAccountDetail" resultType="AsAccountDetail">
+    	SELECT  
+	    	b.idUI_ACCOUNT_CODE  AS iduiAccountDetail,
+			b.idUI_ACCOUNT       AS iduiAccount    ,
+			AC_CODE              AS acCode         ,
+			FORMAT(BALANCE, 0)   AS balance        ,
+			CHG_DATE             AS chgDate        ,
+			b.CONT_CREATE_DATE   AS contCreateDate ,
+			b.CONT_UPDATE_DATE   AS contUpdateDate ,
+			b.CONT_SYSTEM        AS contSystem     
+		FROM UI_ACCOUNT a,
+		     UI_ACCOUNT_CODE b
+		Where a.idUI_ACCOUNT =  b.idUI_ACCOUNT
+		  and a.idOH_MEMBER = 	#{idohMember} 	     
+	  </select>    
+    
+
+</mapper>

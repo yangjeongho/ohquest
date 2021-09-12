@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
+<mapper namespace="app.madeinho.ohquest.stock.mystock.MyStockRepository">
+
+	<sql id="myStockColumn">
+		idSC_MY_STOCK     AS idscMyStock   
+		,idOH_MEMBER      AS idohMember
+		,JOB_TYPE         AS jobType          
+		,DATE_FORMAT(STAT_CHG_DATE, "%c/%e %r")     AS statChgDate     
+		,SC_STAT_CD       AS scStatCd      
+		,SC_CODE          AS scCode        
+		,SC_NAME          AS scName		
+		,SALE_V_COUNT     AS saleVCount    
+		,SALE_V_AMT       AS saleVAmt      
+		,SALE_VALUE       AS saleValue     
+		,SALE_TYPE        AS saleType      
+		,SALE_R_DATE      AS saleRDate     
+		,SALE_R_COUNT     AS saleRCount    
+		,SALE_R_AMT       AS saleRAmt      
+		,REMARK           AS remark         
+		,BUY_V_COUNT      AS buyVCount     
+		,BUY_V_AMT        AS buyVAmt       
+		,BUY_VALUE        AS buyValue      
+		,BUY_TYPE         AS buyType       
+		,BUY_R_DATE       AS buyRDate      
+		,BUY_R_COUNT      AS buyRCount     
+		,BUY_R_AMT        AS buyRAmt
+		,CONT_CREATE_DATE AS contCreateDate       
+		,CONT_UPDATE_DATE AS contUpdateDate
+		,CONT_SYSTEM      AS contSystem    
+		,'' AS buyPocyValue
+        ,recomm_type AS salePocyValue
+        ,(100*((SALE_R_AMT - BUY_R_AMT)/SALE_R_AMT)) AS lastAmt
+        , BUY_ALLOW_YN    AS buyAllowYn 
+        , SALE_ALLOW_YN   AS saleAllowYn 
+	</sql>
+	
+    <sql id="getMyStcokListWhere">
+		<if test="count > 0">
+		    where 
+			<foreach collection="filters" separator=" AND " item="filter" index="index">
+				${filter.name} = '${filter.value}' 
+			</foreach>
+		</if>
+	</sql>
+	
+	<sql id="getMyStcokListWhereIN">
+		<if test="count > 0">
+		    where 
+			<foreach collection="filters" separator=" AND " item="filter" index="index">
+				${filter.name} IN ('${filter.value}') 
+			</foreach>
+		</if>
+	</sql>
+	
+	
+   <select id="getMyStockCount" parameterType="AsSearchFilter" resultType="int">
+    	SELECT  
+    		count(*) cnt
+    	 FROM SC_MY_STOCK X
+    		<include refid="getMyStcokListWhere" />
+    </select>	
+    
+   <select id="getMyStockList" parameterType="AsSearchFilter" resultType="AsMyStock">
+    	SELECT  
+    		<include refid="myStockColumn"/>       
+    	FROM SC_MY_STOCK X    
+    		<include refid="getMyStcokListWhere" />
+    	
+    </select>  
+    
+   <select id="getMyStockLikeList" parameterType="AsMyStock" resultType="AsMyStock">
+    	SELECT  
+    		<include refid="myStockColumn"/>       
+    	FROM SC_MY_STOCK X    
+        WHERE 	SC_CODE LIKE CONCAT('%', #{scCode          ,jdbcType=VARCHAR}, '%')
+				or
+				SC_NAME LIKE CONCAT('%', #{scCode          ,jdbcType=VARCHAR}, '%')
+		  AND   DATE_FORMAT(STAT_CHG_DATE, '%Y%m%d') =  #{statChgDate          ,jdbcType=VARCHAR}
+    </select>  
+    
+    <select id="getLastInsertId" parameterType="String" resultType="int">
+    	Select LAST_INSERT_ID()
+    </select>
+
+   <select id="getMyStockListIN" parameterType="AsSearchFilter" resultType="AsMyStock">
+    	SELECT  
+    		<include refid="myStockColumn"/>       
+    	FROM SC_MY_STOCK X   
+    		<include refid="getMyStcokListWhereIN" />
+    </select>    
+    
+	<insert id="insertMyStock" parameterType="AsMyStock" useGeneratedKeys="true" keyProperty="idscMyStock" >
+        INSERT INTO SC_MY_STOCK (
+			idOH_MEMBER     
+			,STAT_CHG_DATE   
+			,SC_STAT_CD      
+			,SC_CODE     
+			,SC_NAME		    
+			,SALE_V_COUNT    
+			,SALE_V_AMT      
+			,SALE_VALUE      
+			,SALE_TYPE       
+			,SALE_R_DATE     
+			,SALE_R_COUNT    
+			,SALE_R_AMT      
+			,REMARK          
+			,JOB_TYPE        
+			,CONT_SYSTEM     
+			,CONT_CREATE_DATE
+			,BUY_V_COUNT     
+			,BUY_V_AMT       
+			,BUY_VALUE       
+			,BUY_TYPE        
+			,BUY_R_DATE      
+			,BUY_R_COUNT     
+			,BUY_R_AMT       
+        ) VALUES(
+			#{idohMember        ,jdbcType=VARCHAR},
+			SYSDATE(),
+			#{scStatCd          ,jdbcType=VARCHAR},
+			#{scCode            ,jdbcType=VARCHAR},
+			#{scName            ,jdbcType=VARCHAR},
+			#{saleVCount        ,jdbcType=VARCHAR},
+			#{saleVAmt          ,jdbcType=VARCHAR},
+			#{saleValue         ,jdbcType=VARCHAR},
+			#{saleType          ,jdbcType=VARCHAR},
+			#{saleRDate         ,jdbcType=VARCHAR},
+			#{saleRCount        ,jdbcType=VARCHAR},
+			#{saleRAmt          ,jdbcType=VARCHAR},
+			#{remark            ,jdbcType=VARCHAR},
+			#{jobType           ,jdbcType=VARCHAR},
+			#{contSystem        ,jdbcType=VARCHAR},
+			SYSDATE(),
+			#{buyVCount         ,jdbcType=VARCHAR},
+			#{buyVAmt           ,jdbcType=VARCHAR},
+			#{buyValue          ,jdbcType=VARCHAR},
+			#{buyType           ,jdbcType=VARCHAR},
+			#{buyRDate          ,jdbcType=VARCHAR},
+			#{buyRCount         ,jdbcType=VARCHAR},
+			#{buyRAmt           ,jdbcType=VARCHAR}
+		)      
+	</insert>
+
+	<insert id="updateMyStock" parameterType="AsMyStock" >
+		UPDATE  SC_MY_STOCK SET
+		    <if test="scStatCd != null and scStatCd != ''">
+				SC_STAT_CD   = #{scStatCd          ,jdbcType=VARCHAR},
+			</if>
+			<if test="jobType != null and jobType != ''">
+				JOB_TYPE     = #{jobType           ,jdbcType=VARCHAR},
+			</if>
+			<if test="buyType != null and buyType != ''">
+				BUY_TYPE     = #{buyType           ,jdbcType=VARCHAR},
+			</if>
+			<if test="buyValue != null and buyValue != ''">
+				BUY_VALUE    = #{buyValue          ,jdbcType=VARCHAR},
+			</if>
+			<if test="buyVCount != null and buyVCount != ''">
+				BUY_V_COUNT  = #{buyVCount         ,jdbcType=VARCHAR},
+			</if>
+			<if test="buyVAmt != null and buyVAmt != ''">
+				BUY_V_AMT    = #{buyVAmt           ,jdbcType=VARCHAR},
+			</if>
+			<if test="buyRCount != null and buyRCount != ''">
+				BUY_R_COUNT  = #{buyRCount         ,jdbcType=VARCHAR},
+			</if>
+			<if test="buyRAmt != null and buyRAmt != ''">
+				BUY_R_AMT    = #{buyRAmt           ,jdbcType=VARCHAR},
+			</if>
+			<if test="buyRDate != null and buyRDate != ''">
+				BUY_R_DATE   = #{buyRDate          ,jdbcType=VARCHAR},
+			</if>
+			<if test="saleType != null and saleType != ''">
+				SALE_TYPE    = #{saleType          ,jdbcType=VARCHAR},
+			</if>
+			<if test="saleValue != null and saleValue != ''">
+				SALE_VALUE   = #{saleValue         ,jdbcType=VARCHAR},
+			</if>
+			<if test="saleVCount != null and saleVCount != ''">
+				SALE_V_COUNT = #{saleVCount        ,jdbcType=VARCHAR},
+			</if>
+			<if test="saleVAmt != null and saleVAmt != ''">
+				SALE_V_AMT   = #{saleVAmt          ,jdbcType=VARCHAR},
+			</if>
+			<if test="saleRCount != null and saleRCount != ''">
+				SALE_R_COUNT = #{saleRCount        ,jdbcType=VARCHAR},
+			</if>
+			<if test="saleRAmt != null and saleRAmt != ''">
+				SALE_R_AMT   = #{saleRAmt          ,jdbcType=VARCHAR},
+			</if>
+			<if test="saleRDate != null and saleRDate != ''">
+				SALE_R_DATE  = #{saleRDate         ,jdbcType=VARCHAR},
+			</if>
+			<if test="buyAllowYn != null and buyAllowYn != ''">
+				BUY_ALLOW_YN  = #{buyAllowYn         ,jdbcType=VARCHAR},
+			</if>
+			<if test="saleAllowYn != null and saleAllowYn != ''">
+				SALE_ALLOW_YN  = #{saleAllowYn         ,jdbcType=VARCHAR},
+			</if>						
+			
+			STAT_CHG_DATE = SYSDATE(),
+			CONT_UPDATE_DATE = SYSDATE()
+		WHERE   idSC_MY_STOCK = #{idscMyStock        ,jdbcType=VARCHAR}
+	</insert>
+
+
+</mapper>

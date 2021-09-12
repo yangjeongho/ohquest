@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/java/app/madeinho/ohquest/ma/questMember
+END
+QuestMember.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/java/app/madeinho/ohquest/ma/questMember/QuestMember.java
+END
+QuestMemberRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/java/app/madeinho/ohquest/ma/questMember/QuestMemberRepository.java
+END
+QuestMemberTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/java/app/madeinho/ohquest/ma/questMember/QuestMemberTest.java
+END
+QuestMemberService.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/java/app/madeinho/ohquest/ma/questMember/QuestMemberService.java
+END
+QuestMemberServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/java/app/madeinho/ohquest/ma/questMember/QuestMemberServiceImpl.java
+END

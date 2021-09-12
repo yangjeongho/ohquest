@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
+<mapper namespace="app.madeinho.ohquest.ui.item.ItemRepository">
+
+
+	<select id="getItemAlltList" parameterType="AsItem" resultType="AsItem">
+		SELECT
+					idOH_MEMBER,
+					idOH_MEMBER_TRGT,
+					OH_MUMBER_ID,
+					TYPE_KD,
+					TYPE_CD,
+					NAME_1,
+					NAME_2,
+					NAME_3,
+					EMAIL_ADDR,
+					MOBILE_NO,
+					ETC_PHONE1,
+					ETC_PHONE2,
+					BDAY,
+					ADDRESS_1,
+					ADDRESS_2,
+					COUNTRY_CD,
+					CONT_CREATE_DATE,
+					CONT_UPDATE_DATE,
+					CONT_SYSTEM
+		 FROM UI_ADDRESS_INFO
+	</select>
+	
+
+	<select id="getItemList" parameterType="string" resultType="AsItem">
+		SELECT
+			  AGENT_ID         As agentId,
+			  ORG_CODE         As orgCode,
+			  DLR_ID           As dlrId,
+			  AGENT_NAME       As agentName,
+			  CURRENT_PASSWORD As password,
+			  EFFECTIVE_DATE8  As effectiveDate,
+			  EXPIRATION_DATE8 As expirationData,
+			  EMAIL_ADDRESS    As emailItem,
+			  HOME_TELNO       As homeTelno
+		 FROM UI_ADDRESS_INFO
+	</select>
+	
+	<insert id="insertItem" parameterType="AsItem">
+        INSERT INTO UI_ITEM (
+			idOH_MEMBER,
+			PARENT_idOH_MEMBER,
+			ITEM_TYPE,
+			ITEM_VALUE,
+			idMA_OFFER,
+			STATUS,
+			REG_DATE,
+			CONT_CREATE_DATE,
+			CONT_UPDATE_DATE,
+			CONT_SYSTEM
+        ) VALUES(
+			#{idohMember       ,jdbcType=VARCHAR},
+			#{parentIdohMember ,jdbcType=VARCHAR},
+			#{itemType         ,jdbcType=VARCHAR},
+			#{itemValue        ,jdbcType=VARCHAR},
+			#{idmaOffer        ,jdbcType=VARCHAR},
+			#{status           ,jdbcType=VARCHAR},
+			#{regDate          ,jdbcType=VARCHAR},
+			now(),
+			#{contUpdateDate   ,jdbcType=VARCHAR},
+			#{contSystem       ,jdbcType=VARCHAR}
+			
+        )      
+	</insert>
+
+</mapper>

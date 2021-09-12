@@ -1,0 +1,59 @@
+@CHARSET "UTF-8";
+#left { display: none; } 
+#wrap { margin: 0; padding-top: 0; } 	
+* {margin:0;padding:0;} 
+html, body, p, div, ul, ol, li, dl, dt, dd, form, table, th, td, fieldset, input, textarea, select, 
+button, h1, h2, h3, h4, h5, h6, pre {margin:0; padding:0; font-family: Arial; font-size:7pt;}
+body, input, textarea, select, button {color:#666; font-size:7pt; font-family: Arial; }
+body { background:#f7f7f7; height:100%; overflow:hidden; }
+
+header, footer, nav, aside, section, article {display:block; margin:0; padding:0;}
+fieldset, input, select, img {border:0; vertical-align:middle;}
+img {-ms-interpolation-mode:bicubic !important;}
+table {border-collapse:collapse;}
+legend, caption {position:absolute; overflow:hidden; visibility:hidden; width:0; height:0; font-size:0; line-height:0; }
+ul, ol {list-style:none;}
+a {color:#333; text-decoration:none;}
+em { font-style: normal; }
+
+/* #recpPrintBody{color:#666; font-size:7pt; font-family: Arial;
+				margin:0; padding:0; background:#f7f7f7; height:100%; overflow:hidden;} */
+.bold{font-weight:bold;}
+.dot_under{border-bottom: 1.5pt dotted #70C941; width: 210pt; margin:0 auto; height:1.5pt;}
+.dot_under1{border-bottom: 1px dotted #70C941; width: 210pt; margin:0 auto;  height:0.75pt;}
+.solid_under{border-bottom: 1px solid #70C941; width: 210pt; margin:0 auto;  height:0.75pt;}
+.solid_under1{border-bottom: 1px solid black; width: 120pt; margin:0 auto;  height:0.75pt;}
+
+.recp{width:225pt; height:502.5pt; border: 0.75pt solid #70C941; font-size:7pt; font-family: Arial;}
+.recp_header{text-align:left; width: 75pt; font-weight: bold;}
+.recp_tbsize{margin:0 auto; width:98%;}
+.recp_logo{text-align:center; margin:0 auto;}
+.recp_msg{width:225pt; height:112.5pt;}
+.h_20p{height:15pt;}
+.h_30p{height:22.5pt;}
+
+.conFirmList{width:90pt;}
+.fnt_size20{font-size:15pt;}
+
+
+
+.right { text-align:right; }
+.left { text-align:left; }
+.center { text-align:center; }
+
+.v_top {vertical-align:top;}
+.v_middle {vertical-align:middle;}
+.v_bottom {vertical-align:bottom;}
+
+.mt_0 { margin-top: 0pt !important;}
+.mt_3 { margin-top: 2.25pt !important;}
+.mt_5 { margin-top: 3.75pt !important;}
+.mt_7 { margin-top: 5.25pt !important;}
+.mt_10 { margin-top: 7.5pt !important;}
+.mt_15 { margin-top: 11.25pt !important;}
+.mt_17 { margin-top: 12.75pt !important;}
+.mt_20 { margin-top: 15pt !important;}
+.mt_25 { margin-top: 18.75pt  !important;}
+.mt_29 { margin-top: 21.75pt !important;}
+.mt_30 { margin-top: 22.5pt !important;}
+

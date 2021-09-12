@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/ohqueststock/!svn/ver/79/ohQuest/src/main/java/app/madeinho/ohquest/co/notice
+END
+Notice.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/java/app/madeinho/ohquest/co/notice/Notice.java
+END
+NoticeRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/java/app/madeinho/ohquest/co/notice/NoticeRepository.java
+END
+NoticeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/java/app/madeinho/ohquest/co/notice/NoticeService.java
+END
+NoticeServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/java/app/madeinho/ohquest/co/notice/NoticeServiceImpl.java
+END
+NoticeController.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ohqueststock/!svn/ver/79/ohQuest/src/main/java/app/madeinho/ohquest/co/notice/NoticeController.java
+END

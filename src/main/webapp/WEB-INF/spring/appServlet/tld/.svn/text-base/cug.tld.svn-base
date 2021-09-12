@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+	version="2.1">
+
+	<description>Acube session library</description>
+	<display-name>Acube session library</display-name>
+	<tlib-version>1.1</tlib-version>
+	<short-name>cug</short-name>
+	<uri>http://www.acube.com/jsp/tags/cug</uri>
+ 
+ 	<validator>
+		<description>
+			Provides core validation features for JSTL tags.
+		</description>
+		<validator-class>
+			org.apache.taglibs.standard.tlv.JstlCoreTLV
+		</validator-class>
+		<init-param>
+			<param-name>expressionAttributes</param-name>
+			<param-value>out:value out:default out:escapeXml</param-value>
+		</init-param>
+	</validator>
+	
+	<tag>
+		<name>cugTreeInfo</name>
+		<tag-class>com.acube.unitel.common.tag.CugTreeInfoTag</tag-class>
+		<body-content>JSP</body-content>
+		
+		<attribute>
+			<name>svcGrpCd</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		
+		<attribute>
+			<name>withCancel</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+	
+	<tag>
+		<name>cosInfoTree</name>
+		<tag-class>com.acube.unitel.common.tag.CosInfoTreeTag</tag-class>
+		<body-content>JSP</body-content>
+		
+	</tag>
+	<tag>
+		<name>ubiReportTreeInfo</name>
+		<tag-class>com.acube.unitel.common.tag.UbiReportTreeInfoTag</tag-class>
+		<body-content>JSP</body-content>
+	</tag>
+</taglib>

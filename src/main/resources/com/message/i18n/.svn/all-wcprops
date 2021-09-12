@@ -1,0 +1,509 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/ohqueststock/!svn/ver/27/ohQuest/src/main/resources/com/message/i18n
+END
+bs_messages_ko.properties
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/bs_messages_ko.properties
+END
+bs_label_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/bs_label_en.properties
+END
+cs_messages_ko.properties
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/cs_messages_ko.properties
+END
+entr_messages_ko.properties
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/entr_messages_ko.properties
+END
+co_label_ko.properties
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/co_label_ko.properties
+END
+entr_label_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/entr_label_en.properties
+END
+cs_label_ko.properties
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/cs_label_ko.properties
+END
+bs_label_mn.properties
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/bs_label_mn.properties
+END
+entr_label_mn.properties
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/entr_label_mn.properties
+END
+work_messages_ko.properties
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/work_messages_ko.properties
+END
+bill_label_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/bill_label_en.properties
+END
+pdh_label_ko.properties
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/pdh_label_ko.properties
+END
+vo_messages_ko.properties
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/vo_messages_ko.properties
+END
+vo_label_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/vo_label_en.properties
+END
+pub_messages_ko.properties
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/ohqueststock/!svn/ver/27/ohQuest/src/main/resources/com/message/i18n/pub_messages_ko.properties
+END
+or_label_ko.properties
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/or_label_ko.properties
+END
+error_messages_ko.properties
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/error_messages_ko.properties
+END
+co_messages_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/co_messages_en.properties
+END
+bill_label_mn.properties
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/bill_label_mn.properties
+END
+bs_messages_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/bs_messages_en.properties
+END
+vo_label_mn.properties
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/vo_label_mn.properties
+END
+cs_messages_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/cs_messages_en.properties
+END
+entr_messages_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/entr_messages_en.properties
+END
+co_label_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/co_label_en.properties
+END
+co_messages_mn.properties
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/co_messages_mn.properties
+END
+bs_messages_mn.properties
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/bs_messages_mn.properties
+END
+cs_messages_mn.properties
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/cs_messages_mn.properties
+END
+cs_label_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/cs_label_en.properties
+END
+roam_label_ko.properties
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/roam_label_ko.properties
+END
+entr_messages_mn.properties
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/entr_messages_mn.properties
+END
+co_label_mn.properties
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/co_label_mn.properties
+END
+work_messages_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/work_messages_en.properties
+END
+pdh_label_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/pdh_label_en.properties
+END
+vo_messages_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/vo_messages_en.properties
+END
+cs_label_mn.properties
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/cs_label_mn.properties
+END
+pub_messages_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/ohqueststock/!svn/ver/27/ohQuest/src/main/resources/com/message/i18n/pub_messages_en.properties
+END
+ccs_label_ko.properties
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/ccs_label_ko.properties
+END
+or_messages_ko.properties
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/or_messages_ko.properties
+END
+or_label_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/or_label_en.properties
+END
+error_messages_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/error_messages_en.properties
+END
+work_messages_mn.properties
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/work_messages_mn.properties
+END
+pdh_label_mn.properties
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/pdh_label_mn.properties
+END
+vo_messages_mn.properties
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/vo_messages_mn.properties
+END
+pub_messages_mn.properties
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/ohqueststock/!svn/ver/27/ohQuest/src/main/resources/com/message/i18n/pub_messages_mn.properties
+END
+or_label_mn.properties
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/or_label_mn.properties
+END
+work_label_ko.properties
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/work_label_ko.properties
+END
+error_messages_mn.properties
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/error_messages_mn.properties
+END
+cos_label_ko.properties
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/cos_label_ko.properties
+END
+prm_messages_ko.properties
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/prm_messages_ko.properties
+END
+pub_label_ko.properties
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/pub_label_ko.properties
+END
+roam_label_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/roam_label_en.properties
+END
+res_label_ko.properties
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/res_label_ko.properties
+END
+roam_label_mn.properties
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/roam_label_mn.properties
+END
+ccs_messages_ko.properties
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/ccs_messages_ko.properties
+END
+ccs_label_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/ccs_label_en.properties
+END
+or_messages_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/or_messages_en.properties
+END
+pdh_messages_ko.properties
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/pdh_messages_ko.properties
+END
+ccs_label_mn.properties
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/ccs_label_mn.properties
+END
+or_messages_mn.properties
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/or_messages_mn.properties
+END
+bill_messages_ko.properties
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/bill_messages_ko.properties
+END
+work_label_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/work_label_en.properties
+END
+cos_messages_ko.properties
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/cos_messages_ko.properties
+END
+cos_label_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/cos_label_en.properties
+END
+pub_label_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/pub_label_en.properties
+END
+prm_messages_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/prm_messages_en.properties
+END
+res_label_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/res_label_en.properties
+END
+work_label_mn.properties
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/work_label_mn.properties
+END
+cos_label_mn.properties
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/cos_label_mn.properties
+END
+pub_label_mn.properties
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/pub_label_mn.properties
+END
+prm_messages_mn.properties
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/prm_messages_mn.properties
+END
+ccs_messages_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/ccs_messages_en.properties
+END
+res_label_mn.properties
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/res_label_mn.properties
+END
+pdh_messages_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/pdh_messages_en.properties
+END
+ccs_messages_mn.properties
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/ccs_messages_mn.properties
+END
+bill_messages_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/bill_messages_en.properties
+END
+pdh_messages_mn.properties
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/pdh_messages_mn.properties
+END
+bs_label_ko.properties
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/bs_label_ko.properties
+END
+cos_messages_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/cos_messages_en.properties
+END
+entr_label_ko.properties
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/entr_label_ko.properties
+END
+bill_messages_mn.properties
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/bill_messages_mn.properties
+END
+cos_messages_mn.properties
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/cos_messages_mn.properties
+END
+bill_label_ko.properties
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/bill_label_ko.properties
+END
+vo_label_ko.properties
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/vo_label_ko.properties
+END
+co_messages_ko.properties
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ohqueststock/!svn/ver/5/ohQuest/src/main/resources/com/message/i18n/co_messages_ko.properties
+END

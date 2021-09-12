@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
+<mapper namespace="app.madeinho.ohquest.ui.account.AccountRepository">
+                   
+	<sql id="accountColumn">
+		idUI_ACCOUNT     AS iduiAccount     ,   
+		idOH_MEMBER      AS idohMember      ,
+		AC_NAME          AS acName          ,
+		AC_DESC          AS acDesc          ,
+		AC_LINK_IND      AS acLinkInd       ,
+		CONT_CREATE_DATE AS contCreateDate  ,
+		CONT_UPDATE_DATE AS contUpdateDate  ,
+		CONT_SYSTEM      AS contSystem    
+	</sql>
+	
+    <sql id="getAccountListWhere">
+		<if test="count > 0">
+		    where 
+			<foreach collection="filters" separator=" AND " item="filter" index="index">
+				${filter.name} = '${filter.value}' 
+			</foreach>
+		</if>
+	</sql>	
+	
+	<select id="getAccountList" parameterType="AsSearchFilter" resultType="AsAccount">
+    	SELECT  
+    		<include refid="accountColumn"/>       
+    	FROM UI_ACCOUNT    
+    		<include refid="getAccountListWhere" />
+    </select>
+
+	<select id="getAddressList" parameterType="string" resultType="AsAccount">
+		SELECT
+		    idUI_ACCOUNT AS iduiAccount,
+		    idUI_ACCOUNT      AS iduiAccount    ,
+		    AC_CODE           AS acCode         ,
+		    BALANCE           AS balance        ,
+		    CHG_CD            AS chgCd          ,
+		    CHG_DATE          AS chgDate        ,
+		    CONT_CREATE_DATE  AS contCreateDate ,
+		    CONT_UPDATE_DATE  AS contUpdateDate ,
+		    CONT_SYSTEM       AS contSystem     ,
+		    CHG_MESSAGE       AS chgMessage    
+		 FROM UI_ACCOUNT
+	</select>
+	
+	<insert id="insertAccount" parameterType="AsAccount">
+        INSERT INTO UI_ACCOUNT (
+		    idUI_ACCOUNT     , 
+		    AC_CODE          , 
+		    BALANCE          , 
+		    CHG_CD           , 
+		    CHG_DATE         , 
+		    CONT_CREATE_DATE , 
+		    CONT_SYSTEM      , 
+		    CHG_MESSAGE       
+        ) VALUES(
+			#{iduiAccount     ,jdbcType=VARCHAR},    
+			#{acCode          ,jdbcType=VARCHAR},
+			#{balance         ,jdbcType=VARCHAR},
+			#{chgCd           ,jdbcType=VARCHAR},
+			#{chgDate         ,jdbcType=VARCHAR},
+			SYSDATE() ,
+			#{contSystem      ,jdbcType=VARCHAR},
+			#{chgMessage      ,jdbcType=VARCHAR}
+        )      
+	</insert>
+	
+	<insert id="updateAccount" parameterType="AsAccount" >
+		UPDATE  UI_ACCOUNT SET
+		    <if test="balance != null and balance != ''">
+				BALANCE   = #{balance          ,jdbcType=VARCHAR},
+			</if>
+			<if test="chgCd != null and chgCd != ''">
+				CHG_CD     = #{chgCd           ,jdbcType=VARCHAR},
+			</if>
+			<if test="chgMessage != null and chgMessage != ''">
+				CHG_MESSAGE     = #{chgMessage           ,jdbcType=VARCHAR},
+			</if>
+			CHG_DATE = SYSDATE(),
+			CONT_UPDATE_DATE = SYSDATE()
+		WHERE idUI_ACCOUNT  = #{iduiAccount    ,jdbcType=VARCHAR}
+		  AND idUI_ACCOUNT       = #{iduiAccount        ,jdbcType=VARCHAR}
+		  AND AC_CODE            = #{acCode             ,jdbcType=VARCHAR}
+	</insert>	 
+	
+	  <select id="getAccountAlltList" parameterType="AsAccount" resultType="AsAccount">
+    	SELECT  
+				idUI_ACCOUNT     AS iduiAccount     ,   
+				idOH_MEMBER      AS idohMember      ,
+				AC_NAME          AS acName          ,
+				AC_DESC          AS acDesc          ,
+				AC_LINK_IND      AS acLinkInd       ,
+				CONT_CREATE_DATE AS contCreateDate  ,
+				CONT_UPDATE_DATE AS contUpdateDate  ,
+				CONT_SYSTEM      AS contSystem    
+		FROM UI_ACCOUNT a
+		Where a.idOH_MEMBER = 	#{idohMember} 	     
+	  </select>    
+	
+	<!--  AND D.idOH_MEMBER = 1
+          AND C.AC_CODE = 'VCASH'-->
+	  <select id="getAccountDetailInfoHist" parameterType="AsSearchFilter" resultType="AsAccountDetailInfo">	  
+		    SELECT A.BALANCE           AS balance       ,
+			       A.INCOME_AMT        AS incomeAmt     ,
+			       A.OUTGO_AMT         AS outgoAmt      ,
+			  	   A.CONT_CREATE_DATE  AS contCreateDate,
+			       B.SC_CODE           AS scCode        ,
+			       B.SC_NAME           AS scName        ,
+			       B.BUY_R_COUNT       AS buyRCount     ,
+			       B.BUY_R_AMT         AS buyRAmt       ,
+			       B.SALE_R_COUNT      AS saleRCount    ,
+			       B.SALE_R_AMT        AS saleRAmt      ,
+			       B.idSC_MY_STOCK     AS idscMyStock   
+			  FROM UI_ACCOUNT_DETAIL A,
+			       SC_MY_STOCK B,
+			       UI_ACCOUNT_CODE C,
+			       UI_ACCOUNT D
+			<include refid="getAccountListWhere" />
+			  AND A.idSC_MY_STOCK = B.idSC_MY_STOCK
+			  AND A.idUI_ACCOUNT_CODE = C.idUI_ACCOUNT_CODE
+			  AND C.idUI_ACCOUNT = D.idUI_ACCOUNT
+			ORDER BY idUI_ACCOUNT_DETAIL DESC limit 0,100
+	
+    </select>
+	  
+    
+
+</mapper>

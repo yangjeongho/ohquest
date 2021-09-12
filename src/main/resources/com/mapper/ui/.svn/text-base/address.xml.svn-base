@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
+<mapper namespace="app.madeinho.ohquest.ui.address.AddressRepository">
+
+
+	<select id="getAddressAlltList" parameterType="AsAddress" resultType="AsAddress">
+		SELECT
+					idOH_MEMBER,
+					idOH_MEMBER_TRGT,
+					OH_MUMBER_ID,
+					TYPE_KD,
+					TYPE_CD,
+					NAME_1,
+					NAME_2,
+					NAME_3,
+					EMAIL_ADDR,
+					MOBILE_NO,
+					ETC_PHONE1,
+					ETC_PHONE2,
+					BDAY,
+					ADDRESS_1,
+					ADDRESS_2,
+					COUNTRY_CD,
+					CONT_CREATE_DATE,
+					CONT_UPDATE_DATE,
+					CONT_SYSTEM
+		 FROM UI_ADDRESS_INFO
+	</select>
+	
+
+	<select id="getAddressList" parameterType="string" resultType="AsAddress">
+		SELECT
+			  AGENT_ID         As agentId,
+			  ORG_CODE         As orgCode,
+			  DLR_ID           As dlrId,
+			  AGENT_NAME       As agentName,
+			  CURRENT_PASSWORD As password,
+			  EFFECTIVE_DATE8  As effectiveDate,
+			  EXPIRATION_DATE8 As expirationData,
+			  EMAIL_ADDRESS    As emailAddress,
+			  HOME_TELNO       As homeTelno
+		 FROM UI_ADDRESS_INFO
+	</select>
+	
+	<insert id="insertAddress" parameterType="AsAddress">
+        INSERT INTO UI_ADDRESS_INFO (
+					idOH_MEMBER,
+					idOH_MEMBER_TRGT,
+					OH_MUMBER_ID,
+					TYPE_KD,
+					TYPE_CD,
+					NAME_1,
+					NAME_2,
+					NAME_3,
+					EMAIL_ADDR,
+					MOBILE_NO,
+					ETC_PHONE1,
+					ETC_PHONE2,
+					BDAY,
+					ADDRESS_1,
+					ADDRESS_2,
+					COUNTRY_CD,
+					CONT_CREATE_DATE,
+					CONT_UPDATE_DATE,
+					CONT_SYSTEM
+        ) VALUES(
+		   #{idohMember     ,jdbcType=VARCHAR},
+		   #{idohMemberTrgt ,jdbcType=VARCHAR},
+		   #{ohMumberId     ,jdbcType=VARCHAR},
+		   #{typeKd         ,jdbcType=VARCHAR},
+		   #{typeCd         ,jdbcType=VARCHAR},
+		   #{name1          ,jdbcType=VARCHAR},
+		   #{name2          ,jdbcType=VARCHAR},
+		   #{name3          ,jdbcType=VARCHAR},
+		   #{emailAddr      ,jdbcType=VARCHAR},
+		   #{mobileNo       ,jdbcType=VARCHAR},
+		   #{etcPhone1      ,jdbcType=VARCHAR},
+		   #{etcPhone2      ,jdbcType=VARCHAR},
+		   #{bday           ,jdbcType=VARCHAR},
+		   #{address1       ,jdbcType=VARCHAR},
+		   #{address2       ,jdbcType=VARCHAR},
+		   #{countryCd      ,jdbcType=VARCHAR},
+		   now(),
+		   #{contUpdateDate ,jdbcType=VARCHAR},
+		   #{contSystem     ,jdbcType=VARCHAR}
+        )      
+	</insert>
+
+</mapper>
